@@ -1,0 +1,150 @@
+{
+    "type": "Scene",
+    "props": {
+      "width": 720,
+      "runtime": "view/SettleView.ts",
+      "height": 1280
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Panel",
+      "props": {
+        "top": 0,
+        "right": 0,
+        "name": "bg",
+        "left": 0,
+        "bottom": 0,
+        "bgColor": "#000000",
+        "alpha": 0.7
+      },
+      "compId": 4
+    }, {
+      "type": "Image",
+      "props": {
+        "var": "settleBoard",
+        "skin": "res2d/freeCoin/bg.png",
+        "name": "settleBoard",
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 5,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "var": "closeBtn",
+          "top": -20,
+          "skin": "res2d/setting/btn_shezhi.png",
+          "right": -20,
+          "name": "closeBtn"
+        },
+        "compId": 6
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 36,
+          "x": 166,
+          "top": 36,
+          "skin": "res2d/settle/desc0.png",
+          "name": "desc0",
+          "centerX": 0
+        },
+        "compId": 15
+      }, {
+        "type": "Image",
+        "props": {
+          "top": 86,
+          "skin": "res2d/settle/desc.png",
+          "scaleY": 1.1,
+          "scaleX": 1.1,
+          "name": "desc",
+          "centerX": 0
+        },
+        "compId": 7
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 162,
+          "x": 186,
+          "skin": "res2d/freeCoin/frame_kuang.png",
+          "name": "coinPanel",
+          "centerY": 0,
+          "centerX": 0
+        },
+        "compId": 13,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/freeCoin/jb01.png",
+            "centerY": -20,
+            "centerX": 0
+          },
+          "compId": 14
+        }, {
+          "type": "FontClip",
+          "props": {
+            "var": "rewardCoin",
+            "value": "100",
+            "skin": "res2d/home/num_jinbi.png",
+            "sheet": "0123456789",
+            "name": "rewardCoin",
+            "centerX": 0,
+            "cacheAs": "bitmap",
+            "bottom": 33
+          },
+          "compId": 16
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "var": "cancelBtn",
+          "skin": "res2d/final/btn_blue.png",
+          "scaleY": 0.8,
+          "scaleX": 0.8,
+          "name": "cancelBtn",
+          "centerX": -130,
+          "bottom": 30
+        },
+        "compId": 8,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/freeCoin/zi_bule.png",
+            "centerY": -6,
+            "centerX": 0
+          },
+          "compId": 9
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "var": "doubleCoinBtn",
+          "skin": "res2d/final/btn_yellow.png",
+          "scaleY": 0.8,
+          "scaleX": 0.8,
+          "name": "doubleCoinBtn",
+          "centerX": 130,
+          "bottom": 30
+        },
+        "compId": 10,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/final/zi_shipin.png",
+            "centerY": -6,
+            "centerX": -102
+          },
+          "compId": 11
+        }, {
+          "type": "Image",
+          "props": {
+            "skin": "res2d/settle/doubleCoin.png",
+            "centerY": -6,
+            "centerX": 36
+          },
+          "compId": 12
+        }]
+      }]
+    }],
+    "loadList": ["res2d/freeCoin/bg.png", "res2d/setting/btn_shezhi.png", "res2d/settle/desc0.png", "res2d/settle/desc.png", "res2d/freeCoin/frame_kuang.png", "res2d/freeCoin/jb01.png", "res2d/home/num_jinbi.png", "res2d/final/btn_blue.png", "res2d/freeCoin/zi_bule.png", "res2d/final/btn_yellow.png", "res2d/final/zi_shipin.png", "res2d/settle/doubleCoin.png"],
+    "loadList3D": []
+  }

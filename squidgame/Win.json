@@ -1,0 +1,299 @@
+{
+    "type": "View",
+    "props": {
+      "width": 720,
+      "top": 0,
+      "right": 0,
+      "left": 0,
+      "height": 1280,
+      "bottom": 0
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "bgColor": "#000000",
+        "alpha": 0.7
+      },
+      "compId": 13
+    }, {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "skin": "res2d/final/bg_win.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 14
+    }, {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 460,
+        "top": 140,
+        "skin": "res2d/final/title_win.png",
+        "pivotY": 92,
+        "pivotX": 230,
+        "height": 183,
+        "centerX": 0
+      },
+      "compId": 15,
+      "child": [{
+        "type": "Sprite",
+        "props": {
+          "y": 246,
+          "x": 214,
+          "width": 335,
+          "texture": "res2d/final/jinbi_di.png",
+          "pivotY": 42,
+          "pivotX": 168,
+          "height": 84
+        },
+        "compId": 17
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 209,
+          "x": 62,
+          "skin": "res2d/home/jinbi .png",
+          "scaleY": 0.8,
+          "scaleX": 0.8
+        },
+        "compId": 18
+      }, {
+        "type": "FontClip",
+        "props": {
+          "y": 246,
+          "x": 202,
+          "width": 92,
+          "var": "coin",
+          "value": "999",
+          "skin": "res2d/home/num_jinbi.png",
+          "sheet": "0123456789",
+          "scaleY": 1.5,
+          "scaleX": 1.5,
+          "pivotY": 14,
+          "height": 27,
+          "align": "left"
+        },
+        "compId": 19,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "y": 13.5,
+            "width": 20,
+            "skin": "res2d/final/zi_jiahao.png",
+            "pivotY": 10,
+            "pivotX": 10,
+            "left": -25,
+            "height": 20
+          },
+          "compId": 26
+        }]
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "x": 361,
+        "skin": "res2d/final/bsh.png",
+        "pivotY": 56,
+        "pivotX": 233,
+        "centerY": 96,
+        "centerX": 0
+      },
+      "compId": 27,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "y": 200,
+          "x": 47,
+          "width": 305,
+          "var": "normalButton",
+          "skin": "res2d/final/btn_blue.png",
+          "pivotY": 75,
+          "pivotX": 153,
+          "label": "label",
+          "height": 150
+        },
+        "compId": 28,
+        "child": [{
+          "type": "Sprite",
+          "props": {
+            "y": 46,
+            "x": 52.5,
+            "texture": "res2d/final/zi_2.png"
+          },
+          "compId": 29
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 200,
+          "x": 414,
+          "width": 305,
+          "var": "adButton",
+          "skin": "res2d/final/btn_yellow.png",
+          "pivotY": 75,
+          "pivotX": 153,
+          "label": "label",
+          "height": 150
+        },
+        "compId": 30,
+        "child": [{
+          "type": "Sprite",
+          "props": {
+            "y": 46.5,
+            "x": 83,
+            "texture": "res2d/final/zi_1.png"
+          },
+          "compId": 31
+        }, {
+          "type": "Sprite",
+          "props": {
+            "y": 49.5,
+            "x": 14,
+            "texture": "res2d/final/zi_shipin.png"
+          },
+          "compId": 32
+        }]
+      }, {
+        "type": "Sprite",
+        "props": {
+          "y": 93,
+          "x": 447,
+          "width": 74,
+          "var": "point",
+          "texture": "res2d/final/jt.png",
+          "pivotY": 34,
+          "pivotX": 37,
+          "height": 67
+        },
+        "compId": 33
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "x": 0,
+        "var": "nativeInnerPanel",
+        "skin": "res2d/nativeInner/bg.png",
+        "scaleY": 1.2,
+        "scaleX": 1.2,
+        "name": "nativeInnerPanel",
+        "height": 400,
+        "centerY": 80,
+        "centerX": 0
+      },
+      "compId": 34,
+      "child": [{
+        "type": "View",
+        "props": {
+          "width": 500,
+          "var": "nativeView",
+          "scaleY": 0.8,
+          "scaleX": 0.8,
+          "name": "nativeView",
+          "height": 240,
+          "centerX": 0,
+          "bottom": 32
+        },
+        "compId": 36
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 12,
+          "x": 131,
+          "width": 360,
+          "top": 12,
+          "skin": "res2d/nativeInner/title.png",
+          "scaleY": 0.8,
+          "scaleX": 0.8,
+          "name": "coinPanel",
+          "height": 80,
+          "centerX": 0
+        },
+        "compId": 43,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/home/jinbi .png",
+            "scaleY": 0.6,
+            "scaleX": 0.6,
+            "name": "coinImg",
+            "centerY": 0,
+            "centerX": -86
+          },
+          "compId": 44
+        }, {
+          "type": "Image",
+          "props": {
+            "skin": "res2d/final/zi_jiahao.png",
+            "scaleY": 1.5,
+            "scaleX": 1.5,
+            "centerY": 0,
+            "centerX": -12
+          },
+          "compId": 45
+        }, {
+          "type": "FontClip",
+          "props": {
+            "var": "coinNum",
+            "value": "10",
+            "spaceX": 5,
+            "skin": "res2d/home/num_jinbi.png",
+            "sheet": "0123456789",
+            "scaleY": 1.5,
+            "scaleX": 1.5,
+            "name": "coinNum",
+            "centerY": 0,
+            "centerX": 70
+          },
+          "compId": 46
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "width": 260,
+          "var": "rewardBtn",
+          "top": 83,
+          "skin": "res2d/final/btn_yellow.png",
+          "name": "rewardBtn",
+          "height": 85,
+          "centerX": 0
+        },
+        "compId": 41,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/nativeInner/linqu.png",
+            "scaleY": 0.8,
+            "scaleX": 0.8,
+            "centerY": -6,
+            "centerX": 0
+          },
+          "compId": 42
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "var": "closeBtn",
+          "top": -20,
+          "skin": "res2d/setting/btn_shezhi.png",
+          "right": -20,
+          "name": "closeBtn"
+        },
+        "compId": 47
+      }]
+    }],
+    "loadList": ["res2d/final/bg_win.png", "res2d/final/title_win.png", "res2d/final/jinbi_di.png", "res2d/home/jinbi .png", "res2d/home/num_jinbi.png", "res2d/final/zi_jiahao.png", "res2d/final/bsh.png", "res2d/final/btn_blue.png", "res2d/final/zi_2.png", "res2d/final/btn_yellow.png", "res2d/final/zi_1.png", "res2d/final/zi_shipin.png", "res2d/final/jt.png", "res2d/nativeInner/bg.png", "res2d/nativeInner/title.png", "res2d/nativeInner/linqu.png", "res2d/setting/btn_shezhi.png"],
+    "loadList3D": []
+  }

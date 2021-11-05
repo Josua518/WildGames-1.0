@@ -1,0 +1,225 @@
+{
+    "type": "View",
+    "props": {
+      "width": 720,
+      "top": 0,
+      "right": 0,
+      "left": 0,
+      "height": 1280,
+      "bottom": 0
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Image",
+      "props": {
+        "width": 387,
+        "var": "startButton",
+        "skin": "res2d/home/btn_star.png",
+        "pivotY": 63,
+        "pivotX": 194,
+        "label": "label",
+        "height": 125,
+        "centerX": 0,
+        "bottom": 180
+      },
+      "compId": 10,
+      "child": [{
+        "type": "Script",
+        "props": {
+          "runtime": "component/ScaleButton.ts"
+        },
+        "compId": 11
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "width": 64,
+        "var": "settingButton",
+        "top": 100,
+        "skin": "res2d/home/btn_shezhi.png",
+        "pivotY": 32,
+        "pivotX": 32,
+        "left": 40,
+        "label": "label",
+        "height": 64
+      },
+      "compId": 12,
+      "child": [{
+        "type": "Script",
+        "props": {
+          "runtime": "component/ScaleButton.ts"
+        },
+        "compId": 20
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "width": 510,
+        "top": 180,
+        "skin": "",
+        "pivotY": 160,
+        "pivotX": 264,
+        "height": 288,
+        "centerX": 0
+      },
+      "compId": 13
+    }, {
+      "type": "Image",
+      "props": {
+        "width": 207,
+        "visible": true,
+        "var": "shopButton",
+        "skin": "res2d/home/btn_shangdian.png",
+        "pivotY": 84,
+        "left": 0,
+        "label": "label",
+        "height": 167,
+        "centerY": 0
+      },
+      "compId": 14,
+      "child": [{
+        "type": "Script",
+        "props": {
+          "runtime": "component/ScaleButton.ts"
+        },
+        "compId": 15
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "width": 178,
+        "top": 160,
+        "skin": "res2d/home/jinbi_di.png",
+        "right": 50,
+        "pivotY": 32,
+        "pivotX": 89,
+        "height": 64
+      },
+      "compId": 16,
+      "child": [{
+        "type": "Sprite",
+        "props": {
+          "y": -13.5,
+          "x": -60,
+          "texture": "res2d/home/jinbi .png"
+        },
+        "compId": 17
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 32,
+          "x": 154,
+          "width": 48,
+          "var": "addButton",
+          "skin": "res2d/home/jinbi_jiahao.png",
+          "pivotY": 24,
+          "pivotX": 24,
+          "height": 48
+        },
+        "compId": 18,
+        "child": [{
+          "type": "Script",
+          "props": {
+            "runtime": "component/ScaleButton.ts"
+          },
+          "compId": 21
+        }]
+      }, {
+        "type": "FontClip",
+        "props": {
+          "y": 32,
+          "x": 84,
+          "width": 92,
+          "var": "coin",
+          "value": "9999",
+          "skin": "res2d/home/num_jinbi.png",
+          "sheet": "0123456789",
+          "pivotY": 14,
+          "pivotX": 46,
+          "height": 27,
+          "align": "center"
+        },
+        "compId": 19
+      }]
+    }, {
+      "type": "View",
+      "props": {
+        "width": 250,
+        "var": "nativeIcon",
+        "top": 420,
+        "scaleY": 0.4,
+        "scaleX": 0.4,
+        "name": "nativeIcon",
+        "left": 10,
+        "height": 250
+      },
+      "compId": 27
+    }, {
+      "type": "Box",
+      "props": {
+        "width": 720,
+        "visible": false,
+        "var": "Info",
+        "top": 0,
+        "right": 0,
+        "pivotY": 640,
+        "pivotX": 360,
+        "left": 0,
+        "height": 1280,
+        "bottom": 0,
+        "bgColor": "#000000",
+        "alpha": 0.85
+      },
+      "compId": 23,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "width": 1,
+          "pivotY": -615,
+          "pivotX": -372,
+          "height": 1,
+          "centerY": 0,
+          "centerX": 0
+        },
+        "compId": 26,
+        "child": [{
+          "type": "Text",
+          "props": {
+            "wordWrap": true,
+            "width": 593,
+            "text": "One day, I suddenly received a call from a mysterious person, inviting me to come to this strange paradise and play games I played in my childhood with a group of adults. The mysterious man called and told me that it is difficult to be the first passer. I don’t believe it very much, so I have to try... ",
+            "pivotY": 338,
+            "pivotX": 297,
+            "leading": 7,
+            "height": 453,
+            "fontSize": 46,
+            "color": "#ffffff",
+            "centerY": -112,
+            "centerX": -1,
+            "align": "left",
+            "runtime": "Laya.Text"
+          },
+          "compId": 24,
+          "child": [{
+            "type": "Text",
+            "props": {
+              "y": 683,
+              "x": 296.5,
+              "width": 212,
+              "text": "Click to continue",
+              "pivotY": 26,
+              "pivotX": 106,
+              "height": 52,
+              "fontSize": 52,
+              "color": "#ffffff",
+              "bold": true,
+              "runtime": "Laya.Text"
+            },
+            "compId": 25
+          }]
+        }]
+      }]
+    }],
+    "loadList": ["res2d/home/btn_star.png", "res2d/home/btn_shezhi.png", "res2d/home/logo.png", "res2d/home/btn_shangdian.png", "res2d/home/jinbi_di.png", "res2d/home/jinbi .png", "res2d/home/jinbi_jiahao.png", "res2d/home/num_jinbi.png"],
+    "loadList3D": []
+  }

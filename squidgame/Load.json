@@ -1,0 +1,27 @@
+{
+    "type": "View",
+    "props": {
+      "width": 720,
+      "top": 0,
+      "right": 0,
+      "left": 0,
+      "height": 1280,
+      "bottom": 0
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "skin": "",
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 7
+    }],
+    "loadList": ["res2d/loading/bg.png"],
+    "loadList3D": []
+  }

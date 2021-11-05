@@ -1,0 +1,57 @@
+{
+    "type": "Scene",
+    "props": {
+      "width": 720,
+      "height": 1280
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Panel",
+      "props": {
+        "var": "bg",
+        "top": 0,
+        "right": 0,
+        "name": "bg",
+        "left": 0,
+        "bottom": 0,
+        "bgColor": "#000000",
+        "alpha": 0.6
+      },
+      "compId": 4
+    }, {
+      "type": "Image",
+      "props": {
+        "skin": "res2d/nativeInner/bg.png",
+        "name": "tipPanel",
+        "height": 380,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "skin": "res2d/final/versionTip.png",
+          "name": "tipText",
+          "centerY": 0,
+          "centerX": 0
+        },
+        "compId": 7
+      }, {
+        "type": "Image",
+        "props": {
+          "y": -480,
+          "x": 571,
+          "visible": true,
+          "var": "closeBtn",
+          "top": -30,
+          "skin": "res2d/setting/btn_shezhi.png",
+          "right": -20,
+          "name": "closeBtn"
+        },
+        "compId": 5
+      }]
+    }],
+    "loadList": ["res2d/nativeInner/bg.png", "res2d/final/versionTip.png", "res2d/setting/btn_shezhi.png"],
+    "loadList3D": []
+  }

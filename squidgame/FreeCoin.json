@@ -1,0 +1,150 @@
+{
+    "type": "Scene",
+    "props": {
+      "width": 720,
+      "height": 1280
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Panel",
+      "props": {
+        "top": 0,
+        "right": 0,
+        "name": "bg",
+        "left": 0,
+        "bottom": 0,
+        "bgColor": "#000000",
+        "alpha": 0.6
+      },
+      "compId": 3
+    }, {
+      "type": "Image",
+      "props": {
+        "skin": "res2d/freeCoin/bg.png",
+        "name": "freeCoinPanel",
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 4,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "var": "closeBtn",
+          "top": -30,
+          "skin": "res2d/setting/btn_shezhi.png",
+          "right": -30,
+          "name": "closeBtn"
+        },
+        "compId": 5
+      }, {
+        "type": "Image",
+        "props": {
+          "top": -54,
+          "skin": "res2d/freeCoin/title.png",
+          "name": "title",
+          "centerX": 0
+        },
+        "compId": 6,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/freeCoin/title_jinbi.png",
+            "centerY": 0,
+            "centerX": 0
+          },
+          "compId": 7
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "top": 75,
+          "skin": "res2d/freeCoin/tips_guankan.png",
+          "name": "desc",
+          "centerX": 0
+        },
+        "compId": 8
+      }, {
+        "type": "Image",
+        "props": {
+          "skin": "res2d/freeCoin/frame_kuang.png",
+          "name": "coinPanel",
+          "centerY": -28,
+          "centerX": 0
+        },
+        "compId": 9,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/freeCoin/jb01.png",
+            "centerY": -18,
+            "centerX": 0
+          },
+          "compId": 10
+        }, {
+          "type": "FontClip",
+          "props": {
+            "var": "coinCount",
+            "value": "100",
+            "skin": "res2d/home/num_jinbi.png",
+            "sheet": "0123456789",
+            "name": "coinCount",
+            "centerX": 0,
+            "bottom": 34
+          },
+          "compId": 12
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "var": "getCoinBtn",
+          "skin": "res2d/final/btn_yellow.png",
+          "scaleY": 0.8,
+          "scaleX": 0.8,
+          "name": "getCoinBtn",
+          "centerX": 130,
+          "bottom": 46
+        },
+        "compId": 13,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/freeCoin/zi_btn_lingqu.png",
+            "centerY": -6,
+            "centerX": 34
+          },
+          "compId": 14
+        }, {
+          "type": "Image",
+          "props": {
+            "skin": "res2d/final/zi_shipin.png",
+            "centerY": -6,
+            "centerX": -104
+          },
+          "compId": 15
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "var": "cancelBtn",
+          "skin": "res2d/final/btn_blue.png",
+          "scaleY": 0.8,
+          "scaleX": 0.8,
+          "name": "cancelBtn",
+          "centerX": -130,
+          "bottom": 45
+        },
+        "compId": 16,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/freeCoin/zi_bule.png",
+            "centerY": -6,
+            "centerX": 0
+          },
+          "compId": 17
+        }]
+      }]
+    }],
+    "loadList": ["res2d/freeCoin/bg.png", "res2d/setting/btn_shezhi.png", "res2d/freeCoin/title.png", "res2d/freeCoin/title_jinbi.png", "res2d/freeCoin/tips_guankan.png", "res2d/freeCoin/frame_kuang.png", "res2d/freeCoin/jb01.png", "res2d/home/num_jinbi.png", "res2d/final/btn_yellow.png", "res2d/freeCoin/zi_btn_lingqu.png", "res2d/final/zi_shipin.png", "res2d/final/btn_blue.png", "res2d/freeCoin/zi_bule.png"],
+    "loadList3D": []
+  }

@@ -1,0 +1,222 @@
+{
+    "type": "View",
+    "props": {
+      "width": 720,
+      "top": 0,
+      "right": 0,
+      "left": 0,
+      "height": 1280,
+      "bottom": 0
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Box",
+      "props": {
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "bgColor": "#000000",
+        "alpha": 0.7
+      },
+      "compId": 12
+    }, {
+      "type": "Image",
+      "props": {
+        "width": 550,
+        "skin": "res2d/setting/diban.png",
+        "pivotY": 272,
+        "pivotX": 285,
+        "height": 510,
+        "centerY": -50,
+        "centerX": 0
+      },
+      "compId": 13,
+      "child": [{
+        "type": "Sprite",
+        "props": {
+          "y": 60,
+          "x": 275,
+          "width": 138,
+          "texture": "res2d/setting/title_shezhi.png",
+          "pivotY": 35,
+          "pivotX": 69,
+          "height": 69
+        },
+        "compId": 14
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 52.5,
+          "x": 534,
+          "width": 84,
+          "var": "closeButton",
+          "skin": "res2d/setting/btn_shezhi.png",
+          "pivotY": 42,
+          "pivotX": 42,
+          "label": "label",
+          "height": 84
+        },
+        "compId": 15,
+        "child": [{
+          "type": "Script",
+          "props": {
+            "runtime": "component/ScaleButton.ts"
+          },
+          "compId": 16
+        }]
+      }, {
+        "type": "Sprite",
+        "props": {
+          "y": 165,
+          "x": 42,
+          "texture": "res2d/setting/yinyue.png"
+        },
+        "compId": 17
+      }, {
+        "type": "Sprite",
+        "props": {
+          "y": 275,
+          "x": 42,
+          "texture": "res2d/setting/yinxiao.png"
+        },
+        "compId": 18
+      }, {
+        "type": "Sprite",
+        "props": {
+          "y": 388,
+          "x": 42,
+          "texture": "res2d/setting/zhendong.png"
+        },
+        "compId": 19
+      }, {
+        "type": "Box",
+        "props": {
+          "y": 172,
+          "x": 305,
+          "var": "musicButton",
+          "styleSkin": "res2d/setting/huakuai_di_2.png"
+        },
+        "compId": 20,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "var": "mclose",
+            "skin": "res2d/setting/huakuai_di_1.png"
+          },
+          "compId": 21,
+          "child": [{
+            "type": "Sprite",
+            "props": {
+              "texture": "res2d/setting/hukuai_btn.png"
+            },
+            "compId": 22
+          }]
+        }, {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "mopen",
+            "skin": "res2d/setting/huakuai_di_2.png"
+          },
+          "compId": 25,
+          "child": [{
+            "type": "Sprite",
+            "props": {
+              "y": 0,
+              "x": 97,
+              "texture": "res2d/setting/hukuai_btn.png"
+            },
+            "compId": 26
+          }]
+        }]
+      }, {
+        "type": "Box",
+        "props": {
+          "y": 275,
+          "x": 305,
+          "var": "soundButton",
+          "styleSkin": "res2d/setting/huakuai_di_2.png"
+        },
+        "compId": 32,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "var": "sclose",
+            "skin": "res2d/setting/huakuai_di_1.png"
+          },
+          "compId": 33,
+          "child": [{
+            "type": "Sprite",
+            "props": {
+              "texture": "res2d/setting/hukuai_btn.png"
+            },
+            "compId": 34
+          }]
+        }, {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "sopen",
+            "skin": "res2d/setting/huakuai_di_2.png"
+          },
+          "compId": 35,
+          "child": [{
+            "type": "Sprite",
+            "props": {
+              "y": 0,
+              "x": 97,
+              "texture": "res2d/setting/hukuai_btn.png"
+            },
+            "compId": 36
+          }]
+        }]
+      }, {
+        "type": "Box",
+        "props": {
+          "y": 388,
+          "x": 305,
+          "var": "vibrateButton",
+          "styleSkin": "res2d/setting/huakuai_di_2.png"
+        },
+        "compId": 42,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "var": "vclose",
+            "skin": "res2d/setting/huakuai_di_1.png"
+          },
+          "compId": 43,
+          "child": [{
+            "type": "Sprite",
+            "props": {
+              "texture": "res2d/setting/hukuai_btn.png"
+            },
+            "compId": 44
+          }]
+        }, {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "vopen",
+            "skin": "res2d/setting/huakuai_di_2.png"
+          },
+          "compId": 45,
+          "child": [{
+            "type": "Sprite",
+            "props": {
+              "y": 0,
+              "x": 97,
+              "texture": "res2d/setting/hukuai_btn.png"
+            },
+            "compId": 46
+          }]
+        }]
+      }]
+    }],
+    "loadList": ["res2d/setting/diban.png", "res2d/setting/title_shezhi.png", "res2d/setting/btn_shezhi.png", "res2d/setting/yinyue.png", "res2d/setting/yinxiao.png", "res2d/setting/zhendong.png", "res2d/setting/huakuai_di_2.png", "res2d/setting/huakuai_di_1.png", "res2d/setting/hukuai_btn.png"],
+    "loadList3D": []
+  }

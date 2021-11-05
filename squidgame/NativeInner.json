@@ -1,0 +1,122 @@
+{
+    "type": "Scene",
+    "props": {
+      "width": 720,
+      "height": 1280
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Panel",
+      "props": {
+        "top": 0,
+        "right": 0,
+        "name": "bg",
+        "left": 0,
+        "bottom": 0,
+        "bgColor": "#000000",
+        "alpha": 0.6
+      },
+      "compId": 13
+    }, {
+      "type": "Image",
+      "props": {
+        "skin": "res2d/nativeInner/bg.png",
+        "name": "nativeInnerPanel",
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 3,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "var": "closeBtn",
+          "top": -20,
+          "skin": "res2d/setting/btn_shezhi.png",
+          "right": -20,
+          "name": "closeBtn"
+        },
+        "compId": 5
+      }, {
+        "type": "View",
+        "props": {
+          "width": 500,
+          "var": "nativeView",
+          "name": "nativeView",
+          "height": 240,
+          "centerX": 0,
+          "bottom": 40
+        },
+        "compId": 6
+      }, {
+        "type": "Image",
+        "props": {
+          "width": 360,
+          "top": 36,
+          "skin": "res2d/final/jinbi_di.png",
+          "name": "coinPanel",
+          "height": 80,
+          "centerX": 0
+        },
+        "compId": 7,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/home/jinbi .png",
+            "scaleY": 0.6,
+            "scaleX": 0.6,
+            "name": "coinImg",
+            "centerY": 0,
+            "centerX": -86
+          },
+          "compId": 8
+        }, {
+          "type": "Image",
+          "props": {
+            "skin": "res2d/final/zi_jiahao.png",
+            "scaleY": 1.5,
+            "scaleX": 1.5,
+            "centerY": 0,
+            "centerX": -12
+          },
+          "compId": 9
+        }, {
+          "type": "FontClip",
+          "props": {
+            "var": "coinNum",
+            "value": "10",
+            "spaceX": 5,
+            "skin": "res2d/home/num_jinbi.png",
+            "sheet": "0123456789",
+            "scaleY": 1.5,
+            "scaleX": 1.5,
+            "name": "coinNum",
+            "centerY": 0,
+            "centerX": 70
+          },
+          "compId": 10
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "var": "rewardBtn",
+          "top": 125,
+          "skin": "res2d/final/btn_yellow.png",
+          "name": "rewardBtn",
+          "height": 92,
+          "centerX": 0
+        },
+        "compId": 11,
+        "child": [{
+          "type": "Image",
+          "props": {
+            "skin": "res2d/nativeInner/linqu.png",
+            "centerY": -6,
+            "centerX": 0
+          },
+          "compId": 12
+        }]
+      }]
+    }],
+    "loadList": ["res2d/nativeInner/bg.png", "res2d/setting/btn_shezhi.png", "res2d/final/jinbi_di.png", "res2d/home/jinbi .png", "res2d/final/zi_jiahao.png", "res2d/home/num_jinbi.png", "res2d/final/btn_yellow.png", "res2d/nativeInner/linqu.png"],
+    "loadList3D": []
+  }

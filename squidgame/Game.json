@@ -1,0 +1,601 @@
+{
+    "type": "View",
+    "props": {
+      "width": 720,
+      "top": 0,
+      "right": 0,
+      "left": 0,
+      "height": 1280,
+      "bottom": 0
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Image",
+      "props": {
+        "width": 200,
+        "var": "JoyBg",
+        "skin": "res2d/game/btn_yaogan_di.png",
+        "pivotY": 100,
+        "pivotX": 100,
+        "left": 80,
+        "height": 200,
+        "bottom": 180
+      },
+      "compId": 4,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "width": 80,
+          "var": "JoyControl",
+          "skin": "res2d/game/btn_yaogan_anniu.png",
+          "pivotY": 40,
+          "pivotX": 40,
+          "height": 80,
+          "centerY": 0,
+          "centerX": 0
+        },
+        "compId": 5
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "width": 120,
+        "var": "skillButton",
+        "skin": "res2d/game/btn_tiaoyue.png",
+        "right": 80,
+        "pivotY": 60,
+        "pivotX": 60,
+        "height": 120,
+        "bottom": 200
+      },
+      "compId": 6
+    }, {
+      "type": "Box",
+      "props": {
+        "width": 720,
+        "var": "cameratouch",
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "height": 920,
+        "bottom": 460
+      },
+      "compId": 16
+    }, {
+      "type": "Box",
+      "props": {
+        "y": 640,
+        "x": 360,
+        "width": 720,
+        "visible": false,
+        "var": "game",
+        "top": 0,
+        "right": 0,
+        "pivotY": 640,
+        "pivotX": 360,
+        "left": 0,
+        "height": 1280,
+        "bottom": 0
+      },
+      "compId": 38,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "y": 90,
+          "x": 360,
+          "width": 200,
+          "var": "topbg",
+          "skin": "res2d/game/pipei_di.png",
+          "pivotY": 37,
+          "pivotX": 100,
+          "name": "topbg",
+          "height": 60
+        },
+        "compId": 39,
+        "child": [{
+          "type": "Text",
+          "props": {
+            "y": 30,
+            "x": 127,
+            "width": 119,
+            "var": "timeLabel",
+            "text": "02:00",
+            "pivotY": 21,
+            "pivotX": 60,
+            "height": 42,
+            "fontSize": 46,
+            "color": "#ffffff",
+            "bold": true,
+            "align": "center",
+            "runtime": "Laya.Text"
+          },
+          "compId": 40
+        }, {
+          "type": "Sprite",
+          "props": {
+            "y": 30,
+            "x": 33,
+            "width": 43,
+            "texture": "res2d/game/clock_icon.png",
+            "pivotY": 22,
+            "pivotX": 22,
+            "height": 43
+          },
+          "compId": 46
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 180,
+          "x": 697,
+          "width": 158,
+          "skin": "res2d/game/frame_renshu_di.png",
+          "pivotY": 38,
+          "pivotX": 158,
+          "height": 76
+        },
+        "compId": 47,
+        "child": [{
+          "type": "Sprite",
+          "props": {
+            "y": 38,
+            "x": 35,
+            "width": 36,
+            "texture": "res2d/game/zi_renshu.png",
+            "pivotY": 18,
+            "pivotX": 18,
+            "height": 35
+          },
+          "compId": 48,
+          "child": [{
+            "type": "FontClip",
+            "props": {
+              "y": 17.5,
+              "x": 78,
+              "width": 92,
+              "var": "numLabel",
+              "value": "100",
+              "skin": "res2d/home/num_jinbi.png",
+              "sheet": "0123456789",
+              "pivotY": 14,
+              "pivotX": 46,
+              "height": 27,
+              "align": "center"
+            },
+            "compId": 49
+          }]
+        }]
+      }]
+    }, {
+      "type": "Box",
+      "props": {
+        "y": 640,
+        "x": 360,
+        "width": 720,
+        "visible": false,
+        "var": "wait",
+        "top": 0,
+        "right": 0,
+        "pivotY": 640,
+        "pivotX": 360,
+        "left": 0,
+        "height": 1280,
+        "bottom": 0
+      },
+      "compId": 17,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "y": 90,
+          "x": 360,
+          "width": 200,
+          "skin": "res2d/game/pipei_di.png",
+          "pivotY": 37,
+          "pivotX": 100,
+          "name": "topbg",
+          "height": 60
+        },
+        "compId": 29,
+        "child": [{
+          "type": "Text",
+          "props": {
+            "y": 30,
+            "x": 100,
+            "width": 119,
+            "var": "waittime",
+            "text": "00:15",
+            "pivotY": 21,
+            "pivotX": 60,
+            "height": 42,
+            "fontSize": 46,
+            "color": "#ffffff",
+            "bold": true,
+            "align": "center",
+            "runtime": "Laya.Text"
+          },
+          "compId": 31
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 167,
+          "x": 360,
+          "width": 480,
+          "visible": false,
+          "var": "item",
+          "skin": "res2d/game/pipei_di.png",
+          "pivotY": 37,
+          "pivotX": 240,
+          "height": 74
+        },
+        "compId": 30,
+        "child": [{
+          "type": "Sprite",
+          "props": {
+            "y": 37,
+            "x": 38,
+            "width": 69,
+            "texture": "res2d/game/icon_di.png",
+            "pivotY": 35,
+            "pivotX": 35,
+            "height": 69
+          },
+          "compId": 32
+        }, {
+          "type": "Image",
+          "props": {
+            "y": 37,
+            "x": 38,
+            "width": 61,
+            "var": "icon",
+            "skin": "res2d/head/1.png",
+            "pivotY": 31,
+            "pivotX": 31,
+            "name": "icon",
+            "height": 61
+          },
+          "compId": 36
+        }, {
+          "type": "Text",
+          "props": {
+            "y": 38,
+            "x": 190,
+            "width": 160,
+            "var": "pname",
+            "valign": "middle",
+            "text": "他的名字哦",
+            "strokeColor": "#000000",
+            "stroke": 4,
+            "pivotY": 16,
+            "pivotX": 80,
+            "name": "name",
+            "height": 32,
+            "fontSize": 32,
+            "color": "#ffffff",
+            "align": "center",
+            "runtime": "Laya.Text"
+          },
+          "compId": 33
+        }, {
+          "type": "Sprite",
+          "props": {
+            "y": 37,
+            "x": 396,
+            "width": 142,
+            "texture": "res2d/game/zi_jiaruyouxi.png",
+            "pivotY": 17,
+            "pivotX": 71,
+            "height": 34
+          },
+          "compId": 34
+        }]
+      }]
+    }, {
+      "type": "Box",
+      "props": {
+        "y": 640,
+        "x": 360,
+        "width": 720,
+        "visible": false,
+        "var": "wait2",
+        "top": 0,
+        "right": 0,
+        "pivotY": 640,
+        "pivotX": 360,
+        "left": 0,
+        "height": 1280,
+        "bottom": 0
+      },
+      "compId": 50,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "y": 90,
+          "x": 360,
+          "width": 200,
+          "skin": "res2d/game/pipei_di.png",
+          "pivotY": 37,
+          "pivotX": 100,
+          "name": "tt",
+          "height": 60
+        },
+        "compId": 51,
+        "child": [{
+          "type": "Text",
+          "props": {
+            "y": 30,
+            "x": 100,
+            "width": 119,
+            "var": "wait2time",
+            "text": "00:15",
+            "pivotY": 21,
+            "pivotX": 60,
+            "height": 42,
+            "fontSize": 46,
+            "color": "#ffffff",
+            "bold": true,
+            "align": "center",
+            "runtime": "Laya.Text"
+          },
+          "compId": 52
+        }, {
+          "type": "Image",
+          "props": {
+            "y": 106,
+            "x": 85,
+            "width": 230,
+            "skin": "res2d/game/pipei_di.png",
+            "pivotY": 30,
+            "pivotX": 100,
+            "name": "tt",
+            "height": 60
+          },
+          "compId": 62,
+          "child": [{
+            "type": "Sprite",
+            "props": {
+              "y": 30,
+              "x": 115,
+              "width": 189,
+              "texture": "res2d/game/zi_wait.png",
+              "pivotY": 23,
+              "pivotX": 95,
+              "height": 46
+            },
+            "compId": 67
+          }]
+        }]
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 180,
+          "x": 697,
+          "width": 158,
+          "skin": "res2d/game/frame_renshu_di.png",
+          "pivotY": 38,
+          "pivotX": 158,
+          "height": 76
+        },
+        "compId": 58,
+        "child": [{
+          "type": "Sprite",
+          "props": {
+            "y": 38,
+            "x": 35,
+            "width": 36,
+            "texture": "res2d/game/zi_renshu.png",
+            "pivotY": 18,
+            "pivotX": 18,
+            "height": 35
+          },
+          "compId": 59,
+          "child": [{
+            "type": "FontClip",
+            "props": {
+              "y": 17.5,
+              "x": 78,
+              "width": 92,
+              "var": "waitnum",
+              "value": "100",
+              "skin": "res2d/home/num_jinbi.png",
+              "sheet": "0123456789",
+              "pivotY": 14,
+              "pivotX": 46,
+              "height": 27,
+              "align": "center"
+            },
+            "compId": 60
+          }]
+        }]
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "visible": false,
+        "var": "imgTime",
+        "skin": "res2d/game/img_main_time3.png",
+        "pivotY": 76,
+        "pivotX": 59,
+        "centerY": -209,
+        "centerX": 0
+      },
+      "compId": 37
+    }, {
+      "type": "Image",
+      "props": {
+        "y": 204,
+        "x": 360,
+        "width": 555,
+        "visible": false,
+        "var": "info1",
+        "skin": "res2d/game/pipei_di.png",
+        "pivotY": 82,
+        "pivotX": 278,
+        "height": 164
+      },
+      "compId": 65,
+      "child": [{
+        "type": "Sprite",
+        "props": {
+          "y": 82,
+          "x": 277.5,
+          "width": 595,
+          "texture": "res2d/game/titl1.png",
+          "scaleY": 0.8,
+          "scaleX": 0.8,
+          "pivotY": 96,
+          "pivotX": 298,
+          "height": 191
+        },
+        "compId": 68
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "y": 184,
+        "x": 360,
+        "width": 381,
+        "visible": false,
+        "var": "info2",
+        "skin": "res2d/game/pipei_di.png",
+        "pivotY": 51,
+        "pivotX": 191,
+        "height": 102
+      },
+      "compId": 71,
+      "child": [{
+        "type": "Sprite",
+        "props": {
+          "y": 51,
+          "x": 190.5,
+          "width": 334,
+          "texture": "res2d/game/tips_pengtang.png",
+          "pivotY": 47,
+          "pivotX": 167,
+          "height": 94
+        },
+        "compId": 72
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "y": 184,
+        "x": 360,
+        "width": 381,
+        "visible": false,
+        "var": "info3",
+        "skin": "res2d/game/pipei_di.png",
+        "pivotY": 51,
+        "pivotX": 191,
+        "height": 102
+      },
+      "compId": 73,
+      "child": [{
+        "type": "Sprite",
+        "props": {
+          "y": 51,
+          "x": 190.5,
+          "width": 334,
+          "texture": "res2d/game/title3.png",
+          "pivotY": 47,
+          "pivotX": 167,
+          "height": 94
+        },
+        "compId": 74
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "y": 235,
+        "x": 360,
+        "width": 272,
+        "visible": false,
+        "var": "winrank",
+        "skin": "res2d/game/tips_diban.png",
+        "pivotY": 67,
+        "pivotX": 136,
+        "height": 134
+      },
+      "compId": 75,
+      "child": [{
+        "type": "Sprite",
+        "props": {
+          "y": 22,
+          "x": 35,
+          "texture": "res2d/game/zi_nishi.png"
+        },
+        "compId": 76
+      }, {
+        "type": "Sprite",
+        "props": {
+          "y": 22,
+          "x": 105,
+          "texture": "res2d/game/zi_di.png"
+        },
+        "compId": 77
+      }, {
+        "type": "Sprite",
+        "props": {
+          "y": 22,
+          "x": 205,
+          "texture": "res2d/game/zi_ming.png"
+        },
+        "compId": 78
+      }, {
+        "type": "Sprite",
+        "props": {
+          "y": 67,
+          "x": 53,
+          "texture": "res2d/game/zi_tips_wait.png"
+        },
+        "compId": 80
+      }, {
+        "type": "Image",
+        "props": {
+          "y": 134,
+          "x": 139,
+          "width": 213,
+          "var": "nextButton",
+          "skin": "res2d/game/btn_tiqian.png",
+          "pivotY": 43,
+          "pivotX": 107,
+          "label": "label",
+          "height": 86
+        },
+        "compId": 81,
+        "child": [{
+          "type": "Sprite",
+          "props": {
+            "y": 19,
+            "x": 20,
+            "texture": "res2d/game/zi_tiqian.png"
+          },
+          "compId": 82
+        }, {
+          "type": "Script",
+          "props": {
+            "runtime": "component/ScaleButton.ts"
+          },
+          "compId": 84
+        }]
+      }, {
+        "type": "FontClip",
+        "props": {
+          "y": 39,
+          "x": 174.5,
+          "width": 92,
+          "var": "rank",
+          "value": "99",
+          "skin": "res2d/home/num_jinbi.png",
+          "sheet": "0123456789",
+          "pivotY": 14,
+          "pivotX": 46,
+          "height": 27,
+          "align": "center"
+        },
+        "compId": 83
+      }]
+    }],
+    "loadList": ["res2d/game/btn_yaogan_di.png", "res2d/game/btn_yaogan_anniu.png", "res2d/game/btn_tiaoyue.png", "res2d/game/pipei_di.png", "res2d/game/clock_icon.png", "res2d/game/frame_renshu_di.png", "res2d/game/zi_renshu.png", "res2d/home/num_jinbi.png", "res2d/game/icon_di.png", "res2d/head/1.png", "res2d/game/zi_jiaruyouxi.png", "res2d/game/zi_wait.png", "res2d/game/img_main_time3.png", "res2d/game/titl1.png", "res2d/game/tips_pengtang.png", "res2d/game/title3.png", "res2d/game/tips_diban.png", "res2d/game/zi_nishi.png", "res2d/game/zi_di.png", "res2d/game/zi_ming.png", "res2d/game/zi_tips_wait.png", "res2d/game/btn_tiqian.png", "res2d/game/zi_tiqian.png"],
+    "loadList3D": []
+  }

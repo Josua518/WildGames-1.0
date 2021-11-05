@@ -1,0 +1,30 @@
+{
+    "type": "View",
+    "props": {
+      "width": 720,
+      "top": 0,
+      "right": 0,
+      "left": 0,
+      "height": 1280,
+      "bottom": 0
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Text",
+      "props": {
+        "y": 687,
+        "x": 360,
+        "width": 230,
+        "text": "Mathing...",
+        "pivotY": 30,
+        "pivotX": 115,
+        "height": 60,
+        "fontSize": 60,
+        "color": "#ffffff",
+        "runtime": "Laya.Text"
+      },
+      "compId": 10
+    }],
+    "loadList": [],
+    "loadList3D": []
+  }

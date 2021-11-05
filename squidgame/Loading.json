@@ -1,0 +1,85 @@
+{
+    "type": "View",
+    "props": {
+      "width": 720,
+      "top": 0,
+      "right": 0,
+      "left": 0,
+      "height": 1280,
+      "bottom": 0
+    },
+    "compId": 2,
+    "child": [{
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "skin": "res2d/loading/bg.png",
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "compId": 7
+    }, {
+      "type": "Image",
+      "props": {
+        "width": 518,
+        "skin": "res2d/loading/jindu_di.png",
+        "pivotY": 32,
+        "pivotX": 259,
+        "height": 64,
+        "centerX": 0,
+        "bottom": 160
+      },
+      "compId": 10,
+      "child": [{
+        "type": "Image",
+        "props": {
+          "y": 32,
+          "x": 0,
+          "width": 518,
+          "var": "imgBar",
+          "skin": "res2d/loading/jindu_ding.png",
+          "pivotY": 32,
+          "height": 64
+        },
+        "compId": 11
+      }, {
+        "type": "Sprite",
+        "props": {
+          "y": -28,
+          "x": 238,
+          "width": 86,
+          "texture": "res2d/loading/zi_jiazai.png",
+          "pivotY": 14,
+          "pivotX": 43,
+          "height": 28
+        },
+        "compId": 8,
+        "child": [{
+          "type": "Sprite",
+          "props": {
+            "y": 23,
+            "x": 96,
+            "texture": "res2d/loading/zi_dian.png"
+          },
+          "compId": 9
+        }]
+      }]
+    }, {
+      "type": "Image",
+      "props": {
+        "width": 510,
+        "top": 180,
+        "skin": "",
+        "pivotY": 153,
+        "pivotX": 255,
+        "height": 288,
+        "centerX": 0
+      },
+      "compId": 12
+    }],
+    "loadList": ["res2d/loading/bg.png", "res2d/loading/jindu_di.png", "res2d/loading/jindu_ding.png", "res2d/loading/zi_jiazai.png", "res2d/loading/zi_dian.png", "res2d/home/logo.png"],
+    "loadList3D": []
+  }
