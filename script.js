@@ -1,0 +1,1 @@
+<img src='squidgame.jpg' alt='' class="banner-img">
