@@ -47,6 +47,26 @@ body {
   background-size: cover;
 }
 
+.banner-img-endlesssiege {
+  position: absolute;
+  background-image: url(img/endlesssiege.jpg);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-img-magictiles {
+  position: absolute;
+  background-image: url(img/magictiles.jpg);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banner-img-bottleflip {
   position: absolute;
   background-image: url(bottleflip.jpg);
