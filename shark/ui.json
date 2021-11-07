@@ -1,0 +1,9058 @@
+{
+	"DialogDragon": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -500,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 610,
+					"anchorX": 0.5
+				},
+				"compId": 81,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 40,
+						"x": 50,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"height": 400
+					},
+					"compId": 82
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 83
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 84
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 85,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 89,
+							"texture": "res/txtTitleHHCL.png",
+							"name": "txt"
+						},
+						"compId": 86
+					}]
+				},
+				{
+					"type": "Panel",
+					"props": {
+						"y": 50,
+						"x": 60,
+						"width": 520,
+						"height": 380
+					},
+					"compId": 87,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 242,
+							"x": 253,
+							"var": "baseDrage",
+							"rotation": -5
+						},
+						"compId": 67
+					}]
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 480,
+						"x": 319,
+						"var": "txtHelp",
+						"text": " 『 鱼跃龙门，幻化成龙 』 ",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"fontSize": 28,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 64
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 512,
+						"x": 197,
+						"var": "txtInfo0",
+						"text": "您将保持金龙形象15秒",
+						"fontSize": 24,
+						"font": "Microsoft YaHei",
+						"color": "#950b00"
+					},
+					"compId": 66
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 550,
+						"x": 161,
+						"var": "txtInfo1",
+						"text": "15秒后恢复原形，继续前行！",
+						"fontSize": 24,
+						"font": "Microsoft YaHei",
+						"color": "#950b00"
+					},
+					"compId": 65
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 40,
+						"x": 50,
+						"skin": "res/bgRect3.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoTop",
+						"left": 50,
+						"height": 400
+					},
+					"compId": 90
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 680,
+						"x": 170,
+						"var": "btnEnter",
+						"stateNum": 1,
+						"skin": "res/bgBtn1.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 91,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 61,
+							"var": "txtBtnEnter",
+							"texture": "res/txtBtnEnter.png"
+						},
+						"compId": 92
+					}]
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 185,
+					"x": 0,
+					"var": "baseOppoAd",
+                    "visible":false
+				},
+				"compId": 69,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 60,
+						"x": -300,
+						"width": 600,
+						"skin": "res/bgOppoAd.png",
+						"sizeGrid": "62,130,26,130",
+						"name": "bg",
+						"height": 330
+					},
+					"compId": 70
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 125,
+						"x": -285,
+						"width": 570,
+						"skin": "res/bgColor0.png",
+						"sizeGrid": "2,2,2,2",
+						"name": "bgTop",
+						"height": 220
+					},
+					"compId": 71
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 130,
+						"x": -280,
+						"width": 560,
+						"skin": "res/oppoAdInfo.png",
+						"name": "imgInfo",
+						"height": 210
+					},
+					"compId": 72
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -5,
+						"x": 150,
+						"width": 210,
+						"stateNum": 1,
+						"name": "btnShow",
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 73,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 105,
+							"var": "imgBtnShowAd",
+							"skin": "res/bgBtn2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 74,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 36,
+								"texture": "res/txtBtnAd.png",
+								"name": "txt"
+							},
+							"compId": 75
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 60,
+						"x": 0,
+						"width": 600,
+						"stateNum": 1,
+						"name": "btnShow1",
+						"height": 330,
+						"anchorX": 0.5
+					},
+					"compId": 76
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 87,
+						"text": "label",
+						"strokeColor": "#ffffff",
+						"name": "txtTitle",
+						"fontSize": 36,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 77
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 350,
+						"x": 0,
+						"text": "label",
+						"name": "txtInfo",
+						"fontSize": 30,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 78
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 96,
+						"x": 273,
+						"width": 48,
+						"stateNum": 1,
+						"name": "btnClose",
+						"height": 48,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 79,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 24,
+							"x": 24,
+							"skin": "res/btnCloseAd2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 94
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 309,
+						"x": -280,
+						"texture": "res/op_ad.png",
+						"name": "ad"
+					},
+					"compId": 80
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTitleHHCL.png", "res/bgRect3.png", "res/bgBtn1.png", "res/txtBtnEnter.png", "res/bgOppoAd.png", "res/bgColor0.png", "res/oppoAdInfo.png", "res/bgBtn2.png", "res/txtBtnAd.png", "res/btnCloseAd2.png", "res/op_ad.png"],
+		"loadList3D": []
+	},
+	"DialogFail": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -550,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 610,
+					"anchorX": 0.5
+				},
+				"compId": 59,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"x": 50,
+						"top": 87,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"bottom": 123
+					},
+					"compId": 60
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 61
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 62
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 63,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 116,
+							"texture": "res/txtTitleRevive.png",
+							"name": "txt"
+						},
+						"compId": 64
+					}]
+				},
+				{
+					"type": "Panel",
+					"props": {
+						"y": 97,
+						"x": 60,
+						"width": 520,
+						"height": 380
+					},
+					"compId": 65,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 185,
+							"x": 258,
+							"var": "baseLead",
+							"scaleY": 1.5,
+							"scaleX": 1.5,
+							"rotation": 45
+						},
+						"compId": 28
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 540,
+						"x": 320,
+						"width": 376,
+						"var": "txtHint",
+						"texture": "res/txtFailInfo.png",
+						"pivotY": 26,
+						"pivotX": 188,
+						"height": 52
+					},
+					"compId": 67
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 87,
+						"x": 50,
+						"top": 87,
+						"skin": "res/bgRect3.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoTop",
+						"left": 50,
+						"bottom": 123
+					},
+					"compId": 68
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 775,
+						"x": 320,
+						"width": 230,
+						"var": "btnRevive",
+						"stateNum": 1,
+						"skin": "res/bgBtn1.png",
+						"sizeGrid": "0,104,0,104",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 84,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 21,
+							"var": "iconBtnVideoAd",
+							"texture": "res/iconAds5.png"
+						},
+						"compId": 86
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 70,
+							"var": "txtBtnEnter",
+							"texture": "res/txtBtnHelp.png"
+						},
+						"compId": 85
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 675,
+						"x": 180,
+						"width": 230,
+						"var": "btnClose",
+						"stateNum": 1,
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 81,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 115,
+							"width": 230,
+							"skin": "res/bgBtn0.png",
+							"sizeGrid": "0,104,0,104",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 82,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 46,
+								"texture": "res/txtBtnReject.png",
+								"name": "txt"
+							},
+							"compId": 83
+						}]
+					}]
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 220,
+					"x": 0,
+					"var": "baseOppoAd",
+                    "visible":false
+				},
+				"compId": 69,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 60,
+						"x": -300,
+						"width": 600,
+						"skin": "res/bgOppoAd.png",
+						"sizeGrid": "62,130,26,130",
+						"name": "bg",
+						"height": 330
+					},
+					"compId": 70
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 125,
+						"x": -285,
+						"width": 570,
+						"skin": "res/bgColor0.png",
+						"sizeGrid": "2,2,2,2",
+						"name": "bgTop",
+						"height": 220
+					},
+					"compId": 71
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 130,
+						"x": -280,
+						"width": 560,
+						"skin": "res/oppoAdInfo.png",
+						"name": "imgInfo",
+						"height": 210
+					},
+					"compId": 72
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -95,
+						"x": 140,
+						"width": 230,
+						"var": "btnShow",
+						"stateNum": 1,
+						"name": "btnShow",
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 73,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 115,
+							"width": 230,
+							"var": "imgBtnShowAd",
+							"skin": "res/bgBtn0.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 74,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 46,
+								"texture": "res/txtBtnAd1.png",
+								"name": "txt"
+							},
+							"compId": 75
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 60,
+						"x": 0,
+						"width": 600,
+						"stateNum": 1,
+						"name": "btnShow1",
+						"height": 330,
+						"anchorX": 0.5
+					},
+					"compId": 76
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 87,
+						"text": "label",
+						"strokeColor": "#ffffff",
+						"name": "txtTitle",
+						"fontSize": 36,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 77
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 350,
+						"x": 0,
+						"text": "label",
+						"name": "txtInfo",
+						"fontSize": 30,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 78
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 309,
+						"x": -280,
+						"texture": "res/op_ad.png",
+						"name": "ad"
+					},
+					"compId": 80
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 96,
+						"x": 273,
+						"width": 48,
+						"stateNum": 1,
+						"name": "btnClose",
+						"height": 48,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 87,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 24,
+							"x": 24,
+							"skin": "res/btnCloseAd2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 88
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTitleRevive.png", "res/txtFailInfo.png", "res/bgRect3.png", "res/bgBtn1.png", "res/iconAds5.png", "res/txtBtnHelp.png", "res/bgBtn0.png", "res/txtBtnReject.png", "res/bgOppoAd.png", "res/bgColor0.png", "res/oppoAdInfo.png", "res/txtBtnAd1.png", "res/op_ad.png", "res/btnCloseAd2.png"],
+		"loadList3D": []
+	},
+	"DialogFishs": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 26
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"var": "center",
+				"sizeGrid": "65,65,65,65",
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 3,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -500,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 917,
+					"anchorX": 0.5
+				},
+				"compId": 76,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"x": 29,
+						"width": 582,
+						"skin": "res/bgRankMy.png",
+						"sizeGrid": "5,131,24,131",
+						"name": "baseValue",
+						"height": 90
+					},
+					"compId": 87,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 22,
+							"x": 20,
+							"width": 200,
+							"skin": "res/bgValue.png",
+							"sizeGrid": "0,45,0,55",
+							"name": "bgGold"
+						},
+						"compId": 109,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 4,
+								"x": 4.5,
+								"texture": "res/iconGold.png",
+								"name": "icon"
+							},
+							"compId": 110
+						},
+						{
+							"type": "FontClip",
+							"props": {
+								"y": 17.5,
+								"x": 54,
+								"var": "fcGold",
+								"value": "999999999",
+								"spaceX": -2,
+								"skin": "res/fontNum2.png",
+								"sheet": "0123456789/",
+								"align": "center"
+							},
+							"compId": 111
+						}]
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 22,
+							"x": 230,
+							"width": 200,
+							"skin": "res/bgValue.png",
+							"sizeGrid": "0,45,0,55",
+							"name": "bgFish"
+						},
+						"compId": 112,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 4.5,
+								"x": 4.5,
+								"texture": "res/iconFish.png",
+								"name": "icon"
+							},
+							"compId": 113
+						},
+						{
+							"type": "FontClip",
+							"props": {
+								"y": 17.5,
+								"x": 64,
+								"var": "fcFish",
+								"value": "6/999",
+								"spaceX": -2,
+								"skin": "res/fontNum2.png",
+								"sheet": "0123456789/",
+								"align": "center"
+							},
+							"compId": 114,
+							"child": [{
+								"type": "Image",
+								"props": {
+									"y": -3,
+									"skin": "res/txtFish.png",
+									"right": -22,
+									"name": "txt"
+								},
+								"compId": 115
+							}]
+						}]
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 42,
+							"x": 571,
+							"var": "txtVersion",
+							"text": " v1.0.0.a ",
+							"fontSize": 20,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 1
+						},
+						"compId": 134
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 78
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 79
+				},
+				{
+					"type": "List",
+					"props": {
+						"y": 240,
+						"x": 40,
+						"width": 560,
+						"var": "lstFish",
+						"vScrollBarSkin": " ",
+						"height": 660,
+						"elasticEnabled": true
+					},
+					"compId": 27,
+					"child": [{
+						"type": "Box",
+						"props": {
+							"y": 0,
+							"x": 0,
+							"width": 560,
+							"visible": true,
+							"renderType": "render",
+							"name": "array",
+							"height": 140
+						},
+						"compId": 28,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 65,
+								"x": 280,
+								"width": 560,
+								"skin": "res/rankCellBg.png",
+								"sizeGrid": "27,44,27,44",
+								"name": "bg",
+								"height": 130,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 86
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": 65,
+								"x": 145,
+								"name": "baseFish"
+							},
+							"compId": 116
+						},
+						{
+							"type": "Label",
+							"props": {
+								"y": 70,
+								"x": 300,
+								"text": "LV.30",
+								"name": "txtLv",
+								"fontSize": 26,
+								"font": "Microsoft YaHei",
+								"color": "#1d6887",
+								"bold": true,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 90
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 65,
+								"x": 450,
+								"skin": "res/bgBtn2.png",
+								"scaleY": 0.8,
+								"scaleX": 0.8,
+								"name": "btnBg",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 117
+						},
+						{
+							"type": "FontClip",
+							"props": {
+								"y": 65,
+								"x": 467,
+								"value": "9999",
+								"spaceX": -2,
+								"skin": "res/fontNum3.png",
+								"sheet": "0123456789.kmwe",
+								"scaleY": 0.8,
+								"scaleX": 0.8,
+								"name": "fcGold",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 38,
+							"child": [{
+								"type": "Image",
+								"props": {
+									"y": -6,
+									"skin": "res/iconGold1.png",
+									"name": "icon",
+									"left": -45
+								},
+								"compId": 118
+							}]
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 65,
+								"x": 450,
+								"skin": "res/txtLock.png",
+								"scaleY": 0.7,
+								"scaleX": 0.7,
+								"name": "txtBtn",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 119
+						}]
+					}]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 80,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 116,
+							"texture": "res/txtTitleFishs.png",
+							"name": "txt"
+						},
+						"compId": 81
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 100,
+						"x": 320,
+						"width": 1,
+						"var": "baseOppoAd",
+						"height": 1,
+                        "visible":false
+					},
+					"compId": 94,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 0,
+							"width": 560,
+							"skin": "res/rankCellBg.png",
+							"sizeGrid": "27,44,27,44",
+							"name": "bg",
+							"height": 130,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 129
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 6,
+							"x": -277,
+							"width": 360,
+							"skin": "res/oppoAdInfo.png",
+							"name": "imgInfo",
+							"height": 118
+						},
+						"compId": 97
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 4,
+							"x": -277,
+							"texture": "res/rectLT.png",
+							"name": "rectLT"
+						},
+						"compId": 130
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": 880,
+							"width": 210,
+							"var": "btnShow",
+							"stateNum": 1,
+							"name": "btnShow",
+							"height": 74,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 98,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 37,
+								"x": 105,
+								"var": "imgBtnShowAd",
+								"skin": "res/bgBtn1.png",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 99,
+							"child": [{
+								"type": "Sprite",
+								"props": {
+									"y": 19,
+									"x": 36,
+									"texture": "res/txtBtnAd2.png",
+									"name": "txt"
+								},
+								"compId": 100
+							}]
+						}]
+					},
+					{
+						"type": "Button",
+						"props": {
+							"x": -255,
+							"width": 538,
+							"stateNum": 1,
+							"name": "btnShow1",
+							"height": 130
+						},
+						"compId": 101
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 15,
+							"x": 180,
+							"width": 180,
+							"text": "label",
+							"strokeColor": "#ffffff",
+							"overflow": "scroll",
+							"name": "txtTitle",
+							"fontSize": 28,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 102
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 41,
+							"x": 180,
+							"wordWrap": true,
+							"width": 180,
+							"valign": "middle",
+							"text": "labe",
+							"overflow": "scroll",
+							"name": "txtInfo",
+							"leading": 2,
+							"height": 88,
+							"fontSize": 20,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 103
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": 14,
+							"x": -267,
+							"stateNum": 1,
+							"skin": "res/btnCloseAd2.png",
+							"name": "btnClose",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 104,
+						"child": [{
+							"type": "Image",
+							"props": {},
+							"compId": 133
+						}]
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 108,
+							"x": -277,
+							"texture": "res/op_ad.png",
+							"scaleY": 0.5,
+							"scaleX": 0.5,
+							"name": "ad"
+						},
+						"compId": 105
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -28,
+						"x": 36,
+						"width": 60,
+						"var": "btnClose",
+						"stateNum": 1,
+						"height": 60,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 131,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 30,
+							"x": 30,
+							"skin": "res/iconClose.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 132
+					}]
+				}]
+			}]
+		}],
+		"animations": [{
+			"nodes": [{
+				"target": 47,
+				"keyframes": {
+					"rotation": [{
+						"value": 0,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 47,
+						"key": "rotation",
+						"index": 0
+					},
+					{
+						"value": 360,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 47,
+						"key": "rotation",
+						"index": 20
+					}],
+					"name": [{
+						"value": "",
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 47,
+						"key": "name",
+						"index": 0
+					},
+					{
+						"value": "iconLoad",
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 47,
+						"key": "name",
+						"index": 20
+					}]
+				}
+			}],
+			"name": "ani1",
+			"id": 1,
+			"frameRate": 24,
+			"action": 2
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgRankMy.png", "res/bgValue.png", "res/iconGold.png", "res/fontNum2.png", "res/iconFish.png", "res/txtFish.png", "res/bgTop.png", "res/rankCellBg.png", "res/bgBtn2.png", "res/fontNum3.png", "res/iconGold1.png", "res/txtLock.png", "res/bgTittle.png", "res/txtTitleFishs.png", "res/oppoAdInfo.png", "res/rectLT.png", "res/bgBtn1.png", "res/txtBtnAd2.png", "res/btnCloseAd2.png", "res/op_ad.png", "res/iconClose.png"],
+		"loadList3D": []
+	},
+	"DialogFreeGold": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -550,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 610,
+					"anchorX": 0.5
+				},
+				"compId": 59,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"x": 50,
+						"top": 87,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"bottom": 123
+					},
+					"compId": 60
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 61
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 62
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 63,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 89,
+							"texture": "res/txtTitleFree.png",
+							"name": "txt"
+						},
+						"compId": 64
+					}]
+				},
+				{
+					"type": "Panel",
+					"props": {
+						"y": 97,
+						"x": 60,
+						"width": 520,
+						"height": 380
+					},
+					"compId": 65,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 190,
+							"x": 260,
+							"var": "light",
+							"skin": "res/light.png",
+							"scaleY": 2,
+							"scaleX": 2,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 87
+					}]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 287,
+						"x": 320,
+						"width": 179,
+						"var": "baseGold",
+						"skin": "res/iconGold2.png",
+						"pivotY": 92,
+						"pivotX": 90,
+						"height": 184
+					},
+					"compId": 28
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 87,
+						"x": 50,
+						"top": 87,
+						"skin": "res/bgRect3.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoTop",
+						"left": 50,
+						"bottom": 123
+					},
+					"compId": 68
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 675,
+						"x": 180,
+						"width": 230,
+						"var": "btnStart",
+						"stateNum": 1,
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 81,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 115,
+							"width": 230,
+							"skin": "res/bgBtn0.png",
+							"sizeGrid": "0,104,0,104",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 82,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 34,
+								"texture": "res/txtBtnStartPool.png",
+								"name": "txt"
+							},
+							"compId": 83
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 775,
+						"x": 320,
+						"width": 230,
+						"var": "btnEnter",
+						"stateNum": 1,
+						"skin": "res/bgBtn1.png",
+						"sizeGrid": "0,104,0,104",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 84,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 21,
+							"var": "iconBtnVideoAd",
+							"texture": "res/iconAds5.png"
+						},
+						"compId": 86
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 70,
+							"var": "txtBtnEnter",
+							"texture": "res/txtBtnFree.png"
+						},
+						"compId": 85
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -18,
+						"x": 620,
+						"width": 60,
+						"var": "btnClose",
+						"stateNum": 1,
+						"height": 60,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 93,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 30,
+							"x": 30,
+							"skin": "res/iconClose.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 94
+					}]
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 522,
+						"x": 320,
+						"text": " 『  Not enough gold coins  』 ",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"name": "txtHint0",
+						"fontSize": 28,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 88
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 568,
+						"x": 320,
+						"var": "txtHintGold",
+						"text": " 看视频，免费领取100金币 ",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"fontSize": 28,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 89
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 220,
+					"x": 0,
+					"var": "baseOppoAd",
+                    "visible":false
+				},
+				"compId": 69,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 60,
+						"x": -300,
+						"width": 600,
+						"skin": "res/bgOppoAd.png",
+						"sizeGrid": "62,130,26,130",
+						"name": "bg",
+						"height": 330
+					},
+					"compId": 70
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 125,
+						"x": -285,
+						"width": 570,
+						"skin": "res/bgColor0.png",
+						"sizeGrid": "2,2,2,2",
+						"name": "bgTop",
+						"height": 220
+					},
+					"compId": 71
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 130,
+						"x": -280,
+						"width": 560,
+						"skin": "res/oppoAdInfo.png",
+						"name": "imgInfo",
+						"height": 210
+					},
+					"compId": 72
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -95,
+						"x": 140,
+						"width": 230,
+						"var": "btnShow",
+						"stateNum": 1,
+						"name": "btnShow",
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 73,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 115,
+							"width": 230,
+							"var": "imgBtnShowAd",
+							"skin": "res/bgBtn0.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 74,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 46,
+								"texture": "res/txtBtnAd1.png",
+								"name": "txt"
+							},
+							"compId": 75
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 60,
+						"x": 0,
+						"width": 600,
+						"stateNum": 1,
+						"name": "btnShow1",
+						"height": 330,
+						"anchorX": 0.5
+					},
+					"compId": 76
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 87,
+						"text": "label",
+						"strokeColor": "#ffffff",
+						"name": "txtTitle",
+						"fontSize": 36,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 77
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 350,
+						"x": 0,
+						"text": "label",
+						"name": "txtInfo",
+						"fontSize": 30,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 78
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 309,
+						"x": -280,
+						"texture": "res/op_ad.png",
+						"name": "ad"
+					},
+					"compId": 80
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 96,
+						"x": 273,
+						"width": 48,
+						"stateNum": 1,
+						"name": "btnClose",
+						"height": 48,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 96,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 24,
+							"x": 24,
+							"skin": "res/btnCloseAd2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 97
+					}]
+				}]
+			}]
+		},
+		{
+			"type": "Image",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "baseGoldFrom",
+				"height": 1,
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 90
+		},
+		{
+			"type": "Image",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"width": 1,
+				"var": "baseGoldTo",
+				"height": 1,
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 91
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTitleFree.png", "res/light.png", "res/iconGold2.png", "res/bgRect3.png", "res/bgBtn0.png", "res/txtBtnStartPool.png", "res/bgBtn1.png", "res/iconAds5.png", "res/txtBtnFree.png", "res/iconClose.png", "res/bgOppoAd.png", "res/bgColor0.png", "res/oppoAdInfo.png", "res/txtBtnAd1.png", "res/op_ad.png", "res/btnCloseAd2.png"],
+		"loadList3D": []
+	},
+	"DialogGSL": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 69,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -420,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 740,
+					"anchorX": 0.5
+				},
+				"compId": 82,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 40,
+						"x": 50,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"height": 400
+					},
+					"compId": 83
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 84
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 85
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 86,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 89,
+							"texture": "res/txtTitleHXL.png",
+							"name": "txt"
+						},
+						"compId": 87
+					}]
+				},
+				{
+					"type": "Panel",
+					"props": {
+						"y": 50,
+						"x": 60,
+						"width": 520,
+						"height": 380
+					},
+					"compId": 88,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 258,
+							"x": 180,
+							"var": "baseDrage"
+						},
+						"compId": 89
+					}]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 40,
+						"x": 50,
+						"skin": "res/bgRect3.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoTop",
+						"left": 50,
+						"height": 400
+					},
+					"compId": 93
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 610,
+						"x": 320,
+						"var": "txtHelp",
+						"text": " 『 Gene mutation 』 ",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"fontSize": 28,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 97,
+					"child": [{
+						"type": "Label",
+						"props": {
+							"y": 46,
+							"x": 36,
+							"var": "txtInfo0",
+							"text": "You will become Godzilla ",
+							"fontSize": 24,
+							"font": "Microsoft YaHei",
+							"color": "#950b00"
+						},
+						"compId": 98
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 84,
+							"x": 12,
+							"var": "txtInfo1",
+							"text": "for 15 seconds, Keep going！",
+							"fontSize": 24,
+							"font": "Microsoft YaHei",
+							"color": "#950b00"
+						},
+						"compId": 99
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -28,
+						"x": 36,
+						"width": 60,
+						"var": "btnEnter",
+						"stateNum": 1,
+						"height": 60,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 102,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 30,
+							"x": 30,
+							"skin": "res/iconClose.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 103
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 446,
+						"x": 320,
+						"width": 1,
+						"var": "baseOppoAd",
+						"height": 1,
+                        "visible":false
+					},
+					"compId": 104,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 0,
+							"width": 540,
+							"skin": "res/rankCellBg.png",
+							"sizeGrid": "27,44,27,44",
+							"name": "bg",
+							"height": 130,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 105
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 6,
+							"x": -266,
+							"width": 340,
+							"skin": "res/oppoAdInfo.png",
+							"name": "imgInfo",
+							"height": 118
+						},
+						"compId": 106
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 4,
+							"x": -267,
+							"texture": "res/rectLT.png",
+							"name": "rectLT"
+						},
+						"compId": 107
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": 360,
+							"width": 210,
+							"var": "btnShow",
+							"stateNum": 1,
+							"name": "btnShow",
+							"height": 74,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 108,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 37,
+								"x": 105,
+								"var": "imgBtnShowAd",
+								"skin": "res/bgBtn1.png",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 109,
+							"child": [{
+								"type": "Sprite",
+								"props": {
+									"y": 19,
+									"x": 36,
+									"texture": "res/txtBtnAd2.png",
+									"name": "txt"
+								},
+								"compId": 110
+							}]
+						}]
+					},
+					{
+						"type": "Button",
+						"props": {
+							"x": -270,
+							"width": 540,
+							"stateNum": 1,
+							"name": "btnShow1",
+							"height": 130
+						},
+						"compId": 111
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 15,
+							"x": 170,
+							"width": 190,
+							"text": "label",
+							"strokeColor": "#ffffff",
+							"overflow": "scroll",
+							"name": "txtTitle",
+							"fontSize": 28,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 112
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 41,
+							"x": 170,
+							"wordWrap": true,
+							"width": 190,
+							"valign": "middle",
+							"text": "labe",
+							"overflow": "scroll",
+							"name": "txtInfo",
+							"leading": 2,
+							"height": 88,
+							"fontSize": 20,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 113
+					},
+					{
+						"type": "Button",
+						"props": {
+							"x": -270,
+							"width": 46,
+							"stateNum": 1,
+							"name": "btnClose",
+							"height": 46
+						},
+						"compId": 114,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 8,
+								"x": 8,
+								"skin": "res/btnCloseAd2.png"
+							},
+							"compId": 115
+						}]
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 108,
+							"x": -266,
+							"texture": "res/op_ad.png",
+							"scaleY": 0.5,
+							"scaleX": 0.5,
+							"name": "ad"
+						},
+						"compId": 116
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTitleHXL.png", "res/bgRect3.png", "res/iconClose.png", "res/rankCellBg.png", "res/oppoAdInfo.png", "res/rectLT.png", "res/bgBtn1.png", "res/txtBtnAd2.png", "res/btnCloseAd2.png", "res/op_ad.png"],
+		"loadList3D": []
+	},
+	"DialogHelpPool": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -420,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 740,
+					"anchorX": 0.5
+				},
+				"compId": 81,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 460,
+						"x": 320,
+						"width": 1,
+						"var": "baseOppoAd",
+						"height": 1,
+                        "visible":false
+					},
+					"compId": 106,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 0,
+							"width": 540,
+							"skin": "res/rankCellBg.png",
+							"sizeGrid": "27,44,27,44",
+							"name": "bg",
+							"height": 130,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 107
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 6,
+							"x": -266,
+							"width": 340,
+							"skin": "res/oppoAdInfo.png",
+							"name": "imgInfo",
+							"height": 118
+						},
+						"compId": 108
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 4,
+							"x": -267,
+							"texture": "res/rectLT.png",
+							"name": "rectLT"
+						},
+						"compId": 109
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": 345,
+							"width": 210,
+							"var": "btnShow",
+							"stateNum": 1,
+							"name": "btnShow",
+							"height": 74,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 110,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 37,
+								"x": 105,
+								"var": "imgBtnShowAd",
+								"skin": "res/bgBtn1.png",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 111,
+							"child": [{
+								"type": "Sprite",
+								"props": {
+									"y": 19,
+									"x": 36,
+									"texture": "res/txtBtnAd2.png",
+									"name": "txt"
+								},
+								"compId": 112
+							}]
+						}]
+					},
+					{
+						"type": "Button",
+						"props": {
+							"x": -270,
+							"width": 540,
+							"stateNum": 1,
+							"name": "btnShow1",
+							"height": 130
+						},
+						"compId": 113
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 15,
+							"x": 170,
+							"width": 190,
+							"text": "label",
+							"strokeColor": "#ffffff",
+							"overflow": "scroll",
+							"name": "txtTitle",
+							"fontSize": 28,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 114
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 41,
+							"x": 170,
+							"wordWrap": true,
+							"width": 190,
+							"valign": "middle",
+							"text": "labe",
+							"overflow": "scroll",
+							"name": "txtInfo",
+							"leading": 2,
+							"height": 88,
+							"fontSize": 20,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 115
+					},
+					{
+						"type": "Button",
+						"props": {
+							"x": -270,
+							"width": 46,
+							"stateNum": 1,
+							"name": "btnClose",
+							"height": 46
+						},
+						"compId": 116,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 8,
+								"x": 8,
+								"skin": "res/btnCloseAd2.png"
+							},
+							"compId": 117
+						}]
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 108,
+							"x": -266,
+							"texture": "res/op_ad.png",
+							"scaleY": 0.5,
+							"scaleX": 0.5,
+							"name": "ad"
+						},
+						"compId": 118
+					}]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 40,
+						"x": 50,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"height": 400
+					},
+					"compId": 82
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 83
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 84
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 85,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 89,
+							"texture": "res/txtTitleHint.png",
+							"name": "txt"
+						},
+						"compId": 86
+					}]
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 640,
+						"x": 320,
+						"var": "txtHelpInfo",
+						"text": " 『 合成高级的鱼 』 ",
+						"fontSize": 30,
+						"font": "Microsoft YaHei",
+						"color": "#950b00",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 66
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 256,
+						"x": 312,
+						"var": "baseHelp0"
+					},
+					"compId": 97,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": -13,
+							"x": -91,
+							"width": 183,
+							"var": "fish0",
+							"skin": "res/helpFish0.png",
+							"scaleX": -1,
+							"pivotY": 68,
+							"pivotX": 78,
+							"height": 132
+						},
+						"compId": 95
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": -13,
+							"x": 146,
+							"width": 183,
+							"var": "fish1",
+							"skin": "res/helpFish0.png",
+							"pivotY": 68,
+							"pivotX": 78,
+							"height": 132
+						},
+						"compId": 94,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 128,
+								"x": 118,
+								"var": "baseHand",
+								"scaleY": 1.2,
+								"scaleX": 1.2
+							},
+							"compId": 98,
+							"child": [{
+								"type": "Sprite",
+								"props": {
+									"var": "hand",
+									"texture": "res/hand_02.png"
+								},
+								"compId": 99,
+								"child": [{
+									"type": "Sprite",
+									"props": {
+										"y": -5,
+										"x": -8,
+										"var": "hand0",
+										"texture": "res/hand_01.png"
+									},
+									"compId": 100
+								},
+								{
+									"type": "Sprite",
+									"props": {
+										"y": -11,
+										"x": -4,
+										"var": "hand1",
+										"texture": "res/hand_00.png"
+									},
+									"compId": 101
+								}]
+							}]
+						}]
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": -14,
+							"x": -1,
+							"width": 271,
+							"var": "baseLight",
+							"texture": "res/light.png",
+							"scaleY": 1.5,
+							"scaleX": 1.5,
+							"pivotY": 135,
+							"pivotX": 136,
+							"height": 270
+						},
+						"compId": 103
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": -28,
+							"x": 16,
+							"width": 313,
+							"var": "fish2",
+							"skin": "res/helpFish1.png",
+							"pivotY": 117,
+							"pivotX": 157,
+							"height": 233
+						},
+						"compId": 96
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"var": "baseBomb"
+						},
+						"compId": 102
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -28,
+						"x": 36,
+						"width": 60,
+						"var": "btnEnter",
+						"stateNum": 1,
+						"height": 60,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 119,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 30,
+							"x": 30,
+							"skin": "res/iconClose.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 120
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/rankCellBg.png", "res/oppoAdInfo.png", "res/rectLT.png", "res/bgBtn1.png", "res/txtBtnAd2.png", "res/btnCloseAd2.png", "res/op_ad.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTitleHint.png", "res/helpFish0.png", "res/hand_02.png", "res/hand_01.png", "res/hand_00.png", "res/light.png", "res/helpFish1.png", "res/iconClose.png"],
+		"loadList3D": []
+	},
+	"DialogNewFish": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -420,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 750,
+					"anchorX": 0.5
+				},
+				"compId": 81,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 500,
+						"x": 320,
+						"skin": "res/bgSettle.png",
+						"sizeGrid": "280,0,2,0",
+						"name": "bgLeft",
+						"height": 410,
+						"anchorY": 1,
+						"anchorX": 1
+					},
+					"compId": 100
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 500,
+						"x": 320,
+						"skin": "res/bgSettle.png",
+						"sizeGrid": "280,0,2,0",
+						"scaleX": -1,
+						"name": "bgRight",
+						"height": 410,
+						"anchorY": 1,
+						"anchorX": 1
+					},
+					"compId": 101
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 83
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 84
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 85,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 71,
+							"texture": "res/txtTitleNewFish.png",
+							"name": "txt"
+						},
+						"compId": 86
+					}]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 260,
+						"x": 320,
+						"var": "light",
+						"skin": "res/light.png",
+						"scaleY": 2,
+						"scaleX": 2,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 99
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 260,
+						"x": 313,
+						"var": "baseFish",
+						"rotation": -5
+					},
+					"compId": 67
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 440,
+						"x": 320,
+						"var": "txtHelp",
+						"text": " 『 Unlock new fish 』 ",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"fontSize": 32,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 64
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -28,
+						"x": 36,
+						"width": 60,
+						"var": "btnEnter",
+						"stateNum": 1,
+						"height": 60,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 115,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 30,
+							"x": 30,
+							"skin": "res/iconClose.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 116
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 596,
+						"x": 320,
+						"width": 1,
+						"var": "baseOppoAd",
+						"height": 1,
+                        "visible":false
+					},
+					"compId": 103,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 0,
+							"width": 581,
+							"var": "oppoAdBg",
+							"skin": "res/rectBg2.png",
+							"sizeGrid": "10,10,10,10",
+							"name": "bg",
+							"height": 150,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 104
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": -10,
+							"x": -291,
+							"width": 360,
+							"skin": "res/oppoAdInfo.png",
+							"name": "imgInfo",
+							"height": 150
+						},
+						"compId": 105
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": 215,
+							"width": 210,
+							"var": "btnShow",
+							"stateNum": 1,
+							"name": "btnShow",
+							"height": 74,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 107,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 37,
+								"x": 105,
+								"var": "imgBtnShowAd",
+								"skin": "res/bgBtn1.png",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 108,
+							"child": [{
+								"type": "Sprite",
+								"props": {
+									"y": 19,
+									"x": 36,
+									"texture": "res/txtBtnAd2.png",
+									"name": "txt"
+								},
+								"compId": 109
+							}]
+						}]
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": -10,
+							"x": -265,
+							"width": 558,
+							"stateNum": 1,
+							"name": "btnShow1",
+							"height": 150
+						},
+						"compId": 110
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 0,
+							"x": 180,
+							"width": 210,
+							"text": "label",
+							"strokeColor": "#ffffff",
+							"overflow": "scroll",
+							"name": "txtTitle",
+							"fontSize": 28,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 111
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 30,
+							"x": 180,
+							"wordWrap": true,
+							"width": 210,
+							"valign": "middle",
+							"text": "labe",
+							"overflow": "scroll",
+							"name": "txtInfo",
+							"leading": 2,
+							"height": 110,
+							"fontSize": 20,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 112
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": 2,
+							"x": -280,
+							"stateNum": 1,
+							"skin": "res/btnCloseAd2.png",
+							"name": "btnClose",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 113
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 124,
+							"x": -291,
+							"texture": "res/op_ad.png",
+							"scaleY": 0.5,
+							"scaleX": 0.5,
+							"name": "ad"
+						},
+						"compId": 114
+					}]
+				},
+				{
+					"type": "FontClip",
+					"props": {
+						"y": 530,
+						"x": 368,
+						"var": "fcGold",
+						"value": "88",
+						"spaceX": -2,
+						"skin": "res/fontNum3.png",
+						"sheet": "0123456789.kmwe",
+						"anchorX": 0.5,
+						"align": "center"
+					},
+					"compId": 96,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": -2,
+							"skin": "res/txtReward.png",
+							"name": "txt",
+							"left": -112
+						},
+						"compId": 97,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": -4,
+								"x": 70,
+								"var": "iconGold",
+								"texture": "res/iconGold1.png"
+							},
+							"compId": 98
+						}]
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgSettle.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTitleNewFish.png", "res/light.png", "res/iconClose.png", "res/rectBg2.png", "res/oppoAdInfo.png", "res/bgBtn1.png", "res/txtBtnAd2.png", "res/btnCloseAd2.png", "res/op_ad.png", "res/fontNum3.png", "res/txtReward.png", "res/iconGold1.png"],
+		"loadList3D": []
+	},
+	"DialogNotice": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -480,
+					"x": 0,
+					"width": 640,
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"name": "bg",
+					"height": 773,
+					"anchorX": 0.5
+				},
+				"compId": 81,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 40,
+						"x": 50,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"height": 685
+					},
+					"compId": 82
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 83
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 84
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 85,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 89,
+							"texture": "res/txtTtileNotice.png",
+							"name": "txt"
+						},
+						"compId": 86
+					}]
+				},
+				{
+					"type": "Panel",
+					"props": {
+						"y": 63,
+						"x": 60,
+						"width": 520,
+						"height": 380
+					},
+					"compId": 87,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 284,
+							"x": 253,
+							"var": "baseDrage",
+							"rotation": -5
+						},
+						"compId": 88
+					}]
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 120,
+						"x": 91,
+						"text": " 祝您『 新年快乐，万事如意 』 ",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"name": "txtTitle0",
+						"fontSize": 28,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5
+					},
+					"compId": 69
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 150,
+						"x": 86,
+						"text": "  喜迎新春，开启「爆竹声声迎新春」、\\n「鱼跃龙门，幻化成龙」活动。",
+						"name": "txtInfo0",
+						"leading": 8,
+						"fontSize": 26,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true
+					},
+					"compId": 68
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 280,
+						"x": 80,
+						"text": " 『 爆竹声声迎新春 』活动说明",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"name": "txtTitle1",
+						"fontSize": 28,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5
+					},
+					"compId": 64
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 310,
+						"x": 103,
+						"text": "燃放鞭炮可以吓跑大鱼，吓晕小鱼。\\n大鱼出现时，背包里的鞭炮自动燃放。\\n在游戏过程中，拾取鞭炮，立即点燃。",
+						"name": "txtInfo1",
+						"leading": 10,
+						"fontSize": 26,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true
+					},
+					"compId": 66
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 480,
+						"x": 80,
+						"text": " 『 鱼跃龙门，幻化成龙 』活动说明",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"name": "txtTitle2",
+						"fontSize": 28,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5
+					},
+					"compId": 70
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 510,
+						"x": 103,
+						"text": "每次升级，获得一次跃龙门的机会。\\n成功跃过龙门，幻化成龙，吞噬一切！\\n每次幻化成龙，保持金龙形象15秒。",
+						"name": "txtInfo2",
+						"leading": 10,
+						"fontSize": 26,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true
+					},
+					"compId": 65
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 848,
+						"x": 320,
+						"var": "btnEnter",
+						"stateNum": 1,
+						"skin": "res/bgBtn1.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 12,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 61,
+							"texture": "res/txtBtnEnter.png",
+							"name": "txt"
+						},
+						"compId": 13
+					}]
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 1334,
+				"x": 375,
+				"var": "baseOppoAd",
+                "visible":false
+			},
+			"compId": 71,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -130,
+					"x": -375,
+					"width": 750,
+					"skin": "res/bgColor0.png",
+					"sizeGrid": "3,3,3,3",
+					"name": "bottom",
+					"height": 130
+				},
+				"compId": 72
+			},
+			{
+				"type": "Image",
+				"props": {
+					"y": -125,
+					"x": -340,
+					"width": 530,
+					"skin": "res/rectBg2.png",
+					"sizeGrid": "10,10,10,10",
+					"name": "top",
+					"height": 120
+				},
+				"compId": 73
+			},
+			{
+				"type": "Image",
+				"props": {
+					"y": -120,
+					"x": -335,
+					"width": 350,
+					"skin": "res/oppoAdInfo.png",
+					"name": "imgInfo",
+					"height": 110
+				},
+				"compId": 74
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": -28,
+					"x": -340,
+					"texture": "res/op_ad1.png",
+					"name": "iconAd"
+				},
+				"compId": 75
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": -130,
+					"x": -340,
+					"width": 720,
+					"name": "btnShow",
+					"height": 130
+				},
+				"compId": 76
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": -125,
+					"x": -365,
+					"stateNum": 1,
+					"skin": "res/btnCloseAd2.png",
+					"name": "btnClose"
+				},
+				"compId": 77
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": -95,
+					"x": 216,
+					"var": "imgBtnShow",
+					"texture": "res/btnShowAd.png",
+					"name": "imgBtnShow"
+				},
+				"compId": 78
+			},
+			{
+				"type": "Label",
+				"props": {
+					"y": -112,
+					"x": 23,
+					"width": 159,
+					"valign": "middle",
+					"text": "标题",
+					"overflow": "scroll",
+					"name": "txtTitle",
+					"height": 36,
+					"fontSize": 24,
+					"font": "Microsoft YaHei",
+					"color": "#0f233b",
+					"bold": true,
+					"align": "center"
+				},
+				"compId": 79
+			},
+			{
+				"type": "Label",
+				"props": {
+					"y": -78,
+					"x": 21,
+					"wordWrap": true,
+					"width": 166,
+					"valign": "middle",
+					"text": "内容",
+					"name": "txtInfo",
+					"leading": 2,
+					"height": 69,
+					"fontSize": 20,
+					"font": "Microsoft YaHei",
+					"color": "#0f233b",
+					"bold": true,
+					"align": "center"
+				},
+				"compId": 80
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTtileNotice.png", "res/bgBtn1.png", "res/txtBtnEnter.png", "res/bgColor0.png", "res/rectBg2.png", "res/oppoAdInfo.png", "res/op_ad1.png", "res/btnCloseAd2.png", "res/btnShowAd.png"],
+		"loadList3D": []
+	},
+	"DialogPause": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.5
+			},
+			"compId": 12
+		},
+		{
+			"type": "Image",
+			"props": {
+				"y": 667,
+				"x": 375,
+				"width": 680,
+				"var": "center",
+				"skin": "res/bgOppoAd.png",
+				"sizeGrid": "62,130,26,130",
+				"height": 360,
+				"anchorY": 0.5,
+				"anchorX": 0.5,
+				"alpha": 1
+			},
+			"compId": 3,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": 75,
+					"x": 20,
+					"width": 640,
+					"skin": "res/bgColor0.png",
+					"sizeGrid": "2,2,2,2",
+					"name": "bgTop",
+					"height": 264
+				},
+				"compId": 13
+			},
+			{
+				"type": "Image",
+				"props": {
+					"y": 105,
+					"x": 162,
+					"text": "label",
+					"skin": "res/fnt_qdlk.png",
+					"name": "txtInfo"
+				},
+				"compId": 5
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 255,
+					"x": 478,
+					"var": "btnEnter",
+					"stateNum": 1,
+					"skin": "res/bgBtn2.png",
+					"sizeGrid": "0,104,0,104",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 14,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 18,
+						"x": 36,
+						"texture": "res/fnt_hxlk.png"
+					},
+					"compId": 17
+				}]
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 255,
+					"x": 199,
+					"width": 230,
+					"var": "btnCancel",
+					"stateNum": 1,
+					"height": 74,
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 15,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 37,
+						"x": 115,
+						"skin": "res/bgBtn1.png",
+						"sizeGrid": "0,104,0,104",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 18,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 36,
+							"texture": "res/fnt_hxzy.png",
+							"name": "txt"
+						},
+						"compId": 19
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgOppoAd.png", "res/bgColor0.png", "res/fnt_qdlk.png", "res/bgBtn2.png", "res/fnt_hxlk.png", "res/bgBtn1.png", "res/fnt_hxzy.png"],
+		"loadList3D": []
+	},
+	"DialogRank": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 26
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"var": "center",
+				"sizeGrid": "65,65,65,65",
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 3,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -500,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 885,
+					"anchorX": 0.5
+				},
+				"compId": 76,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 78
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 79
+				},
+				{
+					"type": "List",
+					"props": {
+						"y": 153,
+						"x": 40,
+						"width": 560,
+						"var": "lstRank",
+						"vScrollBarSkin": " ",
+						"height": 610,
+						"elasticEnabled": true
+					},
+					"compId": 27,
+					"child": [{
+						"type": "Box",
+						"props": {
+							"y": 0,
+							"x": 0,
+							"width": 560,
+							"visible": true,
+							"renderType": "render",
+							"name": "array",
+							"height": 120
+						},
+						"compId": 28,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 65,
+								"x": 280,
+								"width": 560,
+								"skin": "res/rankCellBg.png",
+								"sizeGrid": "27,44,27,44",
+								"name": "bg",
+								"height": 110,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 86
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 65,
+								"x": 50,
+								"width": 52,
+								"skin": "res/bgRankNum.png",
+								"pivotY": 26,
+								"pivotX": 26,
+								"name": "bgNumBottom",
+								"height": 52
+							},
+							"compId": 89
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 65,
+								"x": 50,
+								"width": 50,
+								"skin": "res/bgRankNum0.png",
+								"sizeGrid": "5,5,5,5",
+								"name": "bgNumTop",
+								"height": 40,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 88
+						},
+						{
+							"type": "FontClip",
+							"props": {
+								"y": 65,
+								"x": 48,
+								"value": "88",
+								"spaceX": -4,
+								"skin": "res/fontNum0.png",
+								"sheet": "0123456789",
+								"name": "fcRank",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 39
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 62,
+								"x": 53,
+								"skin": "res/iconRank0.png",
+								"name": "imgRank",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 31
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 65,
+								"x": 130,
+								"width": 68,
+								"skin": "res/head.png",
+								"name": "headImg",
+								"height": 68,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 32
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 65,
+								"x": 130,
+								"width": 70,
+								"skin": "res/icon_head_mask.png",
+								"name": "headMask",
+								"height": 70,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 33
+						},
+						{
+							"type": "Label",
+							"props": {
+								"y": 53,
+								"x": 180,
+								"text": "LV.30",
+								"name": "txtLv",
+								"fontSize": 26,
+								"font": "Microsoft YaHei",
+								"color": "#1d6887",
+								"bold": true,
+								"anchorY": 0.5
+							},
+							"compId": 90
+						},
+						{
+							"type": "Label",
+							"props": {
+								"y": 85,
+								"x": 180,
+								"text": "玩家姓名六字 ",
+								"name": "txtName",
+								"fontSize": 26,
+								"font": "Microsoft YaHei",
+								"color": "#1d6887",
+								"bold": true,
+								"anchorY": 0.5
+							},
+							"compId": 34
+						},
+						{
+							"type": "FontClip",
+							"props": {
+								"y": 65,
+								"x": 470,
+								"value": "999",
+								"spaceX": -2,
+								"skin": "res/fontNum1.png",
+								"sheet": "01234 56789",
+								"scaleY": 0.4,
+								"scaleX": 0.4,
+								"name": "fcScore",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 38
+						}]
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 753,
+						"x": 40,
+						"visible": true,
+						"var": "my"
+					},
+					"compId": 41,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 10,
+							"x": -11,
+							"width": 582,
+							"skin": "res/bgRankMy.png",
+							"sizeGrid": "5,131,24,131",
+							"name": "bg",
+							"height": 105
+						},
+						"compId": 87
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 50,
+							"width": 52,
+							"var": "bgNumBottom",
+							"skin": "res/bgRankNum.png",
+							"pivotY": 26,
+							"pivotX": 26,
+							"height": 52
+						},
+						"compId": 92
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 50,
+							"width": 65,
+							"var": "bgNumTop",
+							"skin": "res/bgRankNum0.png",
+							"sizeGrid": "5,5,5,5",
+							"height": 40,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 93
+					},
+					{
+						"type": "FontClip",
+						"props": {
+							"y": 65,
+							"x": 48,
+							"visible": false,
+							"var": "fcRank",
+							"value": "888",
+							"spaceX": -4,
+							"skin": "res/fontNum0.png",
+							"sheet": "0123456789",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 45
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 64,
+							"x": 50,
+							"var": "imgRank",
+							"skin": "res/fnt_wdcj.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 25
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 130,
+							"width": 68,
+							"var": "headImg",
+							"skin": "res/head.png",
+							"height": 68,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 21
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 130,
+							"width": 70,
+							"var": "headMask",
+							"skin": "res/icon_head_mask.png",
+							"height": 70,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 44
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 53,
+							"x": 180,
+							"var": "txtLv",
+							"text": "--",
+							"fontSize": 26,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorY": 0.5
+						},
+						"compId": 91
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 85,
+							"x": 180,
+							"var": "txtName",
+							"text": "--",
+							"fontSize": 26,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorY": 0.5
+						},
+						"compId": 22
+					},
+					{
+						"type": "FontClip",
+						"props": {
+							"y": 65,
+							"x": 470,
+							"var": "fcScore",
+							"value": "999",
+							"spaceX": -2,
+							"skin": "res/fontNum1.png",
+							"sheet": "01234 56789",
+							"scaleY": 0.4,
+							"scaleX": 0.4,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 24
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -28,
+						"x": 36,
+						"width": 60,
+						"var": "btnClose",
+						"stateNum": 1,
+						"height": 60,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 120,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 30,
+							"x": 30,
+							"skin": "res/iconClose.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 121
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 20,
+						"x": 320,
+						"width": 1,
+						"var": "baseOppoAd",
+						"height": 1,
+                        "visible":false
+					},
+					"compId": 108,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 0,
+							"width": 560,
+							"skin": "res/rankCellBg.png",
+							"sizeGrid": "27,44,27,44",
+							"name": "bg",
+							"height": 130,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 109
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 6,
+							"x": -277,
+							"width": 360,
+							"skin": "res/oppoAdInfo.png",
+							"name": "imgInfo",
+							"height": 118
+						},
+						"compId": 110
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 4,
+							"x": -277,
+							"texture": "res/rectLT.png",
+							"name": "rectLT"
+						},
+						"compId": 111
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": 930,
+							"width": 210,
+							"var": "btnShow",
+							"stateNum": 1,
+							"name": "btnShow",
+							"height": 74,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 112,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 37,
+								"x": 105,
+								"var": "imgBtnShowAd",
+								"skin": "res/bgBtn1.png",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 113,
+							"child": [{
+								"type": "Sprite",
+								"props": {
+									"y": 19,
+									"x": 36,
+									"texture": "res/txtBtnAd2.png",
+									"name": "txt"
+								},
+								"compId": 114
+							}]
+						}]
+					},
+					{
+						"type": "Button",
+						"props": {
+							"x": -255,
+							"width": 538,
+							"stateNum": 1,
+							"name": "btnShow1",
+							"height": 130
+						},
+						"compId": 115
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 15,
+							"x": 180,
+							"width": 180,
+							"text": "label",
+							"strokeColor": "#ffffff",
+							"overflow": "scroll",
+							"name": "txtTitle",
+							"fontSize": 28,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 116
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 41,
+							"x": 180,
+							"wordWrap": true,
+							"width": 180,
+							"valign": "middle",
+							"text": "labe",
+							"overflow": "scroll",
+							"name": "txtInfo",
+							"leading": 2,
+							"height": 88,
+							"fontSize": 20,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 117
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": 14,
+							"x": -267,
+							"stateNum": 1,
+							"skin": "res/btnCloseAd2.png",
+							"name": "btnClose",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 118
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 108,
+							"x": -277,
+							"texture": "res/op_ad.png",
+							"scaleY": 0.5,
+							"scaleX": 0.5,
+							"name": "ad"
+						},
+						"compId": 119
+					}]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 2,
+						"x": 320,
+						"width": 582,
+						"var": "baseLoading",
+						"skin": "res/rankLoadBg.png",
+						"sizeGrid": "2,2,2,2",
+						"height": 864,
+						"anchorX": 0.5
+					},
+					"compId": 46,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 432,
+							"x": 291,
+							"var": "iconLoad",
+							"skin": "res/icon_load.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 47
+					}]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 80,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 107,
+							"texture": "res/fnt_zjph.png",
+							"name": "txt"
+						},
+						"compId": 81
+					}]
+				}]
+			}]
+		}],
+		"animations": [{
+			"nodes": [{
+				"target": 47,
+				"keyframes": {
+					"rotation": [{
+						"value": 0,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 47,
+						"key": "rotation",
+						"index": 0
+					},
+					{
+						"value": 360,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 47,
+						"key": "rotation",
+						"index": 20
+					}],
+					"name": [{
+						"value": "",
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 47,
+						"key": "name",
+						"index": 0
+					},
+					{
+						"value": "iconLoad",
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 47,
+						"key": "name",
+						"index": 20
+					}]
+				}
+			}],
+			"name": "ani1",
+			"id": 1,
+			"frameRate": 24,
+			"action": 2
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgTop.png", "res/rankCellBg.png", "res/bgRankNum.png", "res/bgRankNum0.png", "res/fontNum0.png", "res/iconRank0.png", "res/head.png", "res/icon_head_mask.png", "res/fontNum1.png", "res/bgRankMy.png", "res/fnt_wdcj.png", "res/iconClose.png", "res/oppoAdInfo.png", "res/rectLT.png", "res/bgBtn1.png", "res/txtBtnAd2.png", "res/btnCloseAd2.png", "res/op_ad.png", "res/rankLoadBg.png", "res/icon_load.png", "res/bgTittle.png", "res/fnt_zjph.png"],
+		"loadList3D": []
+	},
+	"DialogRevive": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -480,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 740,
+					"anchorX": 0.5
+				},
+				"compId": 59,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"x": 50,
+						"top": 87,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"height": 400
+					},
+					"compId": 63
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 64
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 65
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 66,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 116,
+							"texture": "res/txtTitleRevive.png",
+							"name": "txt"
+						},
+						"compId": 67
+					}]
+				},
+				{
+					"type": "Panel",
+					"props": {
+						"y": 97,
+						"x": 60,
+						"width": 520,
+						"height": 380
+					},
+					"compId": 68,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 220,
+							"x": 356,
+							"var": "baseLead",
+							"scaleY": 1,
+							"scaleX": 1
+						},
+						"compId": 28
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 220,
+							"x": 90,
+							"var": "baseNPC",
+							"scaleY": 1,
+							"scaleX": -1
+						},
+						"compId": 29
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 680,
+						"x": 320,
+						"width": 330,
+						"var": "txtHint",
+						"texture": "res/txtRevive.png",
+						"pivotY": 26,
+						"pivotX": 165,
+						"height": 52
+					},
+					"compId": 70
+				},
+				{
+					"type": "Image",
+					"props": {
+						"x": 50,
+						"top": 87,
+						"skin": "res/bgRect3.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoTop",
+						"left": 50,
+						"height": 400
+					},
+					"compId": 71
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 800,
+						"x": 320,
+						"width": 230,
+						"var": "btnRevive",
+						"stateNum": 1,
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 87,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 115,
+							"width": 230,
+							"var": "imgBtnRevive",
+							"skin": "res/bgBtn1.png",
+							"sizeGrid": "0,104,0,104",
+							"height": 74,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 110,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 18,
+								"x": 70,
+								"var": "txtBtnEnter",
+								"texture": "res/txtBtnHelp.png"
+							},
+							"compId": 90
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": 17,
+								"x": 21,
+								"var": "iconBtnVideoAd",
+								"texture": "res/iconAds5.png"
+							},
+							"compId": 89
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -28,
+						"x": 36,
+						"width": 60,
+						"var": "btnClose",
+						"stateNum": 1,
+						"height": 60,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 95,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 30,
+							"x": 30,
+							"skin": "res/iconClose.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 96
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 505,
+						"x": 320,
+						"width": 1,
+						"var": "baseOppoAd",
+						"height": 1,
+                        "visible":false
+					},
+					"compId": 97,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 65,
+							"x": 0,
+							"width": 540,
+							"skin": "res/rankCellBg.png",
+							"sizeGrid": "27,44,27,44",
+							"name": "bg",
+							"height": 130,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 98
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 6,
+							"x": -266,
+							"width": 340,
+							"skin": "res/oppoAdInfo.png",
+							"name": "imgInfo",
+							"height": 118
+						},
+						"compId": 99
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 4,
+							"x": -267,
+							"texture": "res/rectLT.png",
+							"name": "rectLT"
+						},
+						"compId": 100
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": 370,
+							"x": 0,
+							"width": 230,
+							"var": "btnShow",
+							"stateNum": 1,
+							"name": "btnShow",
+							"height": 74,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 101,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 37,
+								"x": 115,
+								"width": 230,
+								"height": 74,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 102,
+							"child": [{
+								"type": "Sprite",
+								"props": {
+									"y": 16,
+									"x": 42,
+									"texture": "res/txtBtnOppoAd.png",
+									"name": "txt"
+								},
+								"compId": 103
+							}]
+						}]
+					},
+					{
+						"type": "Button",
+						"props": {
+							"x": -270,
+							"width": 540,
+							"stateNum": 1,
+							"name": "btnShow1",
+							"height": 130
+						},
+						"compId": 104
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 15,
+							"x": 170,
+							"width": 190,
+							"text": "label",
+							"strokeColor": "#ffffff",
+							"overflow": "scroll",
+							"name": "txtTitle",
+							"fontSize": 28,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 105
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": 41,
+							"x": 170,
+							"wordWrap": true,
+							"width": 190,
+							"valign": "middle",
+							"text": "labe",
+							"overflow": "scroll",
+							"name": "txtInfo",
+							"leading": 2,
+							"height": 88,
+							"fontSize": 20,
+							"font": "Microsoft YaHei",
+							"color": "#1d6887",
+							"bold": true,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 106
+					},
+					{
+						"type": "Button",
+						"props": {
+							"x": -270,
+							"width": 46,
+							"stateNum": 1,
+							"name": "btnClose",
+							"height": 46
+						},
+						"compId": 107,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 8,
+								"x": 8,
+								"skin": "res/btnCloseAd2.png"
+							},
+							"compId": 108
+						}]
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 108,
+							"x": -266,
+							"texture": "res/op_ad.png",
+							"scaleY": 0.5,
+							"scaleX": 0.5,
+							"name": "ad"
+						},
+						"compId": 109
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTitleRevive.png", "res/txtRevive.png", "res/bgRect3.png", "res/bgBtn1.png", "res/txtBtnHelp.png", "res/iconAds5.png", "res/iconClose.png", "res/rankCellBg.png", "res/oppoAdInfo.png", "res/rectLT.png", "res/txtBtnOppoAd.png", "res/btnCloseAd2.png", "res/op_ad.png"],
+		"loadList3D": []
+	},
+	"DialogSettle": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -535,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 580,
+					"anchorX": 0.5
+				},
+				"compId": 89,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 32,
+						"x": 320,
+						"skin": "res/bgSettle.png",
+						"sizeGrid": "280,0,2,0",
+						"name": "bgLeft",
+						"height": 455,
+						"anchorX": 1
+					},
+					"compId": 112
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 32,
+						"x": 320,
+						"skin": "res/bgSettle.png",
+						"sizeGrid": "280,0,2,0",
+						"scaleX": -1,
+						"name": "bgRight",
+						"height": 455,
+						"anchorX": 1
+					},
+					"compId": 117
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 102
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 103
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 104,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 89,
+							"texture": "res/fnt_wdch.png",
+							"name": "txt"
+						},
+						"compId": 105
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 180,
+						"x": 321,
+						"width": 216,
+						"var": "iconTitle",
+						"texture": "res/head1.png",
+						"pivotY": 108,
+						"pivotX": 108,
+						"height": 216
+					},
+					"compId": 9
+				},
+				{
+					"type": "FontClip",
+					"props": {
+						"y": 421,
+						"x": 354,
+						"var": "fcScore",
+						"value": "9",
+						"skin": "res/fontNum1.png",
+						"sheet": "01234 56789",
+						"scaleY": 0.5,
+						"scaleX": 0.5,
+						"anchorX": 0.5,
+						"align": "center"
+					},
+					"compId": 11,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 8,
+							"skin": "res/txtScore0.png",
+							"scaleY": 2,
+							"scaleX": 2,
+							"name": "txtLeft",
+							"left": -318
+						},
+						"compId": 20
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": 8,
+							"skin": "res/txtScore1.png",
+							"scaleY": 2,
+							"scaleX": 2,
+							"right": -171,
+							"name": "txtRight"
+						},
+						"compId": 21
+					}]
+				},
+				{
+					"type": "FontClip",
+					"props": {
+						"y": 319,
+						"x": 320,
+						"var": "fcTitle",
+						"value": "小鱼新手",
+						"skin": "res/fontTxtTitle.png",
+						"sheet": "小鱼新手达 人霸王者宗 师健将精英",
+						"anchorX": 0.5,
+						"align": "center"
+					},
+					"compId": 113
+				},
+				{
+					"type": "FontClip",
+					"props": {
+						"y": 508,
+						"x": 368,
+						"var": "fcGold",
+						"value": "888",
+						"spaceX": -2,
+						"skin": "res/fontNum3.png",
+						"sheet": "0123456789.kmwe",
+						"anchorX": 0.5,
+						"align": "center"
+					},
+					"compId": 127,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": -1,
+							"skin": "res/txtGetGold.png",
+							"name": "txt",
+							"left": -108
+						},
+						"compId": 124,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": -7,
+								"x": 64,
+								"var": "iconGold",
+								"texture": "res/iconGold1.png"
+							},
+							"compId": 125
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 796,
+						"x": 320,
+						"width": 278,
+						"var": "btnRecord",
+						"stateNum": 1,
+						"height": 100,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 84,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 50,
+							"x": 139,
+							"width": 278,
+							"var": "imgBtnShare",
+							"skin": "res/bgBtn1.png",
+							"sizeGrid": "15,64,50,64",
+							"height": 100,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 85,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 31,
+								"x": 84,
+								"texture": "res/txtBtnShare12.png",
+								"name": "txt"
+							},
+							"compId": 86
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": 23,
+								"x": 29,
+								"texture": "res/iconVideo.png",
+								"name": "icon"
+							},
+							"compId": 87
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 745,
+						"x": 320,
+						"var": "btnClose",
+						"stateNum": 1,
+						"skin": "res/bgBtn0.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 118,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 19,
+							"x": 36,
+							"var": "txtBtnEnter",
+							"texture": "res/txtBtnHome1.png"
+						},
+						"compId": 120
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 650,
+						"x": 185,
+						"width": 210,
+						"var": "btnReStart",
+						"stateNum": 1,
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 119,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 105,
+							"skin": "res/bgBtn0.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 122,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 36,
+								"texture": "res/fnt_zlyc.png",
+								"name": "txt"
+							},
+							"compId": 123
+						}]
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 0,
+						"x": 0,
+						"var": "baseAd1"
+					},
+					"compId": 173,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 744,
+							"x": 320,
+							"var": "baseOppoAd1"
+						},
+						"compId": 160,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 60,
+								"x": -300,
+								"width": 600,
+								"skin": "res/bgOppoAd.png",
+								"sizeGrid": "62,130,26,130",
+								"name": "bg",
+								"height": 330
+							},
+							"compId": 161
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 125,
+								"x": -285,
+								"width": 570,
+								"skin": "res/bgColor0.png",
+								"sizeGrid": "2,2,2,2",
+								"name": "bgTop",
+								"height": 220
+							},
+							"compId": 162
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": 130,
+								"x": -280,
+								"width": 560,
+								"skin": "res/oppoAdInfo.png",
+								"name": "imgInfo",
+								"height": 210
+							},
+							"compId": 163
+						},
+						{
+							"type": "Button",
+							"props": {
+								"y": -95,
+								"x": 135,
+								"width": 210,
+								"var": "btnShow",
+								"stateNum": 1,
+								"name": "btnShow",
+								"height": 74,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 164,
+							"child": [{
+								"type": "Image",
+								"props": {
+									"y": 37,
+									"x": 105,
+									"skin": "res/bgBtn0.png",
+									"anchorY": 0.5,
+									"anchorX": 0.5
+								},
+								"compId": 165,
+								"child": [{
+									"type": "Sprite",
+									"props": {
+										"y": 19,
+										"x": 36,
+										"texture": "res/txtBtnAd1.png",
+										"name": "txt"
+									},
+									"compId": 166
+								}]
+							}]
+						},
+						{
+							"type": "Button",
+							"props": {
+								"y": 60,
+								"x": 0,
+								"width": 600,
+								"stateNum": 1,
+								"name": "btnShow1",
+								"height": 330,
+								"anchorX": 0.5
+							},
+							"compId": 167
+						},
+						{
+							"type": "Label",
+							"props": {
+								"y": 85,
+								"text": "label",
+								"strokeColor": "#ffffff",
+								"name": "txtTitle",
+								"fontSize": 36,
+								"font": "Microsoft YaHei",
+								"color": "#ffffff",
+								"bold": true,
+								"anchorX": 0.5
+							},
+							"compId": 168
+						},
+						{
+							"type": "Label",
+							"props": {
+								"y": 350,
+								"x": 0,
+								"text": "label",
+								"name": "txtInfo",
+								"fontSize": 30,
+								"font": "Microsoft YaHei",
+								"color": "#ffffff",
+								"bold": true,
+								"anchorX": 0.5
+							},
+							"compId": 169
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": 309,
+								"x": -280,
+								"texture": "res/op_ad.png",
+								"name": "ad"
+							},
+							"compId": 170
+						},
+						{
+							"type": "Button",
+							"props": {
+								"y": 96,
+								"x": 273,
+								"width": 48,
+								"var": "btnCloseAd",
+								"stateNum": 1,
+								"name": "btnClose",
+								"height": 48,
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 171,
+							"child": [{
+								"type": "Image",
+								"props": {
+									"y": 24,
+									"x": 24,
+									"skin": "res/btnCloseAd2.png",
+									"anchorY": 0.5,
+									"anchorX": 0.5
+								},
+								"compId": 172
+							}]
+						}]
+					}]
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"var": "baseAd"
+			},
+			"compId": 143,
+			"child": [{
+				"type": "Button",
+				"props": {
+					"y": 0,
+					"x": 0,
+					"width": 750,
+					"var": "bgAd",
+					"stateNum": 1,
+					"skin": "res/null1.png",
+					"sizeGrid": "4,4,4,4",
+					"height": 1334
+				},
+				"compId": 158,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"visible": false,
+						"var": "bgAd1",
+						"top": 0,
+						"skin": "res/null1.png",
+						"sizeGrid": "4,4,4,4",
+						"right": 0,
+						"left": 0,
+						"bottom": 0
+					},
+					"compId": 159
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 667,
+					"x": 375,
+					"var": "baseOppoAd",
+                    "visible":false
+				},
+				"compId": 145,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": -480,
+						"x": -330,
+						"width": 660,
+						"skin": "res/bgOppoAd.png",
+						"sizeGrid": "62,130,26,130",
+						"name": "bg",
+						"height": 700
+					},
+					"compId": 146
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -365,
+						"x": -315,
+						"width": 630,
+						"skin": "res/bgColor0.png",
+						"sizeGrid": "2,2,2,2",
+						"name": "bgTop",
+						"height": 500
+					},
+					"compId": 147
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -362,
+						"x": -312,
+						"width": 624,
+						"skin": "res/oppoAdInfo.png",
+						"name": "imgInfo",
+						"height": 493
+					},
+					"compId": 148
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 320,
+						"x": 0,
+						"width": 260,
+						"stateNum": 1,
+						"name": "btnShow",
+						"height": 96,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 149,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 48,
+							"x": 130,
+							"width": 260,
+							"var": "imgBtnShowAd",
+							"skin": "res/bgBtn2.png",
+							"height": 96,
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 150,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 23,
+								"x": 41,
+								"texture": "res/fnt_ad.png",
+								"name": "txt"
+							},
+							"compId": 151
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -480,
+						"width": 658,
+						"stateNum": 1,
+						"name": "btnShow1",
+						"height": 700,
+						"anchorX": 0.5
+					},
+					"compId": 152
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": -428,
+						"x": 0,
+						"text": "label",
+						"strokeColor": "#ffffff",
+						"name": "txtTitle",
+						"fontSize": 36,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 153
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 160,
+						"x": 0,
+						"text": "label",
+						"name": "txtInfo",
+						"fontSize": 30,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 154
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 99,
+						"x": 248,
+						"texture": "res/op_ad.png",
+						"name": "ad"
+					},
+					"compId": 155
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -442,
+						"x": -304,
+						"width": 48,
+						"stateNum": 1,
+						"name": "btnClose",
+						"height": 48,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 156,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 24,
+							"x": 24,
+							"skin": "res/btnCloseAd2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 157
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgSettle.png", "res/bgTop.png", "res/bgTittle.png", "res/fnt_wdch.png", "res/head1.png", "res/fontNum1.png", "res/txtScore0.png", "res/txtScore1.png", "res/fontTxtTitle.png", "res/fontNum3.png", "res/txtGetGold.png", "res/iconGold1.png", "res/bgBtn1.png", "res/txtBtnShare12.png", "res/iconVideo.png", "res/bgBtn0.png", "res/txtBtnHome1.png", "res/fnt_zlyc.png", "res/bgOppoAd.png", "res/bgColor0.png", "res/oppoAdInfo.png", "res/txtBtnAd1.png", "res/op_ad.png", "res/btnCloseAd2.png", "res/null1.png", "res/bgBtn2.png", "res/fnt_ad.png"],
+		"loadList3D": []
+	},
+	"DialogTry": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -550,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 610,
+					"anchorX": 0.5
+				},
+				"compId": 67,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 40,
+						"x": 50,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"height": 400
+					},
+					"compId": 68
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 190,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 69
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 450,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 70
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 485,
+						"x": 319,
+						"var": "txtHelp",
+						"text": " 鞭炮可以吓跑大鱼,吓晕小鱼 ",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"fontSize": 30,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 64
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 550,
+						"x": 104,
+						"text": "【游戏中拾取的鞭炮】拾取后立即点燃。",
+						"fontSize": 24,
+						"font": "Microsoft YaHei",
+						"color": "#950b00"
+					},
+					"compId": 65
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 515,
+						"x": 104,
+						"text": "【背包里的鞭炮】大鱼出现，自动点燃。",
+						"fontSize": 24,
+						"font": "Microsoft YaHei",
+						"color": "#950b00"
+					},
+					"compId": 66
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 340,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 71,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 50,
+							"texture": "res/txtTitleBP.png",
+							"name": "txt"
+						},
+						"compId": 72
+					}]
+				},
+				{
+					"type": "Panel",
+					"props": {
+						"y": 50,
+						"x": 60,
+						"width": 520,
+						"height": 380
+					},
+					"compId": 73,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 163,
+							"x": 106,
+							"width": 2,
+							"var": "baseBP",
+							"height": 2
+						},
+						"compId": 58,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 50,
+								"x": 136,
+								"texture": "res/bomb5.png"
+							},
+							"compId": 63
+						},
+						{
+							"type": "Image",
+							"props": {
+								"y": -111,
+								"x": 217,
+								"width": 297,
+								"skin": "res/bomb0.png",
+								"sizeGrid": "0,38,0,23",
+								"rotation": -21,
+								"name": "item0",
+								"height": 33,
+								"anchorX": 1
+							},
+							"compId": 59
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": -74,
+								"x": 122,
+								"texture": "res/bomb1.png",
+								"name": "item1"
+							},
+							"compId": 60
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 675,
+						"x": 180,
+						"width": 230,
+						"var": "btnClose",
+						"stateNum": 1,
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 97,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 115,
+							"width": 230,
+							"skin": "res/bgBtn0.png",
+							"sizeGrid": "0,104,0,104",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 100,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 46,
+								"texture": "res/txtBtnNoNeed.png",
+								"name": "txt"
+							},
+							"compId": 101
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 675,
+						"x": 460,
+						"width": 230,
+						"var": "btnTry",
+						"stateNum": 1,
+						"skin": "res/bgBtn1.png",
+						"sizeGrid": "0,104,0,104",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 96,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 21,
+							"var": "iconBtnVideoAd",
+							"texture": "res/iconAds5.png"
+						},
+						"compId": 98
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 70,
+							"texture": "res/txtGetBP.png"
+						},
+						"compId": 99
+					}]
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 216,
+					"x": 0,
+					"var": "baseOppoAd",
+                    "visible":false
+				},
+				"compId": 84,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 60,
+						"x": -300,
+						"width": 600,
+						"skin": "res/bgOppoAd.png",
+						"sizeGrid": "62,130,26,130",
+						"name": "bg",
+						"height": 330
+					},
+					"compId": 85
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 125,
+						"x": -285,
+						"width": 570,
+						"skin": "res/bgColor0.png",
+						"sizeGrid": "2,2,2,2",
+						"name": "bgTop",
+						"height": 220
+					},
+					"compId": 86
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 130,
+						"x": -280,
+						"width": 560,
+						"skin": "res/oppoAdInfo.png",
+						"name": "imgInfo",
+						"height": 210
+					},
+					"compId": 87
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 5,
+						"width": 210,
+						"stateNum": 1,
+						"name": "btnShow",
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 88,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 105,
+							"var": "imgBtnShowAd",
+							"skin": "res/bgBtn2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 89,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 36,
+								"texture": "res/txtBtnAd.png",
+								"name": "txt"
+							},
+							"compId": 90
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 60,
+						"x": 0,
+						"width": 600,
+						"stateNum": 1,
+						"name": "btnShow1",
+						"height": 330,
+						"anchorX": 0.5
+					},
+					"compId": 91
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 87,
+						"text": "label",
+						"strokeColor": "#ffffff",
+						"name": "txtTitle",
+						"fontSize": 36,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 92
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 350,
+						"x": 0,
+						"text": "label",
+						"name": "txtInfo",
+						"fontSize": 30,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 93
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 309,
+						"x": -280,
+						"texture": "res/op_ad.png",
+						"name": "ad"
+					},
+					"compId": 95
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 96,
+						"x": 273,
+						"width": 48,
+						"stateNum": 1,
+						"name": "btnClose",
+						"height": 48,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 102,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 24,
+							"x": 24,
+							"skin": "res/btnCloseAd2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 103
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTitleBP.png", "res/bomb5.png", "res/bomb0.png", "res/bomb1.png", "res/bgBtn0.png", "res/txtBtnNoNeed.png", "res/bgBtn1.png", "res/iconAds5.png", "res/txtGetBP.png", "res/bgOppoAd.png", "res/bgColor0.png", "res/oppoAdInfo.png", "res/bgBtn2.png", "res/txtBtnAd.png", "res/op_ad.png", "res/btnCloseAd2.png"],
+		"loadList3D": []
+	},
+	"DialogTryKun": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -510,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 610,
+					"anchorX": 0.5
+				},
+				"compId": 3,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"x": 50,
+						"top": 87,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"bottom": 123
+					},
+					"compId": 5
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 53
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 54
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 6,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 92,
+							"texture": "res/txtTtitleTry.png",
+							"name": "txt"
+						},
+						"compId": 7
+					}]
+				},
+				{
+					"type": "Panel",
+					"props": {
+						"y": 97,
+						"x": 60,
+						"width": 520,
+						"height": 380
+					},
+					"compId": 62,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 188,
+							"x": 258,
+							"var": "baseFish",
+							"rotation": -5
+						},
+						"compId": 67
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 533,
+						"x": 319,
+						"var": "txtHint",
+						"texture": "res/txtTryInfo.png",
+						"pivotY": 27,
+						"pivotX": 210
+					},
+					"compId": 73
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 87,
+						"x": 50,
+						"top": 87,
+						"skin": "res/bgRect3.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoTop",
+						"left": 50,
+						"bottom": 123
+					},
+					"compId": 75
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -28,
+						"x": 36,
+						"width": 60,
+						"var": "btnClose",
+						"stateNum": 1,
+						"height": 60,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 83,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 30,
+							"x": 30,
+							"skin": "res/iconClose.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 84
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 680,
+						"x": 180,
+						"width": 230,
+						"var": "btnEnter",
+						"stateNum": 1,
+						"skin": "res/bgBtn0.png",
+						"sizeGrid": "0,104,0,104",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 77,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 21,
+							"var": "iconBtnVideoAd",
+							"texture": "res/iconAds6.png"
+						},
+						"compId": 79
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 70,
+							"var": "txtBtnEnter",
+							"texture": "res/txtBtnChange1.png"
+						},
+						"compId": 80
+					}]
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 180,
+					"var": "baseOppoAd",
+                    "visible":false
+				},
+				"compId": 32,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 60,
+						"x": -300,
+						"width": 600,
+						"skin": "res/bgOppoAd.png",
+						"sizeGrid": "62,130,26,130",
+						"name": "bg",
+						"height": 330
+					},
+					"compId": 34
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 125,
+						"x": -285,
+						"width": 570,
+						"skin": "res/bgColor0.png",
+						"sizeGrid": "2,2,2,2",
+						"name": "bgTop",
+						"height": 220
+					},
+					"compId": 76
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 130,
+						"x": -280,
+						"width": 560,
+						"skin": "res/oppoAdInfo.png",
+						"name": "imgInfo",
+						"height": 210
+					},
+					"compId": 45
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -10,
+						"x": 140,
+						"width": 210,
+						"var": "btnShow",
+						"stateNum": 1,
+						"name": "btnShow",
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 33,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 105,
+							"var": "imgBtnShowAd",
+							"skin": "res/bgBtn0.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 51,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 36,
+								"texture": "res/txtBtnAd1.png",
+								"name": "txt"
+							},
+							"compId": 50
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 60,
+						"x": 0,
+						"width": 600,
+						"stateNum": 1,
+						"name": "btnShow1",
+						"height": 330,
+						"anchorX": 0.5
+					},
+					"compId": 46
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 87,
+						"text": "label",
+						"strokeColor": "#ffffff",
+						"name": "txtTitle",
+						"fontSize": 36,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 43
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 350,
+						"x": 0,
+						"text": "label",
+						"name": "txtInfo",
+						"fontSize": 30,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 44
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 309,
+						"x": -280,
+						"texture": "res/op_ad.png",
+						"name": "ad"
+					},
+					"compId": 49
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 96,
+						"x": 273,
+						"width": 48,
+						"stateNum": 1,
+						"name": "btnClose",
+						"height": 48,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 85,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 24,
+							"x": 24,
+							"skin": "res/btnCloseAd2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 86
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTtitleTry.png", "res/txtTryInfo.png", "res/bgRect3.png", "res/iconClose.png", "res/bgBtn0.png", "res/iconAds6.png", "res/txtBtnChange1.png", "res/bgOppoAd.png", "res/bgColor0.png", "res/oppoAdInfo.png", "res/txtBtnAd1.png", "res/op_ad.png", "res/btnCloseAd2.png"],
+		"loadList3D": []
+	},
+	"DialogYLM": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelBg",
+				"bgColor": "#000000",
+				"alpha": 0.6
+			},
+			"compId": 24
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 666,
+				"x": 375,
+				"width": 1,
+				"var": "center",
+				"height": 1
+			},
+			"compId": 23,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -500,
+					"x": 0,
+					"width": 640,
+					"var": "bg",
+					"skin": "res/bgBottom.png",
+					"sizeGrid": "2,150,38,150",
+					"height": 610,
+					"anchorX": 0.5
+				},
+				"compId": 71,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 40,
+						"x": 50,
+						"skin": "res/bgCenter.png",
+						"sizeGrid": "20,20,20,20",
+						"right": 50,
+						"name": "bgInfoBottom",
+						"left": 50,
+						"height": 400
+					},
+					"compId": 83
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 200,
+						"texture": "res/bgTop.png",
+						"pivotX": 222,
+						"name": "houseLeft"
+					},
+					"compId": 84
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -63,
+						"x": 440,
+						"texture": "res/bgTop.png",
+						"scaleX": -1,
+						"pivotX": 222,
+						"name": "houseRight"
+					},
+					"compId": 85
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -59,
+						"x": 320,
+						"width": 320,
+						"skin": "res/bgTittle.png",
+						"sizeGrid": "0,126,0,126",
+						"name": "title",
+						"anchorX": 0.5
+					},
+					"compId": 86,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 89,
+							"texture": "res/txtTitleYLM.png",
+							"name": "txt"
+						},
+						"compId": 87
+					}]
+				},
+				{
+					"type": "Panel",
+					"props": {
+						"y": 63,
+						"x": 60,
+						"width": 520,
+						"height": 380
+					},
+					"compId": 88,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 204,
+							"x": 252,
+							"var": "baseFish"
+						},
+						"compId": 67
+					}]
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 113,
+						"x": 320,
+						"var": "txtHelp",
+						"text": " 『 Upgrade 』 ",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"fontSize": 28,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 64
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 480,
+						"x": 320,
+						"text": "『鱼跃龙门』规则说明",
+						"strokeColor": "#c10200",
+						"stroke": 5,
+						"fontSize": 28,
+						"font": "Microsoft YaHei",
+						"color": "#fbfb00",
+						"bold": true,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 90
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 508,
+						"x": 320,
+						"text": "躲避石柱，跃过龙门 ，就可以幻化成龙！",
+						"fontSize": 24,
+						"font": "Microsoft YaHei",
+						"color": "#950b00",
+						"anchorX": 0.5
+					},
+					"compId": 66
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 534,
+						"x": 320,
+						"text": "每次升级，都有可能获得『跃龙门』！",
+						"fontSize": 24,
+						"font": "Microsoft YaHei",
+						"color": "#950b00",
+						"anchorX": 0.5
+					},
+					"compId": 65
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 680,
+						"x": 170,
+						"var": "btnEnter",
+						"stateNum": 1,
+						"skin": "res/bgBtn1.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 94,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 61,
+							"var": "txtBtnEnter",
+							"texture": "res/txtBtnEnter.png"
+						},
+						"compId": 95
+					}]
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 185,
+					"x": 0,
+					"var": "baseOppoAd",
+                    "visible":false
+				},
+				"compId": 70,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 60,
+						"x": -300,
+						"width": 600,
+						"skin": "res/bgOppoAd.png",
+						"sizeGrid": "62,130,26,130",
+						"name": "bg",
+						"height": 330
+					},
+					"compId": 72
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 125,
+						"x": -285,
+						"width": 570,
+						"skin": "res/bgColor0.png",
+						"sizeGrid": "2,2,2,2",
+						"name": "bgTop",
+						"height": 220
+					},
+					"compId": 73
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 130,
+						"x": -280,
+						"width": 560,
+						"skin": "res/oppoAdInfo.png",
+						"name": "imgInfo",
+						"height": 210
+					},
+					"compId": 74
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -5,
+						"x": 150,
+						"width": 210,
+						"stateNum": 1,
+						"name": "btnShow",
+						"height": 74,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 75,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 37,
+							"x": 105,
+							"var": "imgBtnShowAd",
+							"skin": "res/bgBtn2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 76,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 36,
+								"texture": "res/txtBtnAd.png",
+								"name": "txt"
+							},
+							"compId": 77
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 60,
+						"x": 0,
+						"width": 600,
+						"stateNum": 1,
+						"name": "btnShow1",
+						"height": 330,
+						"anchorX": 0.5
+					},
+					"compId": 78
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 87,
+						"text": "label",
+						"strokeColor": "#ffffff",
+						"name": "txtTitle",
+						"fontSize": 36,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 79
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": 350,
+						"x": 0,
+						"text": "label",
+						"name": "txtInfo",
+						"fontSize": 30,
+						"font": "Microsoft YaHei",
+						"color": "#ffffff",
+						"bold": true,
+						"anchorX": 0.5
+					},
+					"compId": 80
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 309,
+						"x": -280,
+						"texture": "res/op_ad.png",
+						"name": "ad"
+					},
+					"compId": 82
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 96,
+						"x": 273,
+						"width": 48,
+						"stateNum": 1,
+						"name": "btnClose",
+						"height": 48,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 97,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 24,
+							"x": 24,
+							"skin": "res/btnCloseAd2.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 98
+					}]
+				}]
+			}]
+		}],
+		"loadList": ["res/bgBottom.png", "res/bgCenter.png", "res/bgTop.png", "res/bgTittle.png", "res/txtTitleYLM.png", "res/bgBtn1.png", "res/txtBtnEnter.png", "res/bgOppoAd.png", "res/bgColor0.png", "res/oppoAdInfo.png", "res/bgBtn2.png", "res/txtBtnAd.png", "res/op_ad.png", "res/btnCloseAd2.png"],
+		"loadList3D": []
+	},
+	"SceneGame": {
+		"type": "Scene",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Panel",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "panelTouch"
+			},
+			"compId": 22
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "baseCamera"
+			},
+			"compId": 19
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"var": "baseBg"
+			},
+			"compId": 12,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"var": "baseScene"
+				},
+				"compId": 24,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 0,
+						"var": "bg0",
+						"height": 1334
+					},
+					"compId": 16
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 0,
+						"x": 1500,
+						"var": "bg1",
+						"height": 1334
+					},
+					"compId": 13
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": 0,
+						"x": 3000,
+						"var": "bg2",
+						"height": 1334
+					},
+					"compId": 127
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "baseColumn"
+			},
+			"compId": 100,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": 1336,
+					"x": 134,
+					"width": 332,
+					"var": "baseDoor",
+					"skin": "res/column1.png",
+					"sizeGrid": "5,0,5,0",
+					"height": 1021,
+					"anchorY": 1
+				},
+				"compId": 101,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 74,
+						"x": 26,
+						"texture": "res/iconDragon.png"
+					},
+					"compId": 106
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -55,
+						"x": -137,
+						"texture": "res/houseTop.png",
+						"name": "TOP"
+					},
+					"compId": 102,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 0,
+							"x": 617,
+							"texture": "res/houseTop.png",
+							"scaleX": -1
+						},
+						"compId": 103
+					}]
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -55,
+						"x": 47,
+						"width": 238,
+						"skin": "res/bgTitle.png",
+						"sizeGrid": "0,65,0,65",
+						"name": "txtTitle"
+					},
+					"compId": 104,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 61,
+							"texture": "res/txtLM.png"
+						},
+						"compId": 105
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 271,
+						"x": 305,
+						"texture": "res/iconDragon.png",
+						"scaleX": -1
+					},
+					"compId": 107
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 456,
+						"x": 18,
+						"texture": "res/iconDragon.png"
+					},
+					"compId": 108
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 634,
+						"x": 298,
+						"texture": "res/iconDragon.png",
+						"scaleX": -1
+					},
+					"compId": 109
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 812,
+						"x": 18,
+						"texture": "res/iconDragon.png"
+					},
+					"compId": 110
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 0,
+						"x": -62,
+						"width": 395,
+						"var": "rectCollision",
+						"height": 90
+					},
+					"compId": 114
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "baseYuLei"
+			},
+			"compId": 126
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "baseFish"
+			},
+			"compId": 21
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 71,
+				"x": 64,
+				"var": "baseCollisionIcon",
+				"texture": "res/bomb4.png",
+				"pivotY": 46,
+				"pivotX": 41
+			},
+			"compId": 115
+		},
+		{
+			"type": "Button",
+			"props": {
+				"y": 318,
+				"x": 60,
+				"var": "btnBP",
+				"stateNum": 1,
+				"skin": "res/iconBP.png",
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 82,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"y": -5,
+					"x": 64,
+					"texture": "res/bgNumBP.png"
+				},
+				"compId": 87,
+				"child": [{
+					"type": "FontClip",
+					"props": {
+						"y": 12,
+						"x": 12,
+						"visible": true,
+						"var": "fcNumBP",
+						"value": "1",
+						"spaceX": -3,
+						"skin": "res/fontNum6.png",
+						"sheet": "0123456789+",
+						"scaleY": 0.5,
+						"scaleX": 0.5,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 88
+				}]
+			}]
+		},
+		{
+			"type": "Button",
+			"props": {
+				"y": 200,
+				"x": 60,
+				"width": 100,
+				"var": "btnPause",
+				"stateNum": 1,
+				"skin": "res/btn_return.png",
+				"height": 100,
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 4
+		},
+		{
+			"type": "FontClip",
+			"props": {
+				"y": 160,
+				"x": 375,
+				"visible": true,
+				"var": "fcScore",
+				"value": "88",
+				"spaceX": -2,
+				"skin": "res/fontNum1.png",
+				"sheet": "01234 56789",
+				"scaleY": 1.5,
+				"scaleX": 1.5,
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 11
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"var": "baseGuide"
+			},
+			"compId": 52,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"y": 676,
+					"x": 460,
+					"width": 1,
+					"var": "model0Hint0",
+					"height": 1
+				},
+				"compId": 32,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": -116,
+						"x": -14,
+						"var": "guideRect",
+						"texture": "res/guide0.png"
+					},
+					"compId": 33
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 0,
+						"var": "handBase"
+					},
+					"compId": 37,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 0,
+							"x": 2,
+							"var": "handRound",
+							"texture": "res/guide1.png",
+							"pivotY": 42,
+							"pivotX": 42
+						},
+						"compId": 38
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 0,
+							"x": 0,
+							"var": "hand",
+							"texture": "res/hand_00.png"
+						},
+						"compId": 39,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 11,
+								"x": 4,
+								"texture": "res/hand_02.png"
+							},
+							"compId": 40
+						}]
+					}]
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 725,
+					"x": 360,
+					"var": "noseGuide",
+					"texture": "res/noseHint.png",
+					"pivotY": 132,
+					"pivotX": 66
+				},
+				"compId": 55
+			},
+			{
+				"type": "Image",
+				"props": {
+					"y": 280,
+					"x": 385,
+					"width": 500,
+					"var": "hintTxt",
+					"skin": "res/rect_0.png",
+					"sizeGrid": "54,65,54,65",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 34,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 53,
+						"x": 240,
+						"var": "txtHint",
+						"skin": "res/txtGuide0.png",
+						"centerY": 0,
+						"centerX": 0,
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 35
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "baseGameOppoAd"
+			},
+			"compId": 138,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"y": 1334,
+					"x": 375,
+					"var": "baseOppoAd",
+                    "visible":false
+				},
+				"compId": 128,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": -130,
+						"x": -375,
+						"width": 750,
+						"skin": "res/bgColor0.png",
+						"sizeGrid": "3,3,3,3",
+						"name": "bottom",
+						"height": 130
+					},
+					"compId": 129
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -125,
+						"x": -340,
+						"width": 530,
+						"skin": "res/rectBg2.png",
+						"sizeGrid": "10,10,10,10",
+						"name": "top",
+						"height": 120
+					},
+					"compId": 130
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -120,
+						"x": -335,
+						"width": 350,
+						"skin": "res/oppoAdInfo.png",
+						"name": "imgInfo",
+						"height": 110
+					},
+					"compId": 131
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -28,
+						"x": -340,
+						"texture": "res/op_ad1.png",
+						"name": "iconAd"
+					},
+					"compId": 132
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -130,
+						"x": -340,
+						"width": 720,
+						"name": "btnShow",
+						"height": 130
+					},
+					"compId": 133
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": -125,
+						"x": -365,
+						"stateNum": 1,
+						"skin": "res/btnCloseAd2.png",
+						"name": "btnClose"
+					},
+					"compId": 134
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -59,
+						"x": 291,
+						"width": 149,
+						"var": "imgBtnShow",
+						"texture": "res/btnShowAd.png",
+						"pivotY": 34,
+						"pivotX": 75,
+						"name": "imgBtnShow",
+						"height": 68
+					},
+					"compId": 135
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": -112,
+						"x": 23,
+						"width": 159,
+						"valign": "middle",
+						"text": "标题",
+						"overflow": "scroll",
+						"name": "txtTitle",
+						"height": 36,
+						"fontSize": 24,
+						"font": "Microsoft YaHei",
+						"color": "#0f233b",
+						"bold": true,
+						"align": "center"
+					},
+					"compId": 136
+				},
+				{
+					"type": "Label",
+					"props": {
+						"y": -78,
+						"x": 21,
+						"wordWrap": true,
+						"width": 166,
+						"valign": "middle",
+						"text": "内容",
+						"name": "txtInfo",
+						"leading": 2,
+						"height": 69,
+						"fontSize": 20,
+						"font": "Microsoft YaHei",
+						"color": "#0f233b",
+						"bold": true,
+						"align": "center"
+					},
+					"compId": 137
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "basePpBP"
+			},
+			"compId": 97
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 710,
+				"x": 192,
+				"width": 2,
+				"var": "baseBP",
+				"texture": "res/bomb.png",
+				"height": 2
+			},
+			"compId": 89,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"y": 0,
+					"x": 0,
+					"var": "baseActionBP"
+				},
+				"compId": 99,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": -28,
+						"x": 0,
+						"width": 255,
+						"skin": "res/bomb7.png",
+						"sizeGrid": "0,38,0,23",
+						"rotation": -24,
+						"name": "item0"
+					},
+					"compId": 90
+				},
+				{
+					"type": "Image",
+					"props": {
+						"y": -128,
+						"x": 212,
+						"width": 600,
+						"visible": false,
+						"skin": "res/bomb6.png",
+						"sizeGrid": "0,38,0,23",
+						"rotation": -5,
+						"name": "item0",
+						"height": 33,
+						"anchorX": 1
+					},
+					"compId": 91
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -89,
+						"x": 164,
+						"texture": "res/iconBP.png",
+						"name": "item1"
+					},
+					"compId": 92
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -5,
+						"x": 220,
+						"var": "baseBomb"
+					},
+					"compId": 93
+				}]
+			}]
+		},
+		{
+			"type": "Image",
+			"props": {
+				"y": 667,
+				"x": 500,
+				"width": 438,
+				"var": "baseHintYLM",
+				"skin": "res/rect_0.png",
+				"sizeGrid": "54,65,54,65",
+				"height": 132,
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 116,
+			"child": [{
+				"type": "Label",
+				"props": {
+					"y": 66,
+					"x": 219,
+					"var": "txtHelp",
+					"text": " 躲避石柱，跃过龙门 ",
+					"strokeColor": "#c10200",
+					"stroke": 5,
+					"fontSize": 42,
+					"font": "Microsoft YaHei",
+					"color": "#fbfb00",
+					"bold": true,
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 117
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 1125,
+				"x": 330,
+				"width": 90,
+				"var": "baseTime",
+				"texture": "res/bgTime.png",
+				"pivotY": 47,
+				"pivotX": 45,
+				"height": 93
+			},
+			"compId": 112,
+			"child": [{
+				"type": "FontClip",
+				"props": {
+					"y": 46.5,
+					"x": 43,
+					"visible": true,
+					"var": "fcTime",
+					"value": "8",
+					"spaceX": -4,
+					"skin": "res/fontNum1.png",
+					"sheet": "01234 56789",
+					"scaleY": 0.5,
+					"scaleX": 0.5,
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 113
+			}]
+		},
+		{
+			"type": "FontClip",
+			"props": {
+				"y": 322,
+				"x": 312,
+				"visible": true,
+				"var": "fcEatHintNum",
+				"value": "88",
+				"spaceX": -2,
+				"skin": "res/fontNum1.png",
+				"sheet": "01234 56789",
+				"scaleY": 0.5,
+				"scaleX": 0.5,
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 141,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -6,
+					"skin": "res/txtEatHint0.png",
+					"scaleY": 2,
+					"scaleX": 2,
+					"name": "txtLeft",
+					"left": -273
+				},
+				"compId": 140
+			},
+			{
+				"type": "Image",
+				"props": {
+					"y": -3,
+					"skin": "res/txtEatHint1.png",
+					"scaleY": 2,
+					"scaleX": 2,
+					"right": -357,
+					"name": "txtRight"
+				},
+				"compId": 142,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 6,
+						"x": 182,
+						"texture": "res/iconGold1.png"
+					},
+					"compId": 145
+				},
+				{
+					"type": "FontClip",
+					"props": {
+						"y": 7,
+						"x": 224,
+						"var": "fcRewardGold",
+						"value": "888",
+						"spaceX": -2,
+						"skin": "res/fontNum3.png",
+						"sheet": "0123456789.kmwe",
+						"scaleY": 1.2,
+						"scaleX": 1.2,
+						"align": "center"
+					},
+					"compId": 146
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"var": "baseWarn"
+			},
+			"compId": 56,
+			"child": [{
+				"type": "Panel",
+				"props": {
+					"y": 376,
+					"x": 375,
+					"width": 1000,
+					"var": "warnRect",
+					"height": 155,
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 44,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 77,
+						"var": "bgWarn",
+						"skin": "res/bgWarn0.png",
+						"sizeGrid": "0,2,0,2",
+						"right": 0,
+						"left": 0,
+						"anchorY": 0.5
+					},
+					"compId": 41,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 8,
+							"x": -60,
+							"texture": "res/bgWarn1.png"
+						},
+						"compId": 42
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 8,
+							"x": 60,
+							"texture": "res/bgWarn1.png"
+						},
+						"compId": 43
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 8,
+							"x": 180,
+							"texture": "res/bgWarn1.png"
+						},
+						"compId": 45
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 8,
+							"x": 300,
+							"texture": "res/bgWarn1.png"
+						},
+						"compId": 46
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 8,
+							"x": 420,
+							"texture": "res/bgWarn1.png"
+						},
+						"compId": 47
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 8,
+							"x": 540,
+							"texture": "res/bgWarn1.png"
+						},
+						"compId": 48
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 8,
+							"x": 660,
+							"texture": "res/bgWarn1.png"
+						},
+						"compId": 49
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 8,
+							"x": 780,
+							"texture": "res/bgWarn1.png"
+						},
+						"compId": 57
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 8,
+							"x": 900,
+							"texture": "res/bgWarn1.png"
+						},
+						"compId": 58
+					}]
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 377,
+					"x": 376,
+					"var": "warnBigFishTxt",
+					"texture": "res/txtWarn.png",
+					"scaleY": 1.25,
+					"scaleX": 1.25,
+					"pivotY": 55,
+					"pivotX": 31
+				},
+				"compId": 51,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": -6,
+						"x": -149,
+						"texture": "res/iconWarn.png",
+						"name": "icon"
+					},
+					"compId": 53
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 376,
+					"x": 353,
+					"var": "warnYuLeiTxt",
+					"texture": "res/txtWarnYuLei.png",
+					"scaleY": 1.25,
+					"scaleX": 1.25,
+					"pivotY": 55,
+					"pivotX": 31
+				},
+				"compId": 124,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": -9,
+						"x": -149,
+						"texture": "res/iconWarn.png",
+						"name": "icon"
+					},
+					"compId": 125
+				}]
+			},
+			{
+				"type": "Image",
+				"props": {
+					"y": 0,
+					"x": 375,
+					"width": 750,
+					"var": "warnBg",
+					"skin": "res/bgRectWarn.png",
+					"sizeGrid": "2,150,2,150",
+					"height": 1334,
+					"anchorX": 0.5
+				},
+				"compId": 54
+			}]
+		},
+		{
+			"type": "Button",
+			"props": {
+				"y": 1270,
+				"x": 690,
+				"visible": false,
+				"var": "btnSkip",
+				"stateNum": 1,
+				"skin": "res/btnSkip.png",
+				"sizeGrid": "btnSkip",
+				"anchorY": 0.5,
+				"anchorX": 0.5
+			},
+			"compId": 74
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 150,
+				"x": 730,
+				"var": "baseOppoTest"
+			},
+			"compId": 118,
+			"child": [{
+				"type": "Button",
+				"props": {
+					"y": 45,
+					"x": -105,
+					"width": 215,
+					"var": "btnOppoTest",
+					"stateNum": 1,
+					"skin": "res/bgBtn1.png",
+					"sizeGrid": "17,60,43,64",
+					"labelSize": 30,
+					"labelFont": "Microsoft YaHei",
+					"labelBold": true,
+					"label": "保存60帧图片",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 119
+			},
+			{
+				"type": "RadioGroup",
+				"props": {
+					"y": 100,
+					"x": -168,
+					"var": "cameraSizeRG",
+					"space": 10,
+					"skin": "res/checkTest.png",
+					"selectedIndex": 0,
+					"labels": "240,320,480,720,1080,1440",
+					"labelSize": 42,
+					"labelFont": "Microsoft YaHei",
+					"labelBold": true,
+					"direction": "vertical"
+				},
+				"compId": 123
+			}]
+		}],
+		"animations": [{
+			"nodes": [{
+				"target": 37,
+				"keyframes": {
+					"y": [{
+						"value": 0,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 37,
+						"key": "y",
+						"index": 0
+					},
+					{
+						"value": -100,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 37,
+						"key": "y",
+						"index": 10
+					},
+					{
+						"value": 100,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 37,
+						"key": "y",
+						"index": 30
+					},
+					{
+						"value": 0,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 37,
+						"key": "y",
+						"index": 40
+					}]
+				}
+			}],
+			"name": "ani1",
+			"id": 1,
+			"frameRate": 24,
+			"action": 2
+		}],
+		"loadList": ["res/column1.png", "res/iconDragon.png", "res/houseTop.png", "res/bgTitle.png", "res/txtLM.png", "res/bomb4.png", "res/iconBP.png", "res/bgNumBP.png", "res/fontNum6.png", "res/btn_return.png", "res/fontNum1.png", "res/guide0.png", "res/guide1.png", "res/hand_00.png", "res/hand_02.png", "res/noseHint.png", "res/rect_0.png", "res/txtGuide0.png", "res/bgColor0.png", "res/rectBg2.png", "res/oppoAdInfo.png", "res/op_ad1.png", "res/btnCloseAd2.png", "res/btnShowAd.png", "res/bomb.png", "res/bomb7.png", "res/bomb6.png", "res/bgTime.png", "res/txtEatHint0.png", "res/txtEatHint1.png", "res/iconGold1.png", "res/fontNum3.png", "res/bgWarn0.png", "res/bgWarn1.png", "res/txtWarn.png", "res/iconWarn.png", "res/txtWarnYuLei.png", "res/bgRectWarn.png", "res/btnSkip.png", "res/bgBtn1.png", "res/checkTest.png"],
+		"loadList3D": []
+	},
+	"SceneLoad": {
+		"type": "Scene",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Image",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"width": 750,
+				"var": "bg",
+				"skin": "res/bgLoad.jpg",
+				"height": 1334
+			},
+			"compId": 24
+		},
+		{
+			"type": "Image",
+			"props": {
+				"y": 1080,
+				"x": 375,
+				"width": 606,
+				"var": "bgBar",
+				"skin": "res/bgLoadBar.png",
+				"sizeGrid": "0,140,0,140",
+				"anchorX": 0.5
+			},
+			"compId": 111,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": 7,
+					"x": 88,
+					"width": 429,
+					"var": "loadBar",
+					"skin": "res/loadBar.png",
+					"sizeGrid": "0,15,0,15"
+				},
+				"compId": 112
+			},
+			{
+				"type": "Label",
+				"props": {
+					"y": 55,
+					"x": 303,
+					"var": "txtBar",
+					"text": "加载信息10%",
+					"fontSize": 28,
+					"font": "Microsoft YaHei",
+					"color": "#ffffff",
+					"bold": true,
+					"anchorX": 0.5
+				},
+				"compId": 113
+			}]
+		},
+		{
+			"type": "Label",
+			"props": {
+				"y": 1334,
+				"x": 730,
+				"var": "txtVersion",
+				"text": "v1.0.0",
+				"strokeColor": "#095833",
+				"stroke": 3,
+				"fontSize": 30,
+				"font": "Microsoft YaHei",
+				"color": "#000000",
+				"bold": true,
+				"anchorY": 1,
+				"anchorX": 1,
+				"alpha": 0.8
+			},
+			"compId": 116
+		}],
+		"loadList": ["res/bgLoad.jpg", "res/bgLoadBar.png", "res/loadBar.png"],
+		"loadList3D": []
+	},
+	"SceneMain": {
+		"type": "Dialog",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Image",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"width": 750,
+				"var": "bg",
+				"skin": "res/bgMenu.jpg",
+				"height": 1334
+			},
+			"compId": 52
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 1100,
+				"x": 375,
+				"var": "baseFishUiBottom"
+			},
+			"compId": 201,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": 40,
+					"x": 0,
+					"width": 300,
+					"var": "baseFishInfo",
+					"skin": "res/bgTittle.png",
+					"sizeGrid": "0,126,0,126",
+					"anchorX": 0.5
+				},
+				"compId": 182,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 13,
+						"x": 136,
+						"skin": "res/iconGold1.png",
+						"name": "iconGold"
+					},
+					"compId": 186
+				},
+				{
+					"type": "FontClip",
+					"props": {
+						"y": 26,
+						"x": 133,
+						"var": "fcBuyLv",
+						"value": "8",
+						"spaceX": -2,
+						"skin": "res/fontNum3.png",
+						"sheet": "0123456789.kmwe",
+						"scaleY": 0.8,
+						"scaleX": 0.8,
+						"anchorX": 1,
+						"align": "center"
+					},
+					"compId": 202,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": -7,
+							"x": -48,
+							"skin": "res/txtLv.png",
+							"scaleY": 1.2,
+							"scaleX": 1.2,
+							"name": "iconGold"
+						},
+						"compId": 203
+					}]
+				},
+				{
+					"type": "FontClip",
+					"props": {
+						"y": 26,
+						"x": 180,
+						"var": "fcFishPrice",
+						"value": "88",
+						"spaceX": -2,
+						"skin": "res/fontNum3.png",
+						"sheet": "0123456789.kmwe",
+						"scaleY": 0.8,
+						"scaleX": 0.8,
+						"align": "center"
+					},
+					"compId": 184
+				}]
+			},
+			{
+				"type": "Image",
+				"props": {
+					"y": -58,
+					"x": -190,
+					"width": 380,
+					"var": "baseRecovery",
+					"stateNum": 1,
+					"skin": "res/bgBtnBottom.png",
+					"sizeGrid": "0,98,0,111"
+				},
+				"compId": 178,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 14,
+						"x": 73,
+						"width": 243,
+						"var": "recoreyRect",
+						"skin": "res/bgBtn5.png",
+						"sizeGrid": "0,70,0,70"
+					},
+					"compId": 217,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 17,
+							"x": 62,
+							"texture": "res/txtBtnRecovery.png"
+						},
+						"compId": 218
+					}]
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "basePool"
+			},
+			"compId": 163
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "baseFishUiTop"
+			},
+			"compId": 232,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"y": 1100,
+					"x": 375,
+					"var": "baseBottom"
+				},
+				"compId": 233,
+				"child": [{
+					"type": "Button",
+					"props": {
+						"y": 0,
+						"x": 0,
+						"width": 380,
+						"var": "btnBuyFish",
+						"stateNum": 1,
+						"skin": "res/bgBtnBottom.png",
+						"sizeGrid": "0,98,0,111",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 230,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 14,
+							"x": 73,
+							"width": 243,
+							"stateNum": 1,
+							"skin": "res/bgBtn3.png",
+							"sizeGrid": "0,70,0,70"
+						},
+						"compId": 179,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 18,
+								"x": 61,
+								"texture": "res/txtBtnBuyFish.png",
+								"name": "txt"
+							},
+							"compId": 180
+						}]
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 0,
+						"x": -260,
+						"var": "btnLvAdd",
+						"stateNum": 1,
+						"skin": "res/bgBtn.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 192,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 25,
+							"x": 15,
+							"texture": "res/iconAddLv.png",
+							"name": "iconBg"
+						},
+						"compId": 219
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": -1,
+							"x": 14,
+							"var": "iconLvAdd",
+							"texture": "res/iconLvAdd.png"
+						},
+						"compId": 195
+					},
+					{
+						"type": "FontClip",
+						"props": {
+							"y": 2,
+							"x": 37,
+							"var": "fcNextFishNum",
+							"value": "80",
+							"spaceX": -2,
+							"skin": "res/fontNum2.png",
+							"sheet": "0123456789/",
+							"align": "center"
+						},
+						"compId": 199,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": -3,
+								"skin": "res/txtFish.png",
+								"right": -22,
+								"name": "txt"
+							},
+							"compId": 200
+						}]
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 85,
+							"x": 5,
+							"texture": "res/txtBtnLv.png",
+							"name": "txt"
+						},
+						"compId": 196
+					},
+					{
+						"type": "FontClip",
+						"props": {
+							"y": 72,
+							"x": 58,
+							"var": "fcAddLvGold",
+							"value": "888",
+							"spaceX": -2,
+							"skin": "res/fontNum3.png",
+							"sheet": "0123456789.kmwe",
+							"scaleY": 0.4,
+							"scaleX": 0.4,
+							"anchorX": 0.5,
+							"align": "center"
+						},
+						"compId": 205,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": -7,
+								"x": -45,
+								"skin": "res/iconGold1.png",
+								"name": "iconGold"
+							},
+							"compId": 204
+						}]
+					}]
+				}]
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 220,
+					"x": 70,
+					"width": 100,
+					"var": "btnHome",
+					"stateNum": 1,
+					"skin": "res/btn_return.png",
+					"height": 100,
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 187
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 1334,
+					"x": 375,
+					"var": "baseOppoAdPool"
+				},
+				"compId": 254,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 0,
+						"x": 0,
+						"var": "oppoAdPool"
+					},
+					"compId": 207,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": -130,
+							"x": -375,
+							"width": 750,
+							"skin": "res/bgColor0.png",
+							"sizeGrid": "3,3,3,3",
+							"name": "bottom",
+							"height": 130
+						},
+						"compId": 208
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": -125,
+							"x": -340,
+							"width": 690,
+							"skin": "res/rectBg2.png",
+							"sizeGrid": "10,10,10,10",
+							"name": "top",
+							"height": 120
+						},
+						"compId": 209
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": -120,
+							"x": -335,
+							"width": 420,
+							"skin": "res/oppoAdInfo.png",
+							"name": "imgInfo",
+							"height": 110
+						},
+						"compId": 210
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": -28,
+							"x": -340,
+							"texture": "res/op_ad1.png",
+							"name": "iconAd"
+						},
+						"compId": 211
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": -130,
+							"x": -340,
+							"width": 715,
+							"name": "btnShow",
+							"height": 130
+						},
+						"compId": 212
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": -234,
+							"x": 260,
+							"var": "btnShow1",
+							"stateNum": 1,
+							"skin": "res/bgBtn.png",
+							"name": "btnShow1",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 220,
+						"child": [{
+							"type": "Sprite",
+							"props": {
+								"y": 39,
+								"x": 48,
+								"var": "iconOppoAd",
+								"texture": "res/iconOppoAd.png",
+								"pivotY": 30,
+								"pivotX": 33
+							},
+							"compId": 225
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": 85,
+								"x": 6,
+								"texture": "res/txtShowAd.png",
+								"name": "txt"
+							},
+							"compId": 229
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": 19,
+								"x": 75,
+								"var": "iconAdHint",
+								"texture": "res/iconPoint.png",
+								"pivotY": 11.5,
+								"pivotX": 11
+							},
+							"compId": 261
+						}]
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": -125,
+							"x": -365,
+							"stateNum": 1,
+							"skin": "res/btnCloseAd2.png",
+							"name": "btnClose"
+						},
+						"compId": 213
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": -112,
+							"x": 88,
+							"width": 260,
+							"valign": "middle",
+							"text": "标题",
+							"overflow": "scroll",
+							"name": "txtTitle",
+							"height": 36,
+							"fontSize": 24,
+							"font": "Microsoft YaHei",
+							"color": "#0f233b",
+							"bold": true,
+							"align": "center"
+						},
+						"compId": 215
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": -78,
+							"x": 88,
+							"wordWrap": true,
+							"width": 260,
+							"valign": "middle",
+							"text": "内容",
+							"name": "txtInfo",
+							"leading": 2,
+							"height": 69,
+							"fontSize": 20,
+							"font": "Microsoft YaHei",
+							"color": "#0f233b",
+							"bold": true,
+							"align": "center"
+						},
+						"compId": 216
+					}]
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "baseBtnMain"
+			},
+			"compId": 153,
+			"child": [{
+				"type": "Button",
+				"props": {
+					"y": 200,
+					"x": 108,
+					"width": 159,
+					"visible": false,
+					"var": "btnTest",
+					"stateNum": 1,
+					"skin": "res/bgBtn0.png",
+					"labelSize": 38,
+					"labelFont": "Microsoft YaHei",
+					"labelColors": "#ffffff",
+					"labelBold": true,
+					"label": "清 档",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 86
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 650,
+					"x": 375,
+					"width": 430,
+					"var": "btnClass",
+					"stateNum": 1,
+					"skin": "res/bgBtnBottom.png",
+					"sizeGrid": "0,98,0,111",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 61,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 60,
+						"x": 219,
+						"stateNum": 1,
+						"skin": "res/bgBtn3.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 24,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": 45,
+							"x": 146,
+							"var": "txtBtnClass",
+							"skin": "res/fnt_class.png",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 25
+					}]
+				}]
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 780,
+					"x": 375,
+					"width": 430,
+					"var": "btnPeople",
+					"stateNum": 1,
+					"skin": "res/bgBtnBottom.png",
+					"sizeGrid": "0,98,0,111",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 65,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 60,
+						"x": 219,
+						"stateNum": 1,
+						"skin": "res/bgBtn3.png",
+						"name": "imgBtn",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 68,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 19,
+							"x": 52,
+							"texture": "res/fnt_zhenren.png",
+							"name": "txt"
+						},
+						"compId": 69
+					}]
+				}]
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 910,
+					"x": 375,
+					"width": 430,
+					"var": "btnFishPool",
+					"stateNum": 1,
+					"skin": "res/bgBtnBottom.png",
+					"sizeGrid": "0,98,0,111",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 175,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 60,
+						"x": 219,
+						"stateNum": 1,
+						"skin": "res/bgBtn4.png",
+						"name": "imgBtn",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 176,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 19,
+							"x": 64,
+							"texture": "res/fnt_zhenren_1.png",
+							"name": "txt"
+						},
+						"compId": 177
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 0,
+							"x": 196,
+							"texture": "res/iconNew.png",
+							"name": "icon"
+						},
+						"compId": 260
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 0,
+							"x": 244,
+							"texture": "res/txtNew.png",
+							"rotation": 28,
+							"name": "txtIcon"
+						},
+						"compId": 275
+					}]
+				}]
+			},
+			{
+				"type": "Sprite",
+				"props": {
+					"y": 1334,
+					"x": 375,
+					"var": "baseOppoAdMain"
+				},
+				"compId": 70,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 0,
+						"x": 0,
+						"var": "baseOppoAd",
+                        "visible":false
+					},
+					"compId": 271,
+					"child": [{
+						"type": "Button",
+						"props": {
+							"y": -292,
+							"x": 0,
+							"width": 430,
+							"var": "btnShow",
+							"stateNum": 1,
+							"skin": "res/bgBtnBottom.png",
+							"sizeGrid": "0,98,0,111",
+							"name": "btnShow",
+							"anchorY": 0.5,
+							"anchorX": 0.5
+						},
+						"compId": 73,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 60,
+								"x": 219,
+								"stateNum": 1,
+								"skin": "res/bgBtn4.png",
+								"name": "imgBtn",
+								"anchorY": 0.5,
+								"anchorX": 0.5
+							},
+							"compId": 255
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": 35,
+								"x": 126,
+								"texture": "res/fnt_ad.png",
+								"name": "txt"
+							},
+							"compId": 74
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": 14,
+								"x": 268,
+								"texture": "res/iconNew.png",
+								"name": "icon"
+							},
+							"compId": 262
+						},
+						{
+							"type": "Sprite",
+							"props": {
+								"y": 13,
+								"x": 319,
+								"texture": "res/txtHot.png",
+								"rotation": 28,
+								"name": "txtIcon"
+							},
+							"compId": 274
+						}]
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": -130,
+							"x": -375,
+							"width": 750,
+							"skin": "res/bgColor0.png",
+							"sizeGrid": "3,3,3,3",
+							"name": "bottom",
+							"height": 130
+						},
+						"compId": 263
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": -125,
+							"x": -340,
+							"width": 530,
+							"skin": "res/rectBg2.png",
+							"sizeGrid": "10,10,10,10",
+							"name": "top",
+							"height": 120
+						},
+						"compId": 264
+					},
+					{
+						"type": "Image",
+						"props": {
+							"y": -120,
+							"x": -335,
+							"width": 350,
+							"skin": "res/oppoAdInfo.png",
+							"name": "imgInfo",
+							"height": 110
+						},
+						"compId": 265
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": -28,
+							"x": -340,
+							"texture": "res/op_ad1.png",
+							"name": "iconAd"
+						},
+						"compId": 266
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": -59,
+							"x": 291,
+							"width": 149,
+							"var": "imgBtnShow",
+							"texture": "res/btnShowAd.png",
+							"pivotY": 34,
+							"pivotX": 75,
+							"name": "imgBtnShow",
+							"height": 68
+						},
+						"compId": 268
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": -130,
+							"x": -375,
+							"width": 750,
+							"name": "btnShow1",
+							"height": 130
+						},
+						"compId": 272
+					},
+					{
+						"type": "Button",
+						"props": {
+							"y": -130,
+							"x": -375,
+							"width": 36,
+							"stateNum": 1,
+							"name": "btnClose",
+							"height": 36
+						},
+						"compId": 267,
+						"child": [{
+							"type": "Image",
+							"props": {
+								"y": 10,
+								"x": 10,
+								"skin": "res/btnCloseAd2.png"
+							},
+							"compId": 273
+						}]
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": -78,
+							"x": 21,
+							"wordWrap": true,
+							"width": 166,
+							"valign": "middle",
+							"text": "内容",
+							"name": "txtInfo",
+							"leading": 2,
+							"height": 69,
+							"fontSize": 20,
+							"font": "Microsoft YaHei",
+							"color": "#0f233b",
+							"bold": true,
+							"align": "center"
+						},
+						"compId": 270
+					},
+					{
+						"type": "Label",
+						"props": {
+							"y": -112,
+							"x": 23,
+							"width": 159,
+							"valign": "middle",
+							"text": "标题",
+							"overflow": "scroll",
+							"name": "txtTitle",
+							"height": 36,
+							"fontSize": 24,
+							"font": "Microsoft YaHei",
+							"color": "#0f233b",
+							"bold": true,
+							"align": "center"
+						},
+						"compId": 269
+					}]
+				}]
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 0,
+				"x": 0,
+				"var": "baseBtnPublic"
+			},
+			"compId": 206,
+			"child": [{
+				"type": "Button",
+				"props": {
+					"y": 587,
+					"x": 78,
+					"var": "btnRank",
+					"stateNum": 1,
+					"skin": "res/btnRank.png",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 23
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 700,
+					"x": 78,
+					"var": "btnMoreGame",
+					"stateNum": 1,
+					"skin": "res/btn_more.png",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 81,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 29.5,
+						"x": 78,
+						"var": "iconHint",
+						"texture": "res/oppoPoint.png",
+						"pivotY": 12,
+						"pivotX": 13
+					},
+					"compId": 83
+				}]
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 589,
+					"x": 641,
+					"var": "btnFishList",
+					"stateNum": 1,
+					"skin": "res/btnList.png",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 162
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 706,
+					"x": 641,
+					"var": "btnDesk",
+					"stateNum": 1,
+					"skin": "res/btnDesk.png",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 62,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 15,
+						"x": 75,
+						"var": "iconPoint",
+						"texture": "res/iconPoint.png",
+						"pivotY": 11.5,
+						"pivotX": 11
+					},
+					"compId": 164
+				}]
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 700,
+					"x": -101,
+					"var": "btnSetting",
+					"stateNum": 1,
+					"skin": "res/btnDesk.png",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 60
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 587,
+					"x": -101,
+					"var": "btnNotice",
+					"stateNum": 1,
+					"skin": "res/btnDesk.png",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 152
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 100,
+				"x": 20,
+				"var": "baseValue"
+			},
+			"compId": 165,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"width": 190,
+					"var": "bgGold",
+					"skin": "res/bgValue.png",
+					"sizeGrid": "0,45,0,55"
+				},
+				"compId": 166,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 25,
+						"x": 26,
+						"var": "iconGold",
+						"skin": "res/iconGold.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 167
+				},
+				{
+					"type": "FontClip",
+					"props": {
+						"y": 17.5,
+						"x": 55,
+						"var": "fcGold",
+						"value": "999999999",
+						"spaceX": -2,
+						"skin": "res/fontNum2.png",
+						"sheet": "0123456789/",
+						"align": "center"
+					},
+					"compId": 168
+				}]
+			},
+			{
+				"type": "Image",
+				"props": {
+					"y": 0,
+					"x": 200,
+					"width": 190,
+					"skin": "res/bgValue.png",
+					"sizeGrid": "0,45,0,55",
+					"name": "bgFish"
+				},
+				"compId": 171,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 4.5,
+						"x": 4.5,
+						"texture": "res/iconFish.png",
+						"name": "icon"
+					},
+					"compId": 172
+				},
+				{
+					"type": "FontClip",
+					"props": {
+						"y": 17.5,
+						"x": 60,
+						"var": "fcFish",
+						"value": "6/999",
+						"spaceX": -2,
+						"skin": "res/fontNum2.png",
+						"sheet": "0123456789/",
+						"align": "center"
+					},
+					"compId": 173,
+					"child": [{
+						"type": "Image",
+						"props": {
+							"y": -3,
+							"skin": "res/txtFish.png",
+							"right": -22,
+							"name": "txt"
+						},
+						"compId": 174
+					}]
+				}]
+			}]
+		},
+		{
+			"type": "Button",
+			"props": {
+				"width": 750,
+				"var": "baseAuthor",
+				"stateNum": 1,
+				"skin": "res/null1.png",
+				"sizeGrid": "4,4,4,4",
+				"height": 1334
+			},
+			"compId": 31,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": 667,
+					"x": 375,
+					"width": 600,
+					"var": "bgAuthor",
+					"skin": "res/bgOppoAd.png",
+					"sizeGrid": "62,130,26,130",
+					"height": 400,
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 32,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": 132,
+						"x": 300,
+						"var": "txtInfo0"
+					},
+					"compId": 41,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": -30,
+							"x": 0,
+							"texture": "res/txtAuthor0.png",
+							"pivotY": 22,
+							"pivotX": 241
+						},
+						"compId": 43
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 30,
+							"x": 0,
+							"texture": "res/txtAuthor1.png",
+							"pivotY": 23,
+							"pivotX": 222
+						},
+						"compId": 44
+					}]
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": 132,
+						"x": 300,
+						"var": "txtInfo1"
+					},
+					"compId": 45,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": -30,
+							"x": 0,
+							"width": 386,
+							"texture": "res/txtAuthor2.png",
+							"pivotY": 23,
+							"pivotX": 193,
+							"height": 46
+						},
+						"compId": 46
+					},
+					{
+						"type": "Sprite",
+						"props": {
+							"y": 39,
+							"x": 0,
+							"width": 321,
+							"texture": "res/txtAuthor3.png",
+							"pivotY": 32,
+							"pivotX": 161,
+							"height": 45
+						},
+						"compId": 47
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 285,
+						"x": 172,
+						"var": "btnEnter",
+						"stateNum": 1,
+						"skin": "res/bgBtn1.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 34,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 33,
+							"texture": "res/txtBtnOpen.png"
+						},
+						"compId": 36
+					}]
+				},
+				{
+					"type": "Button",
+					"props": {
+						"y": 285,
+						"x": 426,
+						"var": "btnCancel",
+						"stateNum": 1,
+						"skin": "res/bgBtn2.png",
+						"anchorY": 0.5,
+						"anchorX": 0.5
+					},
+					"compId": 35,
+					"child": [{
+						"type": "Sprite",
+						"props": {
+							"y": 18,
+							"x": 36,
+							"texture": "res/txtBtnOpenNo.png"
+						},
+						"compId": 37
+					}]
+				}]
+			},
+			{
+				"type": "Image",
+				"props": {
+					"y": 667,
+					"x": 375,
+					"var": "iconLoad",
+					"skin": "res/icon_load.png",
+					"rotation": 252,
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 38
+			}]
+		},
+		{
+			"type": "Sprite",
+			"props": {
+				"y": 10,
+				"x": 10,
+				"visible": false,
+				"var": "baseHand"
+			},
+			"compId": 56,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"y": -9,
+					"x": 5,
+					"texture": "res/hand_02.png",
+					"name": "hand"
+				},
+				"compId": 57,
+				"child": [{
+					"type": "Sprite",
+					"props": {
+						"y": -5,
+						"x": -8,
+						"texture": "res/hand_01.png",
+						"name": "hand0"
+					},
+					"compId": 58
+				},
+				{
+					"type": "Sprite",
+					"props": {
+						"y": -11,
+						"x": -4,
+						"texture": "res/hand_00.png",
+						"name": "hand1"
+					},
+					"compId": 59
+				}]
+			}]
+		},
+		{
+			"type": "Panel",
+			"props": {
+				"width": 750,
+				"var": "panelTestFish",
+				"height": 1334,
+				"bgColor": "#00ff00"
+			},
+			"compId": 157,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"var": "baseTestFish"
+				},
+				"compId": 158
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 210,
+					"x": 112,
+					"width": 185,
+					"var": "btnTestMove",
+					"stateNum": 1,
+					"skin": "res/bgBtn0.png",
+					"sizeGrid": "28,60,42,60",
+					"labelSize": 46,
+					"labelFont": "Microsoft YaHei",
+					"label": " 【 游 】 ",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 160
+			},
+			{
+				"type": "Button",
+				"props": {
+					"y": 320,
+					"x": 112,
+					"width": 185,
+					"var": "btnTestChi",
+					"stateNum": 1,
+					"skin": "res/bgBtn0.png",
+					"sizeGrid": "28,60,42,60",
+					"labelSize": 46,
+					"labelFont": "Microsoft YaHei",
+					"label": " 【 吃 】 ",
+					"anchorY": 0.5,
+					"anchorX": 0.5
+				},
+				"compId": 159
+			},
+			{
+				"type": "Label",
+				"props": {
+					"y": 80,
+					"x": 24.5,
+					"text": "上下滑动屏幕\\n查看所有鱼",
+					"leading": 10,
+					"fontSize": 30,
+					"font": "Microsoft YaHei"
+				},
+				"compId": 161
+			}]
+		}],
+		"animations": [{
+			"nodes": [{
+				"target": 38,
+				"keyframes": {
+					"rotation": [{
+						"value": 0,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 38,
+						"key": "rotation",
+						"index": 0
+					},
+					{
+						"value": 360,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 38,
+						"key": "rotation",
+						"index": 20
+					}]
+				}
+			}],
+			"name": "ani1",
+			"id": 1,
+			"frameRate": 24,
+			"action": 2
+		},
+		{
+			"nodes": [{
+				"target": 57,
+				"keyframes": {
+					"y": [{
+						"value": -4,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 57,
+						"key": "y",
+						"index": 0
+					},
+					{
+						"value": -9,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 57,
+						"key": "y",
+						"index": 3
+					},
+					{
+						"value": -9,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 57,
+						"key": "y",
+						"index": 9
+					},
+					{
+						"value": -4,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 57,
+						"key": "y",
+						"index": 12
+					}],
+					"x": [{
+						"value": 10,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 57,
+						"key": "x",
+						"index": 0
+					},
+					{
+						"value": 5,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 57,
+						"key": "x",
+						"index": 3
+					},
+					{
+						"value": 5,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 57,
+						"key": "x",
+						"index": 9
+					},
+					{
+						"value": 10,
+						"tweenMethod": "linearNone",
+						"tween": true,
+						"target": 57,
+						"key": "x",
+						"index": 12
+					}]
+				}
+			},
+			{
+				"target": 59,
+				"keyframes": {
+					"visible": [{
+						"value": true,
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 59,
+						"key": "visible",
+						"index": 0
+					},
+					{
+						"value": false,
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 59,
+						"key": "visible",
+						"index": 3
+					},
+					{
+						"value": true,
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 59,
+						"key": "visible",
+						"index": 9
+					}]
+				}
+			},
+			{
+				"target": 58,
+				"keyframes": {
+					"visible": [{
+						"value": false,
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 58,
+						"key": "visible",
+						"index": 0
+					},
+					{
+						"value": true,
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 58,
+						"key": "visible",
+						"index": 3
+					},
+					{
+						"value": false,
+						"tweenMethod": "linearNone",
+						"tween": false,
+						"target": 58,
+						"key": "visible",
+						"index": 9
+					}]
+				}
+			}],
+			"name": "actionHand",
+			"id": 2,
+			"frameRate": 24,
+			"action": 0
+		}],
+		"loadList": ["res/bgMenu.jpg", "res/bgTittle.png", "res/iconGold1.png", "res/fontNum3.png", "res/txtLv.png", "res/bgBtnBottom.png", "res/bgBtn5.png", "res/txtBtnRecovery.png", "res/bgBtn3.png", "res/txtBtnBuyFish.png", "res/bgBtn.png", "res/iconAddLv.png", "res/iconLvAdd.png", "res/fontNum2.png", "res/txtFish.png", "res/txtBtnLv.png", "res/btn_return.png", "res/bgColor0.png", "res/rectBg2.png", "res/oppoAdInfo.png", "res/op_ad1.png", "res/iconOppoAd.png", "res/txtShowAd.png", "res/iconPoint.png", "res/btnCloseAd2.png", "res/bgBtn0.png", "res/fnt_class.png", "res/fnt_zhenren.png", "res/bgBtn4.png", "res/fnt_zhenren_1.png", "res/iconNew.png", "res/txtNew.png", "res/fnt_ad.png", "res/txtHot.png", "res/btnShowAd.png", "res/btnRank.png", "res/btn_more.png", "res/oppoPoint.png", "res/btnList.png", "res/btnDesk.png", "res/bgValue.png", "res/iconGold.png", "res/iconFish.png", "res/null1.png", "res/bgOppoAd.png", "res/txtAuthor0.png", "res/txtAuthor1.png", "res/txtAuthor2.png", "res/txtAuthor3.png", "res/bgBtn1.png", "res/txtBtnOpen.png", "res/bgBtn2.png", "res/txtBtnOpenNo.png", "res/icon_load.png", "res/hand_02.png", "res/hand_01.png", "res/hand_00.png"],
+		"loadList3D": []
+	},
+	"test": {
+		"type": "Scene",
+		"props": {
+			"width": 750,
+			"height": 1334
+		},
+		"compId": 2,
+		"child": [{
+			"type": "Sprite",
+			"props": {
+				"y": 288,
+				"x": 375,
+				"texture": "res/txtBtnKnow1.png"
+			},
+			"compId": 38
+		}],
+		"loadList": ["res/txtBtnKnow1.png"],
+		"loadList3D": []
+	}
+}
