@@ -1,0 +1,32 @@
+{
+    "code": 200,
+    "msg": "玩家登录成功",
+    "data": {
+        "info": {
+            "member_id": 1851173,
+            "mobile": null,
+            "password": null,
+            "icon": "",
+            "nickname": "Player",
+            "openid": "oDSOX5PnodYom7XM4EiGKdJ1BU4E",
+            "session_key": "itVwe2IP8v6DlktR7Tm/Gw==",
+            "app_id": "wxfe12a70d4900c17a",
+            "regTime": "2021/06/24 13:36:03",
+            "loginTime": "2021/06/24 13:36:03",
+            "lastTime": "2021/06/24 13:36:04",
+            "isdelete": 1,
+            "coin": 0,
+            "inviteId": null,
+            "inviteType": null,
+            "roleStyle": null,
+            "from": "1",
+            "diamond": 0,
+            "status": "offline",
+            "gender": null,
+            "vip_level": 0,
+            "game_level": 0,
+            "is_auth": 0,
+            "is_sub": 0
+        }
+    }
+}
