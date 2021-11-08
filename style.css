@@ -87,6 +87,15 @@ body {
   background-size: cover;
 }
 
+.banner-img-acebrawl {
+  position: absolute;
+  background-image: url(img/acebrawl.jpg);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .banner-img-bottleflip {
   position: absolute;
   background-image: url(bottleflip.jpg);
