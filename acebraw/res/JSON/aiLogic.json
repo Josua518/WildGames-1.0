@@ -1,0 +1,1190 @@
+[
+    {
+        "id": 1,
+        "behavior": [
+            0,
+            70,
+            30
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            800,
+            1800
+        ],
+        "doubleHit": [
+            200,
+            450
+        ],
+        "deviation": [
+            50,
+            20,
+            30
+        ],
+        "escapehp": 50,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 5,
+        "attacked": 3000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            10,
+            10,
+            25,
+            55
+        ],
+        "followcd": 50000,
+        "switchAimInterval": 100000,
+        "trace": [
+            5,
+            95
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            10,
+            50
+        ],
+        "inbattle": [
+            30,
+            50
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 10,
+        "inbattleAtk": 30
+    },
+    {
+        "id": 2,
+        "behavior": [
+            0,
+            60,
+            40
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            800,
+            1800
+        ],
+        "doubleHit": [
+            200,
+            425
+        ],
+        "deviation": [
+            50,
+            20,
+            30
+        ],
+        "escapehp": 45,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 5,
+        "attacked": 3000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            25,
+            15,
+            15,
+            45
+        ],
+        "followcd": 60000,
+        "switchAimInterval": 100000,
+        "trace": [
+            20,
+            80
+        ],
+        "traceCD": 7000,
+        "noncombat": [
+            20,
+            50
+        ],
+        "inbattle": [
+            40,
+            50
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 10,
+        "inbattleAtk": 30
+    },
+    {
+        "id": 3,
+        "behavior": [
+            0,
+            50,
+            50
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            800,
+            1800
+        ],
+        "doubleHit": [
+            200,
+            400
+        ],
+        "deviation": [
+            50,
+            20,
+            30
+        ],
+        "escapehp": 0,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 4,
+        "attacked": 2500,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            10,
+            10,
+            30,
+            50
+        ],
+        "followcd": 60000,
+        "switchAimInterval": 100000,
+        "trace": [
+            20,
+            80
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            20,
+            40
+        ],
+        "inbattle": [
+            50,
+            40
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 10,
+        "inbattleAtk": 30
+    },
+    {
+        "id": 4,
+        "behavior": [
+            0,
+            40,
+            60
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            800,
+            1800
+        ],
+        "doubleHit": [
+            200,
+            375
+        ],
+        "deviation": [
+            50,
+            20,
+            30
+        ],
+        "escapehp": 40,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 4,
+        "attacked": 2500,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            15,
+            10,
+            20,
+            55
+        ],
+        "followcd": 50000,
+        "switchAimInterval": 100000,
+        "trace": [
+            10,
+            90
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            20,
+            40
+        ],
+        "inbattle": [
+            50,
+            40
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 10,
+        "inbattleAtk": 30
+    },
+    {
+        "id": 5,
+        "behavior": [
+            0,
+            50,
+            50
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            800,
+            1800
+        ],
+        "doubleHit": [
+            200,
+            350
+        ],
+        "deviation": [
+            50,
+            20,
+            30
+        ],
+        "escapehp": 30,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 4,
+        "attacked": 2000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            10,
+            20,
+            20,
+            50
+        ],
+        "followcd": 60000,
+        "switchAimInterval": 100000,
+        "trace": [
+            10,
+            90
+        ],
+        "traceCD": 9000,
+        "noncombat": [
+            30,
+            40
+        ],
+        "inbattle": [
+            50,
+            40
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 10,
+        "inbattleAtk": 30
+    },
+    {
+        "id": 6,
+        "behavior": [
+            0,
+            0,
+            100
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            800,
+            1800
+        ],
+        "doubleHit": [
+            200,
+            325
+        ],
+        "deviation": [
+            50,
+            20,
+            30
+        ],
+        "escapehp": 25,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 4,
+        "attacked": 2000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            10,
+            10,
+            30,
+            50
+        ],
+        "followcd": 50000,
+        "switchAimInterval": 100000,
+        "trace": [
+            20,
+            80
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            20,
+            40
+        ],
+        "inbattle": [
+            50,
+            40
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 10,
+        "inbattleAtk": 40
+    },
+    {
+        "id": 7,
+        "behavior": [
+            0,
+            70,
+            30
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            700,
+            1000
+        ],
+        "doubleHit": [
+            100,
+            250
+        ],
+        "deviation": [
+            10,
+            15,
+            75
+        ],
+        "escapehp": 25,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 4,
+        "attacked": 2000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            30,
+            50,
+            10,
+            10
+        ],
+        "followcd": 80000,
+        "switchAimInterval": 120000,
+        "trace": [
+            15,
+            85
+        ],
+        "traceCD": 7000,
+        "noncombat": [
+            20,
+            50
+        ],
+        "inbattle": [
+            60,
+            50
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 20,
+        "inbattleAtk": 40
+    },
+    {
+        "id": 8,
+        "behavior": [
+            0,
+            60,
+            40
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            700,
+            1000
+        ],
+        "doubleHit": [
+            100,
+            250
+        ],
+        "deviation": [
+            10,
+            15,
+            75
+        ],
+        "escapehp": 20,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 4,
+        "attacked": 2000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            50,
+            30,
+            10,
+            10
+        ],
+        "followcd": 90000,
+        "switchAimInterval": 120000,
+        "trace": [
+            20,
+            80
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            20,
+            50
+        ],
+        "inbattle": [
+            60,
+            50
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 20,
+        "inbattleAtk": 40
+    },
+    {
+        "id": 9,
+        "behavior": [
+            0,
+            50,
+            50
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            700,
+            1000
+        ],
+        "doubleHit": [
+            100,
+            250
+        ],
+        "deviation": [
+            10,
+            15,
+            75
+        ],
+        "escapehp": 20,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 3,
+        "attacked": 1500,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            40,
+            50,
+            5,
+            5
+        ],
+        "followcd": 100000,
+        "switchAimInterval": 120000,
+        "trace": [
+            20,
+            80
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            20,
+            50
+        ],
+        "inbattle": [
+            60,
+            50
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 20,
+        "inbattleAtk": 50
+    },
+    {
+        "id": 10,
+        "behavior": [
+            0,
+            40,
+            60
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            700,
+            1000
+        ],
+        "doubleHit": [
+            100,
+            250
+        ],
+        "deviation": [
+            10,
+            10,
+            80
+        ],
+        "escapehp": 15,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 3,
+        "attacked": 1500,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            35,
+            55,
+            5,
+            5
+        ],
+        "followcd": 120000,
+        "switchAimInterval": 120000,
+        "trace": [
+            30,
+            70
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            10,
+            65
+        ],
+        "inbattle": [
+            70,
+            65
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 20,
+        "inbattleAtk": 50
+    },
+    {
+        "id": 11,
+        "behavior": [
+            0,
+            50,
+            50
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            700,
+            1000
+        ],
+        "doubleHit": [
+            100,
+            200
+        ],
+        "deviation": [
+            10,
+            10,
+            80
+        ],
+        "escapehp": 20,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 3,
+        "attacked": 1500,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            25,
+            45,
+            15,
+            15
+        ],
+        "followcd": 130000,
+        "switchAimInterval": 120000,
+        "trace": [
+            40,
+            60
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            20,
+            65
+        ],
+        "inbattle": [
+            70,
+            65
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 20,
+        "inbattleAtk": 50
+    },
+    {
+        "id": 12,
+        "behavior": [
+            0,
+            0,
+            100
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            700,
+            1000
+        ],
+        "doubleHit": [
+            50,
+            200
+        ],
+        "deviation": [
+            10,
+            10,
+            80
+        ],
+        "escapehp": 15,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 3,
+        "attacked": 1500,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            30,
+            60,
+            5,
+            5
+        ],
+        "followcd": 80000,
+        "switchAimInterval": 120000,
+        "trace": [
+            40,
+            60
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            20,
+            65
+        ],
+        "inbattle": [
+            70,
+            65
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 20,
+        "inbattleAtk": 50
+    },
+    {
+        "id": 13,
+        "behavior": [
+            0,
+            70,
+            30
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            500,
+            700
+        ],
+        "doubleHit": [
+            0,
+            100
+        ],
+        "deviation": [
+            5,
+            5,
+            90
+        ],
+        "escapehp": 15,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 3,
+        "attacked": 1000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            0,
+            80,
+            10,
+            10
+        ],
+        "followcd": 90000,
+        "switchAimInterval": 120000,
+        "trace": [
+            40,
+            60
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            25,
+            70
+        ],
+        "inbattle": [
+            75,
+            70
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 30,
+        "inbattleAtk": 80
+    },
+    {
+        "id": 14,
+        "behavior": [
+            0,
+            60,
+            40
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            500,
+            700
+        ],
+        "doubleHit": [
+            0,
+            100
+        ],
+        "deviation": [
+            5,
+            5,
+            90
+        ],
+        "escapehp": 0,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 3,
+        "attacked": 1000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            20,
+            80,
+            0,
+            0
+        ],
+        "followcd": 100000,
+        "switchAimInterval": 120000,
+        "trace": [
+            50,
+            50
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            15,
+            70
+        ],
+        "inbattle": [
+            75,
+            70
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 30,
+        "inbattleAtk": 80
+    },
+    {
+        "id": 15,
+        "behavior": [
+            0,
+            50,
+            50
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            500,
+            700
+        ],
+        "doubleHit": [
+            0,
+            100
+        ],
+        "deviation": [
+            5,
+            5,
+            90
+        ],
+        "escapehp": 20,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 2,
+        "attacked": 1000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            15,
+            75,
+            5,
+            0
+        ],
+        "followcd": 70000,
+        "switchAimInterval": 120000,
+        "trace": [
+            50,
+            50
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            15,
+            70
+        ],
+        "inbattle": [
+            75,
+            70
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 30,
+        "inbattleAtk": 80
+    },
+    {
+        "id": 16,
+        "behavior": [
+            0,
+            40,
+            60
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            500,
+            700
+        ],
+        "doubleHit": [
+            0,
+            100
+        ],
+        "deviation": [
+            2,
+            2,
+            96
+        ],
+        "escapehp": 10,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 2,
+        "attacked": 1000,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            10,
+            75,
+            0,
+            15
+        ],
+        "followcd": 100000,
+        "switchAimInterval": 120000,
+        "trace": [
+            50,
+            50
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            10,
+            80
+        ],
+        "inbattle": [
+            80,
+            80
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 30,
+        "inbattleAtk": 80
+    },
+    {
+        "id": 17,
+        "behavior": [
+            0,
+            50,
+            50
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            500,
+            700
+        ],
+        "doubleHit": [
+            0,
+            100
+        ],
+        "deviation": [
+            2,
+            2,
+            96
+        ],
+        "escapehp": 5,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 2,
+        "attacked": 500,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            10,
+            70,
+            10,
+            10
+        ],
+        "followcd": 80000,
+        "switchAimInterval": 120000,
+        "trace": [
+            55,
+            45
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            10,
+            80
+        ],
+        "inbattle": [
+            80,
+            80
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 30,
+        "inbattleAtk": 80
+    },
+    {
+        "id": 18,
+        "behavior": [
+            0,
+            0,
+            100
+        ],
+        "highscore": 100,
+        "bottomscore": 100,
+        "clickHit": [
+            500,
+            700
+        ],
+        "doubleHit": [
+            0,
+            100
+        ],
+        "deviation": [
+            2,
+            2,
+            96
+        ],
+        "escapehp": 5,
+        "escapecd": [
+            10000,
+            15000
+        ],
+        "abstinence": 10,
+        "attack": 2,
+        "attacked": 500,
+        "first": [
+            0,
+            100,
+            0
+        ],
+        "firsttime": 10000,
+        "priorityattack": [
+            15,
+            80,
+            5,
+            0
+        ],
+        "followcd": 120000,
+        "switchAimInterval": 120000,
+        "trace": [
+            55,
+            45
+        ],
+        "traceCD": 6000,
+        "noncombat": [
+            10,
+            80
+        ],
+        "inbattle": [
+            80,
+            80
+        ],
+        "skillscd": [
+            0,
+            3000,
+            0,
+            2000
+        ],
+        "noncombatAtk": 30,
+        "inbattleAtk": 80
+    }
+]

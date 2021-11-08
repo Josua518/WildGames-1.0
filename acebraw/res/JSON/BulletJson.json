@@ -1,0 +1,102 @@
+[
+    {
+        "order": 16,
+        "name": "Military Bomber",
+        "WeaponID": 10,
+        "weaponEle": 2,
+        "attackType": 0,
+        "track": "bullet_d6",
+        "exploType": "boom_b2",
+        "specialEffect_1": 8
+    },
+    {
+        "order": 12,
+        "name": "Military Snowfield Engineer",
+        "WeaponID": 24,
+        "weaponEle": 1,
+        "attackType": 0,
+        "track": "bullet9_1",
+        "exploType": "boom9_1",
+        "specialEffect_1": 2
+    },
+    {
+        "order": 18,
+        "name": "Micro Laser UAV",
+        "WeaponID": 5,
+        "weaponEle": 1,
+        "attackType": 1,
+        "track": "bullet5_1",
+        "exploType": 0,
+        "specialEffect_1": 3
+    },
+    {
+        "order": 11,
+        "name": "Cyclops",
+        "WeaponID": 7,
+        "weaponEle": 3,
+        "attackType": 0,
+        "track": "bullet14_1",
+        "exploType": "boom_a1",
+        "specialEffect_1": 17
+    },
+    {
+        "order": 8,
+        "name": "Cyclops",
+        "WeaponID": 7,
+        "weaponEle": 3,
+        "attackType": 0,
+        "track": "bullet14_1",
+        "exploType": "Fx_dijiaBoom",
+        "specialEffect_1": 17
+    },
+    {
+        "order": 18,
+        "name": "Micro Laser UAV",
+        "WeaponID": 5,
+        "weaponEle": 1,
+        "attackType": 1,
+        "track": "bullet5_11",
+        "exploType": 0,
+        "specialEffect_1": 3
+    },
+    {
+        "order": 15,
+        "name": "Stance Robot",
+        "WeaponID": 12,
+        "weaponEle": 1,
+        "attackType": 1,
+        "track": "bullet14_13",
+        "exploType": 0,
+        "specialEffect_1": 2
+    },
+    {
+        "order": 1,
+        "name": "Stance Robot",
+        "WeaponID": 12,
+        "weaponEle": 1,
+        "attackType": 0,
+        "track": "bullet5_1",
+        "exploType": 0,
+        "specialEffect_1": 2
+    },
+    {
+        "order": 2,
+        "name": "Stance Robot",
+        "WeaponID": 12,
+        "weaponEle": 1,
+        "attackType": 0,
+        "track": "bullet5_14",
+        "exploType": 0,
+        "specialEffect_1": 2
+    },
+    {
+        "order": 3,
+        "name": "Stance Robot",
+        "WeaponID": 12,
+        "weaponEle": 1,
+        "attackType": 0,
+        "track": "bulletNo9",
+        "exploType": "boomNo9",
+        "specialEffect_1": 2
+    }
+]

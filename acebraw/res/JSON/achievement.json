@@ -1,0 +1,346 @@
+[
+    {
+        "order": 0,
+        "royal": 0,
+        "reward_1": -1,
+        "number_1": 0,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 1,
+        "royal": 15,
+        "reward_1": 4,
+        "number_1": 10,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 2,
+        "royal": 20,
+        "reward_1": 0,
+        "number_1": 500,
+        "reward_2": 4,
+        "number_2": 1
+    },
+    {
+        "order": 3,
+        "royal": 25,
+        "reward_1": 1,
+        "number_1": 20,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 4,
+        "royal": 30,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": 2,
+        "number_2": 1
+    },
+    {
+        "order": 5,
+        "royal": 35,
+        "reward_1": 4,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 6,
+        "royal": 40,
+        "reward_1": 1,
+        "number_1": 30,
+        "reward_2": 1,
+        "number_2": 100
+    },
+    {
+        "order": 7,
+        "royal": 45,
+        "reward_1": 32,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 8,
+        "royal": 50,
+        "reward_1": 1,
+        "number_1": 50,
+        "reward_2": 33,
+        "number_2": 1
+    },
+    {
+        "order": 9,
+        "royal": 55,
+        "reward_1": 4,
+        "number_1": 2,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 10,
+        "royal": 60,
+        "reward_1": 2,
+        "number_1": 1,
+        "reward_2": 4,
+        "number_2": 4
+    },
+    {
+        "order": 11,
+        "royal": 65,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 12,
+        "royal": 70,
+        "reward_1": 1,
+        "number_1": 60,
+        "reward_2": 2,
+        "number_2": 2
+    },
+    {
+        "order": 13,
+        "royal": 75,
+        "reward_1": 4,
+        "number_1": 3,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 14,
+        "royal": 80,
+        "reward_1": 2,
+        "number_1": 1,
+        "reward_2": 33,
+        "number_2": 1
+    },
+    {
+        "order": 15,
+        "royal": 85,
+        "reward_1": 32,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 16,
+        "royal": 90,
+        "reward_1": 1,
+        "number_1": 70,
+        "reward_2": 1,
+        "number_2": 200
+    },
+    {
+        "order": 17,
+        "royal": 95,
+        "reward_1": 4,
+        "number_1": 3,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 18,
+        "royal": 100,
+        "reward_1": 2,
+        "number_1": 1,
+        "reward_2": 4,
+        "number_2": 5
+    },
+    {
+        "order": 19,
+        "royal": 105,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 20,
+        "royal": 110,
+        "reward_1": 1,
+        "number_1": 80,
+        "reward_2": 2,
+        "number_2": 3
+    },
+    {
+        "order": 21,
+        "royal": 115,
+        "reward_1": 4,
+        "number_1": 3,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 22,
+        "royal": 120,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": 33,
+        "number_2": 1
+    },
+    {
+        "order": 23,
+        "royal": 125,
+        "reward_1": 1,
+        "number_1": 98,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 24,
+        "royal": 130,
+        "reward_1": 4,
+        "number_1": 3,
+        "reward_2": 4,
+        "number_2": 5
+    },
+    {
+        "order": 25,
+        "royal": 135,
+        "reward_1": 2,
+        "number_1": 2,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 26,
+        "royal": 140,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": 2,
+        "number_2": 4
+    },
+    {
+        "order": 27,
+        "royal": 145,
+        "reward_1": 1,
+        "number_1": 128,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 28,
+        "royal": 150,
+        "reward_1": 4,
+        "number_1": 3,
+        "reward_2": 1,
+        "number_2": 300
+    },
+    {
+        "order": 29,
+        "royal": 155,
+        "reward_1": 2,
+        "number_1": 2,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 30,
+        "royal": 160,
+        "reward_1": 32,
+        "number_1": 1,
+        "reward_2": 33,
+        "number_2": 1
+    },
+    {
+        "order": 31,
+        "royal": 165,
+        "reward_1": 1,
+        "number_1": 158,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 32,
+        "royal": 170,
+        "reward_1": 4,
+        "number_1": 3,
+        "reward_2": 1,
+        "number_2": 400
+    },
+    {
+        "order": 33,
+        "royal": 175,
+        "reward_1": 2,
+        "number_1": 2,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 34,
+        "royal": 180,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": 4,
+        "number_2": 6
+    },
+    {
+        "order": 35,
+        "royal": 185,
+        "reward_1": 1,
+        "number_1": 178,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 36,
+        "royal": 190,
+        "reward_1": 4,
+        "number_1": 4,
+        "reward_2": 2,
+        "number_2": 5
+    },
+    {
+        "order": 37,
+        "royal": 195,
+        "reward_1": 1,
+        "number_1": 198,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 38,
+        "royal": 200,
+        "reward_1": 32,
+        "number_1": 1,
+        "reward_2": 33,
+        "number_2": 1
+    },
+    {
+        "order": 39,
+        "royal": 205,
+        "reward_1": 2,
+        "number_1": 3,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 40,
+        "royal": 210,
+        "reward_1": 4,
+        "number_1": 5,
+        "reward_2": 1,
+        "number_2": 500
+    },
+    {
+        "order": 41,
+        "royal": 215,
+        "reward_1": 32,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 42,
+        "royal": 220,
+        "reward_1": -100,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    }
+]

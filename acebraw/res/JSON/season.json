@@ -1,0 +1,226 @@
+[
+    {
+        "order": 0,
+        "trophy": 0,
+        "reward_1": -1,
+        "number_1": 0,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 1,
+        "trophy": 100,
+        "reward_1": 0,
+        "number_1": 1000,
+        "reward_2": -1,
+        "number_2": 15
+    },
+    {
+        "order": 2,
+        "trophy": 150,
+        "reward_1": 1,
+        "number_1": 20,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 3,
+        "trophy": 200,
+        "reward_1": 2,
+        "number_1": 1,
+        "reward_2": 11,
+        "number_2": 900
+    },
+    {
+        "order": 4,
+        "trophy": 250,
+        "reward_1": 4,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 5,
+        "trophy": 300,
+        "reward_1": 1,
+        "number_1": 30,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 6,
+        "trophy": 400,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": 1,
+        "number_2": 100
+    },
+    {
+        "order": 7,
+        "trophy": 500,
+        "reward_1": 4,
+        "number_1": 2,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 8,
+        "trophy": 600,
+        "reward_1": 32,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 9,
+        "trophy": 700,
+        "reward_1": 2,
+        "number_1": 2,
+        "reward_2": 11,
+        "number_2": 1800
+    },
+    {
+        "order": 10,
+        "trophy": 800,
+        "reward_1": 1,
+        "number_1": 50,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 11,
+        "trophy": 900,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 12,
+        "trophy": 1000,
+        "reward_1": 1,
+        "number_1": 80,
+        "reward_2": 11,
+        "number_2": 3600
+    },
+    {
+        "order": 13,
+        "trophy": 1100,
+        "reward_1": 2,
+        "number_1": 3,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 14,
+        "trophy": 1200,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 15,
+        "trophy": 1300,
+        "reward_1": 11,
+        "number_1": 900,
+        "reward_2": 11,
+        "number_2": 1
+    },
+    {
+        "order": 16,
+        "trophy": 1400,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 17,
+        "trophy": 1500,
+        "reward_1": 4,
+        "number_1": 3,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 18,
+        "trophy": 1600,
+        "reward_1": 0,
+        "number_1": 20000,
+        "reward_2": 1,
+        "number_2": 200
+    },
+    {
+        "order": 19,
+        "trophy": 1700,
+        "reward_1": 1,
+        "number_1": 100,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 20,
+        "trophy": 1800,
+        "reward_1": 11,
+        "number_1": 1800,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 21,
+        "trophy": 1900,
+        "reward_1": 31,
+        "number_1": 1,
+        "reward_2": 33,
+        "number_2": 1
+    },
+    {
+        "order": 22,
+        "trophy": 2000,
+        "reward_1": 4,
+        "number_1": 4,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 23,
+        "trophy": 2200,
+        "reward_1": 2,
+        "number_1": 4,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 24,
+        "trophy": 2400,
+        "reward_1": 11,
+        "number_1": 3600,
+        "reward_2": 4,
+        "number_2": 10
+    },
+    {
+        "order": 25,
+        "trophy": 2600,
+        "reward_1": 1,
+        "number_1": 120,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 26,
+        "trophy": 2800,
+        "reward_1": 2,
+        "number_1": 5,
+        "reward_2": -1,
+        "number_2": 0
+    },
+    {
+        "order": 27,
+        "trophy": 3000,
+        "reward_1": 11,
+        "number_1": 1,
+        "reward_2": 2,
+        "number_2": 10
+    }
+]
