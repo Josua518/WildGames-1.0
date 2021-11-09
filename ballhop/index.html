@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Cocos Creator | DancingRoad</title>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+  
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="portrait"/>
+  <meta name="x5-orientation" content="portrait">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style-mobile.css"/>
+</head>
+<body>
+  <script type="text/javascript" src="gc_sdk.js"></script>
+  <script>
+    GC.init({
+        debug: false, // 选填，若开启调试，将会自动引入eruda调试工具，并在控制台输出SDK调用信息
+        gameId: "100503", // 必填，后台获取的当前游戏`GAME_ID`
+        token: "100008%3ANTU1YjdmYmQyMzk5MDExZWFlODI3YWEyYTg0YTc4NjliNjE3MjRlNmEwMGI2ODFkMGMwMTUxNjA1YTEwMGM0OA%3D%3D%3AeyAiQ1BJZCI6ICIxMTgiLCAiR2FtZUlkIjogMCwgIkV4cGlyZVRpbWUiOiA0Mjk0OTY3Mjk1IH0%3D", // 必填，由服务端生成的token或`SDK_TOKEN`
+    }).then(() => {
+            // 初始化成功
+    }).catch(err => {
+        console.error(err)
+    })
+
+    GC.loadAd({
+                unitId: '118-4-423182792318341120' // 广告渠道所配置的`广告单元ID`
+            }).then(adCallbackResult => {
+                // 广告已预载好了
+                console.log(adCallbackResult)
+            })
+            .catch(err => {
+                // 载入广告发生了点错误~
+                // err.data = adCallbackResult
+                console.log(err.data)
+            })
+
+    GC.loadAd({
+        unitId: '118-2-423183188600377344' // 广告渠道所配置的`广告单元ID`
+    })
+        .then(adCallbackResult => {
+            // 广告已预载好了
+            console.log(adCallbackResult)
+        })
+        .catch(err => {
+            // 载入广告发生了点错误~
+            // err.data = adCallbackResult
+            console.log(err.data)
+        })
+  </script>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <script src="firebase-app.js"></script>
+  <script src="firebase-firestore.js"></script> 
+  <script src="GameAnalytics.min.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBXlUDblhYYCv7aB-cl8JzFGcAM2GydS4U",
+      authDomain: "dancingroad-9ba2e.firebaseapp.com",
+      databaseURL: "https://dancingroad-9ba2e.firebaseio.com",
+      projectId: "dancingroad-9ba2e",
+      storageBucket: "dancingroad-9ba2e.appspot.com",
+      messagingSenderId: "238932670381",
+      appId: "1:238932670381:web:97249142b37b68b38c1324",
+      //measurementId: "G-HQ6PZB0Y6R"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="src/settings.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
