@@ -96,6 +96,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.banner-img-copchase {
+  position: absolute;
+  background-image: url(img/copchase.jpg);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-img-ballhop {
+  position: absolute;
+  background-image: url(img/ballhop.jpg);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banner-img-bottleflip {
   position: absolute;
   background-image: url(bottleflip.jpg);
